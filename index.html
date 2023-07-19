@@ -1,10 +1,42 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=Z, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
 </head>
 <body>
-    <h1>It's building...</h1>
+    <nav id="desktop-nav">
+        <div class="logo">Joonas Kirsipuu</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#3d-Gallery">3D gallery</a></li>
+                <li><a href="#traditional-gallery">Traditional gallery</a></li>
+                <li><a href="#interior-designs">Interior designs</a></li>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#connection">Connection</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Joonas Kirsipuu</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="togglemenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#3d-Gallery" onclick="togglemenu()">3D gallery</a></li>
+                <li><a href="#traditional-gallery" onclick="togglemenu()">Traditional gallery</a></li>
+                <li><a href="#interior-designs" onclick="togglemenu()">Interior designs</a></li>
+                <li><a href="#about" onclick="togglemenu()">About me</a></li>
+                <li><a href="#connection" onclick="togglemenu()">Connection</a></li>
+            </div>
+        </div>        
+    </nav>
+    <script src="script.js"></script>
 </body>
 </html>
