@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3b4adfc6.css",
+    "main.js": "/static/js/main.ddefe8f0.js",
+    "static/media/Comfy Place.jpg": "/static/media/Comfy Place.d60acf793275987519ea.jpg",
+    "static/media/Porsche 911.jpg": "/static/media/Porsche 911.06c2092e8d43e991c5a9.jpg",
+    "static/media/Lonely Robot.jpg": "/static/media/Lonely Robot.4e238cfdb032421155b2.jpg",
+    "index.html": "/index.html",
+    "main.3b4adfc6.css.map": "/static/css/main.3b4adfc6.css.map",
+    "main.ddefe8f0.js.map": "/static/js/main.ddefe8f0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b4adfc6.css",
+    "static/js/main.ddefe8f0.js"
+  ]
+}
