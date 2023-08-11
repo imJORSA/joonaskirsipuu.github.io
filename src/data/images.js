@@ -1,15 +1,11 @@
 const data = [
     {
-        text: 'Lonely Robot',
-        img: require('../assets/Lonely Robot.jpg'),
+        text: 'Lonely Robot [2023]',
+        img: require('../assets/gallery/Lonely Robot.jpg'),
     },
     {
-        text: 'Comfy Place',
-        img: require('../assets/Comfy Place.jpg'),
-    },
-    {
-        text: 'Porsche 91',
-        img: require('../assets/Porsche 911.jpg'),
+        text: 'Porsche 911 [2018]',
+        img: require('../assets/gallery/Porsche 911.jpg'),
     }
 ]
 
