@@ -53,13 +53,13 @@ function Gallery() {
   <div name='Gallery' className='w-full h-screen bg-gray-900'>
       <Navbar />
 
-      {/* CONTAINER */}
+      {/* TITLE */}
       <div className='relative w-full h-1/4 mx-auto flex justify-center'>
         <img src={HeaderPicture} className='w-full h-60 object-cover blur-[2px] opacity-50' alt="" />
         <h1 className='absolute text-center mt-[90px] sm:mt-[75px] min-[400px]:text-4xl text-3xl sm:text-7xl font-bold text-blue-200 cursor-default'>3D gallery</h1>
       </div>
 
-      {/* 3D GALLERY */}
+      {/* BODY */}
       <div className=' bg-gray-900 grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-x-3 gap-y-10 px-10 py-32 lg:py-32 xl:py-20'>
       {data && data.map((item, index) => (
         <div key={index} className='images'>

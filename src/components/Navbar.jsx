@@ -45,7 +45,7 @@ const Navbar = () => {
             <a href="/InteriorDesigns" className='py-6 min-[365px]:text-4xl text-2xl'>Interior designs</a>
           </li>
           <li>
-            <a href="About" className='py-6 min-[365px]:text-4xl text-2xl'>About me</a>
+            <a href="/About" className='py-6 min-[365px]:text-4xl text-2xl'>About me</a>
           </li>
         </div>
     </div>
