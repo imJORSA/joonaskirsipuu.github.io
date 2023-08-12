@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.11d3ae20.css",
-    "main.js": "/static/js/main.0cb6ab0e.js",
+    "main.js": "/static/js/main.55bbeb13.js",
     "static/media/Watercolour with rainwater.jpg": "/static/media/Watercolour with rainwater.720dec78d3a1b300a35a.jpg",
     "static/media/The opposite.jpg": "/static/media/The opposite.3e10151ebdece27aa97e.jpg",
     "static/media/Porsche 911.jpg": "/static/media/Porsche 911.06c2092e8d43e991c5a9.jpg",
@@ -32,10 +32,10 @@
     "static/media/interiordesignsheader.jpg": "/static/media/interiordesignsheader.8a54a5b50f8744b7f0e5.jpg",
     "index.html": "/index.html",
     "main.11d3ae20.css.map": "/static/css/main.11d3ae20.css.map",
-    "main.0cb6ab0e.js.map": "/static/js/main.0cb6ab0e.js.map"
+    "main.55bbeb13.js.map": "/static/js/main.55bbeb13.js.map"
   },
   "entrypoints": [
     "static/css/main.11d3ae20.css",
-    "static/js/main.0cb6ab0e.js"
+    "static/js/main.55bbeb13.js"
   ]
 }
