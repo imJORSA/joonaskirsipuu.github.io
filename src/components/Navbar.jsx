@@ -21,9 +21,6 @@ const Navbar = () => {
                 <a href="/TraditionalGallery">Traditional gallery</a>
               </li>
               <li className='hover:text-blue-600'>
-                <a href="/InteriorDesigns">Interior designs</a>
-              </li>
-              <li className='hover:text-blue-600'>
                 <a href="/About">About me</a>
               </li>
           </div>
@@ -40,9 +37,6 @@ const Navbar = () => {
           </li>
           <li>
             <a href="/TraditionalGallery" className='py-6 min-[365px]:text-4xl text-2xl'>Traditional gallery</a>
-          </li>
-          <li>
-            <a href="/InteriorDesigns" className='py-6 min-[365px]:text-4xl text-2xl'>Interior designs</a>
           </li>
           <li>
             <a href="/About" className='py-6 min-[365px]:text-4xl text-2xl'>About me</a>
