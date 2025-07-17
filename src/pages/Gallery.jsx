@@ -50,25 +50,26 @@ function Gallery() {
   };
 
   return (
-  <div name='Gallery' className='w-full h-screen bg-gray-900'>
+  <div name='Gallery' className='w-full h-screen bg-slate-900'>
       <Navbar />
 
       {/* TITLE */}
       <div className='relative flex w-full h-screen m-auto justify-center items-center'>
-        <img src={HeaderPicture} className='w-full h-screen object-cover blur-[2px] opacity-50' alt="" />
-        <h1 className='absolute min-[400px]:text-4xl text-3xl sm:text-9xl font-bold text-blue-100 cursor-default'>3D gallery</h1>
+        <img src={HeaderPicture} className='w-full h-screen object-cover blur-[2px] opacity-50 grayscale' alt="" />
+        <h1 className='absolute text-4xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-bold text-white cursor-default'>DIGITAL</h1>
       </div>
 
       {/* BODY */}
-      <div className=' bg-gray-900 grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-x-3 gap-y-10 px-10 py-10'>
+      <div className=' bg-white grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-3 gap-y-32 px-10 py-10'>
       {data && data.map((item, index) => (
         <div key={index} className='images'>
-          <img className='h-80 w-full object-cover grayscale-0 hover:grayscale ease-in-out duration-300'
+          <img className=' w-full object-fill grayscale hover:grayscale-0 ease-in-out duration-300'
             src={item.img}
             alt={item.text}
             onClick={() => handleClick(item, index)}
           />
-          <h2 className='pt-3 text-xs pointer-events-none text-blue-50'>{item.text}</h2>
+          <h2 className='pt-3 text-lg font-bold pointer-events-none text-cyan-950'>{item.text}</h2>
+          <h2 className='text-xs font-thin pointer-events-none text-cyan-950'>{item.subtext}</h2>
         </div>
       ))}
       <div>
