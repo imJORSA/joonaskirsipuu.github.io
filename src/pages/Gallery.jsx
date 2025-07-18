@@ -60,9 +60,9 @@ function Gallery() {
       </div>
 
       {/* BODY */}
-      <div className=' bg-white grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-3 gap-y-32 px-10 py-10'>
+      <div className=' bg-white columns-1 sm:columns-2 lg:columns-3 xl:columns-4 gap-5 px-10 py-10'>
       {data && data.map((item, index) => (
-        <div key={index} className='images'>
+        <div key={index} className='images images imagesbreak-inside-avoid mb-20 overflow-hidden'>
           <img className=' w-full object-fill grayscale hover:grayscale-0 ease-in-out duration-300'
             src={item.img}
             alt={item.text}

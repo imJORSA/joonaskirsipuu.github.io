@@ -5,7 +5,7 @@ const data = [
         img: require('../assets/gallery/Lonely Robot.jpg'),
     },
     {
-        text: 'Porsche 911',
+        text: 'Porsche 911 RWB',
         subtext: 'Blender [2018]',
         img: require('../assets/gallery/Porsche 911.jpg'),
     }
