@@ -5,7 +5,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav)
 
   return (
-      <div className='absolute w-full h-[85px] px-4 sm:px-6 lg:px-10 py-2 bg-slate-900 text-white z-10 top-0 flex items-center justify-between'>
+      <div className='relative w-full h-[85px] px-4 sm:px-6 lg:px-10 py-2 bg-slate-900 text-white z-10 flex items-center justify-between'>
               <h1 className='cursor-default font-bold text-sm sm:text-base lg:text-lg'>JOONAS KIRSIPUU ART GALLERY</h1>
 
 
