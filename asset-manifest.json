@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.72fa7791.css",
-    "main.js": "/static/js/main.76200caf.js",
+    "main.css": "/static/css/main.290d7c31.css",
+    "main.js": "/static/js/main.7c11ad06.js",
     "static/media/Watercolour with rainwater.jpg": "/static/media/Watercolour with rainwater.720dec78d3a1b300a35a.jpg",
     "static/media/The opposite.jpg": "/static/media/The opposite.3e10151ebdece27aa97e.jpg",
     "static/media/Porsche 911.jpg": "/static/media/Porsche 911.06c2092e8d43e991c5a9.jpg",
@@ -15,16 +15,14 @@
     "static/media/Shy.jpg": "/static/media/Shy.3826412b33b66e747a7d.jpg",
     "static/media/Close your eyes.jpg": "/static/media/Close your eyes.611b6aeea47db9e676ca.jpg",
     "static/media/Girl 001.jpg": "/static/media/Girl 001.7c85464c307f0f00ff0a.jpg",
-    "static/media/Its Gwen from LoL.jpg": "/static/media/Its Gwen from LoL.13a29a5e620d4fa88bd6.jpg",
-    "static/media/Johnny Silverhand.jpg": "/static/media/Johnny Silverhand.9f58ac99b9a8cdcbbc27.jpg",
     "static/media/Lonely Robot.jpg": "/static/media/Lonely Robot.4e238cfdb032421155b2.jpg",
     "static/media/Profile_Picture.jpg": "/static/media/Profile_Picture.828787d56a08377465c4.jpg",
     "index.html": "/index.html",
-    "main.72fa7791.css.map": "/static/css/main.72fa7791.css.map",
-    "main.76200caf.js.map": "/static/js/main.76200caf.js.map"
+    "main.290d7c31.css.map": "/static/css/main.290d7c31.css.map",
+    "main.7c11ad06.js.map": "/static/js/main.7c11ad06.js.map"
   },
   "entrypoints": [
-    "static/css/main.72fa7791.css",
-    "static/js/main.76200caf.js"
+    "static/css/main.290d7c31.css",
+    "static/js/main.7c11ad06.js"
   ]
 }
