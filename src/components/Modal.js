@@ -13,7 +13,7 @@ const Modal = ({
     return (
       <>
         <div className="overlay dismiss" onClick={handleClick}>
-          <div className="container">
+          <div className="modal-wrapper">
             <img src={clickedImg} alt="bigger pic" />
             <span className="dismiss" onClick={handleClick}>
               X

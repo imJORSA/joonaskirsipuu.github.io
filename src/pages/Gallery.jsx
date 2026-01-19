@@ -60,10 +60,10 @@ function Gallery() {
       <Navbar />
 
       {/* BODY */}
-      <div className=' bg-white columns-1 sm:columns-2 lg:columns-3 xl:columns-3 gap-5 pt-10'>
+      <div className=' bg-white columns-1 sm:columns-2 lg:columns-3 xl:columns-4 gap-5 pt-10'>
       {data && data.map((item, index) => (
-        <div key={index} className='images images imagesbreak-inside-avoid mb-20 overflow-hidden'>
-          <img className=' w-full object-fill grayscale hover:grayscale-0 ease-in-out duration-300'
+        <div key={index} className='images images imagesbreak-inside-avoid mb-20 overflow-hidden group cursor-pointer'>
+          <img className=' w-full object-fill grayscale group-hover:grayscale-0 transition-all duration-500'
             src={item.img}
             alt={item.text}
             onClick={() => handleClick(item, index)}

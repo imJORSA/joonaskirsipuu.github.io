@@ -51,8 +51,8 @@ const About = () => {
         </div>
         <div className='text-left ml-[50px] w-[800px] cursor-default lg:pt-0'>
           <h2 className='text-2xl text-blue-900'>That's me</h2>
-          <h1 className='text-5xl py-2 font-bold text-blue-500'>Joonas Kirsipuu</h1>
-          <p className='text-base leading-6 pt-8 text-black'>For me, art is quite a broad concept. Probably because I'm young and I can absorb it all - different materials, colours and technologies. 
+          <h1 className='text-5xl pt-2 pb-8 font-bold text-blue-500'>Joonas Kirsipuu</h1>
+          <p className='text-base leading-6 text-black'>For me, art is quite a broad concept. Probably because I'm young and I can absorb it all - different materials, colours and technologies. 
           However, I tend to lean more towards newer art methods, the most exciting of which is 3D. For me, this form of visual expression offers the most freedom and surprising results.
           </p> 
           <p className='text-base leading-6 py-5 text-black'>

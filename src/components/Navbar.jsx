@@ -12,19 +12,23 @@ const Navbar = () => {
           {/* DESKTOP MENU */}
             <div className='hidden lg:flex gap-6 xl:gap-8 text-white font-bold text-base xl:text-lg'>
               <a
-                href="/" className='hover:text-blue-500 transition-colors duration-200'>
+                href="/" className='hover:text-sky-300 transition-colors duration-200'>
                 DIGITAL
               </a>
               <a
-                href="/TraditionalGallery" className='hover:text-blue-500 transition-colors duration-200'>
+                href="/Traditional" className='hover:text-sky-300 transition-colors duration-200'>
                 TRADITIONAL
               </a>
               <a
-                href="/Bachelor" className='hover:text-blue-500 transition-colors duration-200'>
+                href="/Worldbuilding" className='hover:text-sky-300 transition-colors duration-200'>
                 WORLD BUILDING
               </a>
               <a
-                href="/About" className='hover:text-blue-500 transition-colors duration-200'>
+                href="/Blog" className='hover:text-sky-300 transition-colors duration-200'>
+                BLOG
+              </a>
+              <a
+                href="/About" className='hover:text-sky-300 transition-colors duration-200'>
                 ABOUT
               </a>
             </div>
@@ -40,19 +44,23 @@ const Navbar = () => {
           <div className={`${nav ? 'translate-x-0' : 'translate-x-full'} lg:hidden fixed top-0 right-0 w-full h-screen bg-slate-900 flex flex-col justify-center items-center transition-transform duration-300 ease-in-out z-10`}>
             <a
               href="/" 
-              className='py-4 text-2xl font-bold text-white hover:text-blue-500 transition-colors duration-200'>DIGITAL
+              className='py-4 text-2xl font-bold text-white hover:text-sky-300 transition-colors duration-200'>DIGITAL
             </a>
             <a
-              href="/TraditionalGallery"
-              className='py-4 text-2xl font-bold text-white hover:text-blue-500 transition-colors duration-200'>TRADITIONAL
+              href="/Traditional"
+              className='py-4 text-2xl font-bold text-white hover:text-sky-300 transition-colors duration-200'>TRADITIONAL
             </a>
             <a
-              href="/Bachelor"
-              className='py-4 text-2xl font-bold text-white hover:text-blue-500 transition-colors duration-200'>WORLD BUILDING
+              href="/Worldbuilding"
+              className='py-4 text-2xl font-bold text-white hover:text-sky-300 transition-colors duration-200'>WORLD BUILDING
+            </a>
+            <a
+              href="/Blog"
+              className='py-4 text-2xl font-bold text-white hover:text-sky-300 transition-colors duration-200'>BLOG
             </a>
             <a
               href="/About"
-              className='py-4 text-2xl font-bold text-white hover:text-blue-500 transition-colors duration-200'>ABOUT
+              className='py-4 text-2xl font-bold text-white hover:text-sky-300 transition-colors duration-200'>ABOUT
             </a>
           </div>
       </div>
