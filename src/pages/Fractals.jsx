@@ -4,6 +4,8 @@ import HeaderPicture from '../assets/gallery/Lonely Robot.jpg'
 import FractalPicture from '../assets/Fractalpicture.jpg'
 import data from '../data/fractals'
 import Modal from '../components/Modal'
+import MyFutureSpace from '../assets/fractal/Joonas Kirsipuu_My Future Space_2024_Summary_Pallas.pdf'
+import MinuTulevikuRuum from '../assets/fractal/Joonas Kirsipuu_Minu tuleviku ruum_2024_Pallas.pdf'
 
 const Fractals = () => {
   const [clickedImg, setClickedImg] = useState(null);
@@ -65,13 +67,27 @@ const Fractals = () => {
             <img src={FractalPicture} className='w-full h-[700px] lg:h-[600px] object-contain grayscale hover:grayscale-0 ease-in-out duration-300 ' alt="Project Fractals" />
           </div>
         </div>
-        <div className='text-left ml-[50px] w-[800px] cursor-default lg:pt-0'>
-          <h1 className='text-5xl pb-8 font-bold text-blue-500'>Project Fractals</h1>
-          <p className='text-base leading-6 text-black'>
-            Details about Project Fractals coming soon.
-          </p>
+        <div className='text-left ml-[50px] flex-1 cursor-default lg:pt-0 h-[700px] lg:h-[600px] overflow-y-auto'>
+          <div className='max-w-[800px]'>
+            <h1 className='text-5xl pb-8 font-bold text-blue-500'>PROJECT FRACTALS</h1>
+            <p className='text-base leading-6 pb-5 text-black'>
+              This worldbuilding project started out as a Bachelor's thesis project titled <a href={MyFutureSpace} download className='text-blue-500 hover:underline'>"My Future Space"</a>. I wanted to envision a future space scenario where humanity, due to climate 
+              change, has migrated to the mesosphere, living on gigantic floating sculptural objects. The 
+              capsules within these objects serve as individual living quarters, inspired by shapes from nature. In addition to the capsules, there is also a communal area where everyone gets to socialize. My 
+              design process involved extensive research, drawing inspiration from various sources including 
+              architectural marvels in Asia, science fiction literature, and film classics from the 60’s to the 
+              modern age big blockbuster spectacles.
+            </p>
+            <p className='text-base leading-6 pb-5 text-black'>
+              You can find the full thesis <a href={MinuTulevikuRuum} download className='text-blue-500 hover:underline'>here</a> in Estonian, and I want to thank Merille Hommik for being an amazing mentor throughout this bachelor’s project.
+            </p>
+            <p className='text-base leading-6 pb-5 text-black'>
+              Updates on this project are slow due to my time being taken up by other projects and life changes.
+            </p>
+          </div>
         </div>
       </div>
+
 
       {/* GALLERY */}
       <div className='w-full bg-white columns-1 sm:columns-2 lg:columns-3 xl:columns-4 gap-5 pb-10'>
