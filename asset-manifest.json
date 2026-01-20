@@ -1,7 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.290d7c31.css",
-    "main.js": "/static/js/main.7c11ad06.js",
+    "main.css": "/static/css/main.86f63281.css",
+    "main.js": "/static/js/main.c5285cd8.js",
+    "static/media/Joonas Kirsipuu_Minu tuleviku ruum_2024_Pallas.pdf": "/static/media/Joonas Kirsipuu_Minu tuleviku ruum_2024_Pallas.ea7c074ed5974b5400aa.pdf",
+    "static/media/KAPSLI VAADE 3.jpg": "/static/media/KAPSLI VAADE 3.e4faa90590378f58f7ad.jpg",
+    "static/media/KAPSLI LAI VAADE 2.jpg": "/static/media/KAPSLI LAI VAADE 2.d8fc7566a2e737b0e794.jpg",
+    "static/media/KAPSLI VAADE 1.jpg": "/static/media/KAPSLI VAADE 1.69c85958125f5b780c5d.jpg",
+    "static/media/KAPSLI VAADE 2.jpg": "/static/media/KAPSLI VAADE 2.c581ccb209519a238e6e.jpg",
+    "static/media/KAPSLI ÖÖVAADE.jpg": "/static/media/KAPSLI ÖÖVAADE.a9aaa22a06bccde80922.jpg",
+    "static/media/WIREFRAME 2.jpg": "/static/media/WIREFRAME 2.c7ffb9bc57d6affffa92.jpg",
+    "static/media/Fractalpicture.jpg": "/static/media/Fractalpicture.a72a4240e247ce2f5184.jpg",
+    "static/media/ESIK.jpg": "/static/media/ESIK.4e3b8778ed4f9888fb40.jpg",
+    "static/media/KAPSLID VÄLJAST 2.jpg": "/static/media/KAPSLID VÄLJAST 2.987041fb1f42b5c761e1.jpg",
+    "static/media/KAPSLID LÄHEDALT.jpg": "/static/media/KAPSLID LÄHEDALT.1350e593ffd7f8ba2d4c.jpg",
+    "static/media/KAPSLID VÄLJAST 1.jpg": "/static/media/KAPSLID VÄLJAST 1.50197e75093702abc588.jpg",
+    "static/media/ÜHISRUUM.jpg": "/static/media/ÜHISRUUM.43e939a4716cb3dc120d.jpg",
+    "static/media/VANNITUBA 1.jpg": "/static/media/VANNITUBA 1.c40e0e712ac78fa1873b.jpg",
+    "static/media/VANNITUBA 2.jpg": "/static/media/VANNITUBA 2.51eb117f7edd43041d0f.jpg",
+    "static/media/KAPSLI LAI VAADE 1.jpg": "/static/media/KAPSLI LAI VAADE 1.a81178821bb1286a0078.jpg",
     "static/media/Watercolour with rainwater.jpg": "/static/media/Watercolour with rainwater.720dec78d3a1b300a35a.jpg",
     "static/media/The opposite.jpg": "/static/media/The opposite.3e10151ebdece27aa97e.jpg",
     "static/media/Porsche 911.jpg": "/static/media/Porsche 911.06c2092e8d43e991c5a9.jpg",
@@ -10,6 +26,7 @@
     "static/media/Sitting with colours.jpg": "/static/media/Sitting with colours.56cf3e21ffcc86266487.jpg",
     "static/media/Akt 001.jpg": "/static/media/Akt 001.1bea1b7b512416c4b5f1.jpg",
     "static/media/Linework.jpg": "/static/media/Linework.59b429c1f248339f176c.jpg",
+    "static/media/WIREFRAME 1.jpg": "/static/media/WIREFRAME 1.61759fd46b412f22e164.jpg",
     "static/media/Thinking of you.jpg": "/static/media/Thinking of you.222bbf1c802d3e9b286b.jpg",
     "static/media/Guitar Glove.jpg": "/static/media/Guitar Glove.31d5eba00dd5c1fc5335.jpg",
     "static/media/Shy.jpg": "/static/media/Shy.3826412b33b66e747a7d.jpg",
@@ -17,12 +34,13 @@
     "static/media/Girl 001.jpg": "/static/media/Girl 001.7c85464c307f0f00ff0a.jpg",
     "static/media/Lonely Robot.jpg": "/static/media/Lonely Robot.4e238cfdb032421155b2.jpg",
     "static/media/Profile_Picture.jpg": "/static/media/Profile_Picture.828787d56a08377465c4.jpg",
+    "static/media/Joonas Kirsipuu_My Future Space_2024_Summary_Pallas.pdf": "/static/media/Joonas Kirsipuu_My Future Space_2024_Summary_Pallas.83e65f8a29529d464d9c.pdf",
     "index.html": "/index.html",
-    "main.290d7c31.css.map": "/static/css/main.290d7c31.css.map",
-    "main.7c11ad06.js.map": "/static/js/main.7c11ad06.js.map"
+    "main.86f63281.css.map": "/static/css/main.86f63281.css.map",
+    "main.c5285cd8.js.map": "/static/js/main.c5285cd8.js.map"
   },
   "entrypoints": [
-    "static/css/main.290d7c31.css",
-    "static/js/main.7c11ad06.js"
+    "static/css/main.86f63281.css",
+    "static/js/main.c5285cd8.js"
   ]
 }
