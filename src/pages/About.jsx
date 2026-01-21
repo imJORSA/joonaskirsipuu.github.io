@@ -20,13 +20,13 @@ const About = () => {
       <Navbar />
 
       {/* BODY */}
-      <div className='relative w-full flex flex-wrap xl:flex-nowrap bg-white py-10'>
-        <div className='flex flex-col'>
+      <div className='relative w-full flex flex-wrap xl:flex-nowrap bg-white py-10 px-4 sm:px-10 xl:px-0'>
+        <div className='flex flex-col w-full xl:w-auto items-center xl:items-start'>
           <div className='object-center xl:object-left'>
-            <img src={ProfilePicture} className='w-full h-[700px] lg:h-[600px] object-contain grayscale hover:grayscale-0 ease-in-out duration-300' alt="" />
+            <img src={ProfilePicture} className='w-full h-auto max-h-[500px] xl:max-h-[600px] object-contain grayscale hover:grayscale-0 ease-in-out duration-300' alt="" />
           </div>
           {/* SOCIALS */}
-          <div className='flex justify-between text-4xl pt-10 text-blue-900 list-none'>
+          <div className='flex justify-center xl:justify-between gap-8 xl:gap-0 text-4xl pt-10 text-blue-900 list-none w-auto xl:w-full'>
             <li className='hover:text-blue-200'>
               <a href="https://www.artstation.com/joonaskirsipuu">
                 <FaArtstation />
@@ -49,7 +49,7 @@ const About = () => {
             </li>
           </div>
         </div>
-        <div className='text-left ml-[50px] w-[800px] cursor-default lg:pt-0'>
+        <div className='text-left mt-10 xl:mt-0 ml-0 xl:ml-[50px] w-full xl:w-[800px] cursor-default lg:pt-0'>
           <h2 className='text-2xl text-blue-900'>That's me</h2>
           <h1 className='text-5xl pt-2 pb-8 font-bold text-blue-500'>Joonas Kirsipuu</h1>
           <p className='text-base leading-6 text-black'>For me, art is quite a broad concept. Probably because I'm young and I can absorb it all - different materials, colours and technologies. 

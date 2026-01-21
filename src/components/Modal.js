@@ -1,9 +1,33 @@
+import React, { useState } from 'react'
+
 const Modal = ({
     clickedImg,
     setClickedImg,
     handelRotationRight,
     handelRotationLeft
   }) => {
+    const [touchStart, setTouchStart] = useState(null)
+    const [touchEnd, setTouchEnd] = useState(null)
+    const minSwipeDistance = 50
+
+    const onTouchStart = (e) => {
+      setTouchEnd(null) 
+      setTouchStart(e.targetTouches[0].clientX)
+    }
+
+    const onTouchMove = (e) => setTouchEnd(e.targetTouches[0].clientX)
+
+    const onTouchEnd = () => {
+      if (!touchStart || !touchEnd) return
+      const distance = touchStart - touchEnd
+      const isLeftSwipe = distance > minSwipeDistance
+      const isRightSwipe = distance < -minSwipeDistance
+      if (isLeftSwipe || isRightSwipe) {
+        if (isLeftSwipe) handelRotationRight()
+        if (isRightSwipe) handelRotationLeft()
+      }
+    }
+
     const handleClick = (e) => {
       if (e.target.classList.contains("dismiss")) {
         setClickedImg(null);
@@ -12,13 +36,18 @@ const Modal = ({
   
     return (
       <>
-        <div className="overlay dismiss" onClick={handleClick}>
+        <div className="overlay dismiss" 
+          onClick={handleClick}
+          onTouchStart={onTouchStart}
+          onTouchMove={onTouchMove}
+          onTouchEnd={onTouchEnd}
+        >
           <div className="modal-wrapper">
             <img src={clickedImg} alt="bigger pic" />
             <span className="dismiss" onClick={handleClick}>
               X
             </span>
-            <div onClick={handelRotationLeft} className="overlay-arrows_left">
+            <div onClick={handelRotationLeft} className="overlay-arrows_left hidden xl:flex">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
@@ -32,7 +61,7 @@ const Modal = ({
                 />
               </svg>
             </div>
-            <div onClick={handelRotationRight} className="overlay-arrows_right">
+            <div onClick={handelRotationRight} className="overlay-arrows_right hidden xl:flex">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
