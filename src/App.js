@@ -6,6 +6,7 @@ import Worldbuilding from "./pages/Worldbuilding";
 import Blog from "./pages/Blog";
 import Fractals from "./pages/Fractals";
 import Footer from "./components/Footer";
+import GenAI from "./pages/GenAI";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path='/Blog' element={<Blog/>}/>
           <Route path='/Fractals' element={<Fractals/>}/>
           <Route path='/About' element={<About/>}/>
+          <Route path='/GenAI' element={<GenAI/>}/>
         </Routes>
         <Footer />
       </div>

@@ -61,13 +61,13 @@ const Fractals = () => {
       <Navbar />
 
       {/* BODY */}
-      <div className='relative w-full flex flex-wrap xl:flex-nowrap bg-white py-10 px-4 sm:px-10 xl:px-0'>
-        <div className='flex flex-col w-full xl:w-auto items-center xl:items-start'>
-          <div className='object-center xl:object-left'>
+      <div className='relative w-full flex flex-wrap lg:flex-nowrap bg-white py-10 px-4 sm:px-10 xl:px-0'>
+        <div className='flex flex-col w-full lg:w-auto items-center lg:items-start'>
+          <div className='object-center lg:object-left'>
             <img src={FractalPicture} className='w-full h-auto max-h-[500px] xl:max-h-[600px] object-contain grayscale hover:grayscale-0 ease-in-out duration-300 ' alt="Project Fractals" />
           </div>
         </div>
-        <div className='text-left mt-10 xl:mt-0 ml-0 xl:ml-[50px] flex-1 cursor-default lg:pt-0 h-auto xl:h-[600px] xl:overflow-y-auto'>
+        <div className='text-left mt-10 lg:mt-0 ml-0 lg:ml-[50px] flex-1 cursor-default lg:pt-0 h-auto lg:h-[600px] lg:overflow-y-auto'>
           <div className='max-w-[800px]'>
             <h1 className='text-3xl sm:text-4xl xl:text-5xl pb-4 sm:pb-8 font-bold text-blue-500'>PROJECT FRACTALS</h1>
             <p className='text-sm sm:text-base leading-6 pb-5 text-black'>

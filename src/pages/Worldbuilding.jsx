@@ -5,6 +5,7 @@ import HeaderPicture from '../assets/gallery/Lonely Robot.jpg'
 import FractalPicture from '../assets/Fractalpicture.jpg'
 
 function Worldbuilding() {
+
   return (
     <div name='Worldbuilding' className='w-full min-h-screen bg-white'>
       {/* TITLE */}

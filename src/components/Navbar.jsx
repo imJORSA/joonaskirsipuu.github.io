@@ -1,68 +1,38 @@
-import React, {useState} from 'react'
+import React from 'react'
+import { Link, useLocation } from 'react-router-dom'
 
 const Navbar = () => {
-  const [nav, setNav] = useState(false)
-  const handleClick = () => setNav(!nav)
+  const location = useLocation()
+
+  const links = [
+    { name: 'DIGITAL', path: '/' },
+    { name: 'TRADITIONAL', path: '/Traditional' },
+    { name: 'WORLD BUILDING', path: '/Worldbuilding' },
+    { name: 'BLOG', path: '/Blog' },
+    { name: 'ABOUT', path: '/About' },
+  ]
 
   return (
-      <div className='relative w-full h-[85px] px-4 sm:px-6 lg:px-10 py-2 bg-slate-900 text-white z-10 flex items-center justify-between'>
-              <h1 className='cursor-default font-bold text-sm sm:text-base lg:text-lg'>JOONAS KIRSIPUU ART GALLERY</h1>
+      <div className='relative w-full h-[85px] px-4 sm:px-10 py-2 bg-slate-900 text-white z-10 flex flex-col items-start justify-center gap-1'>
+              <h1 className='cursor-default font-bold text-base sm:text-lg lg:text-xl'>JOONAS KIRSIPUU ART GALLERY</h1>
 
 
           {/* DESKTOP MENU */}
-            <div className='hidden lg:flex gap-6 xl:gap-8 text-white font-bold text-base xl:text-lg'>
-              <a
-                href="/" className='hover:text-sky-300 transition-colors duration-200'>
-                DIGITAL
-              </a>
-              <a
-                href="/Traditional" className='hover:text-sky-300 transition-colors duration-200'>
-                TRADITIONAL
-              </a>
-              <a
-                href="/Worldbuilding" className='hover:text-sky-300 transition-colors duration-200'>
-                WORLD BUILDING
-              </a>
-              <a
-                href="/Blog" className='hover:text-sky-300 transition-colors duration-200'>
-                BLOG
-              </a>
-              <a
-                href="/About" className='hover:text-sky-300 transition-colors duration-200'>
-                ABOUT
-              </a>
+            <div className='flex gap-1 sm:gap-6 xl:gap-8 text-white font-bold text-[9px] sm:text-sm xl:text-base items-center'>
+              {links.map((link) => (
+                <Link
+                  key={link.name}
+                  to={link.path}
+                  className={`px-1 sm:px-3 py-1 whitespace-nowrap transition-all duration-300 ease-in-out hover:scale-105 ${
+                    location.pathname === link.path
+                      ? 'bg-sky-300 text-slate-900 shadow-[0_0_10px_rgba(125,211,252,0.5)]'
+                      : 'hover:bg-sky-300 hover:text-slate-900'
+                  }`}
+                >
+                  {link.name}
+                </Link>
+              ))}
             </div>
-
-          {/* HAMBURGER */}
-          <div onClick={handleClick} className='lg:hidden z-20 cursor-pointer'>
-            <div className={`w-6 h-0.5 bg-white mb-1 transition-all duration-300 ${nav ? 'rotate-45 translate-y-1.5' : ''}`}></div>
-            <div className={`w-6 h-0.5 bg-white mb-1 transition-all duration-300 ${nav ? 'opacity-0' : ''}`}></div>
-            <div className={`w-6 h-0.5 bg-white transition-all duration-300 ${nav ? '-rotate-45 -translate-y-1.5' : ''}`}></div>
-          </div>
-
-          {/* MOBILE MENU */}
-          <div className={`${nav ? 'translate-x-0' : 'translate-x-full'} lg:hidden fixed top-0 right-0 w-full h-screen bg-slate-900 flex flex-col justify-center items-center transition-transform duration-300 ease-in-out z-10`}>
-            <a
-              href="/" 
-              className='py-4 text-2xl font-bold text-white hover:text-sky-300 transition-colors duration-200'>DIGITAL
-            </a>
-            <a
-              href="/Traditional"
-              className='py-4 text-2xl font-bold text-white hover:text-sky-300 transition-colors duration-200'>TRADITIONAL
-            </a>
-            <a
-              href="/Worldbuilding"
-              className='py-4 text-2xl font-bold text-white hover:text-sky-300 transition-colors duration-200'>WORLD BUILDING
-            </a>
-            <a
-              href="/Blog"
-              className='py-4 text-2xl font-bold text-white hover:text-sky-300 transition-colors duration-200'>BLOG
-            </a>
-            <a
-              href="/About"
-              className='py-4 text-2xl font-bold text-white hover:text-sky-300 transition-colors duration-200'>ABOUT
-            </a>
-          </div>
       </div>
   )
 }

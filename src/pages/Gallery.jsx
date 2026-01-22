@@ -68,8 +68,8 @@ function Gallery() {
             alt={item.text}
             onClick={() => handleClick(item, index)}
           />
-          <h2 className='pt-3 text-lg font-bold pointer-events-none text-cyan-950'>{item.text}</h2>
-          <h2 className='text-xs font-thin pointer-events-none text-cyan-950'>{item.subtext}</h2>
+          <h2 className='pt-3 text-sm sm:text-base xl:text-lg font-bold pointer-events-none text-cyan-950'>{item.text}</h2>
+          <h2 className='text-[10px] sm:text-xs font-thin pointer-events-none text-cyan-950'>{item.subtext}</h2>
         </div>
       ))}
       <div>
