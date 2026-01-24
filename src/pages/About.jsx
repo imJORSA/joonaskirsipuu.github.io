@@ -28,22 +28,22 @@ const About = () => {
           {/* SOCIALS */}
           <div className='flex justify-center lg:justify-between gap-8 lg:gap-0 text-4xl pt-10 text-blue-900 list-none w-auto lg:w-full'>
             <li className='hover:text-sky-300'>
-              <a href="https://www.artstation.com/joonaskirsipuu">
+              <a href="https://www.artstation.com/joonaskirsipuu" target="_blank" rel="noreferrer">
                 <FaArtstation />
               </a>
             </li>
             <li className='hover:text-sky-300'>
-              <a href="https://www.facebook.com/joonas.kirsipuu">
+              <a href="https://www.facebook.com/joonas.kirsipuu" target="_blank" rel="noreferrer">
                 <FaFacebook />
               </a>
             </li>
             <li className='hover:text-sky-300'>
-              <a href="https://www.instagram.com/joonaskirsipuu/">
+              <a href="https://www.instagram.com/joonaskirsipuu/" target="_blank" rel="noreferrer">
                 <FaInstagram/>
               </a>
             </li>
             <li className='hover:text-sky-300'>
-              <a href="https://www.linkedin.com/in/joonas-k-3b2879104/">
+              <a href="https://www.linkedin.com/in/joonas-k-3b2879104/" target="_blank" rel="noreferrer">
                 <FaLinkedin />
               </a>
             </li>

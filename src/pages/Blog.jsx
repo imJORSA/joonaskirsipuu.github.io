@@ -16,15 +16,20 @@ const Blog = () => {
       <Navbar />
 
       {/* BODY */}
-      <div className='relative w-full flex flex-wrap xl:flex-nowrap bg-white py-10'>
-        <div className='flex flex-col w-full px-4 sm:px-10 mb-10 xl:mb-0'>
+      <div className='relative w-full flex flex-wrap xl:flex-nowrap bg-white py-10 px-4 sm:px-10'>
+        <div className='flex flex-col w-full mb-10 xl:mb-0'>
           <div className='w-full'>
-            <h1 className='text-3xl sm:text-4xl md:text-5xl text-blue-500 mb-5 font-bold'>MY RANDOM RAMBLINGS</h1>
-            <ul className='flex flex-col gap-4'>
-              <li className='text-xl sm:text-2xl cursor-pointer hover:text-sky-300 transition-colors duration-300 text-black'>
-                <Link to="/GenAI">
-                  Why GenAI art will be obsolete - WIP
-                </Link>
+            <h1 className='text-3xl sm:text-4xl md:text-5xl text-blue-500 mb-2 font-bold'>MY RANDOM RAMBLINGS</h1>
+            <h2 className='text-xl sm:text-2xl text-black mb-10'>This page is for my thoughts on random topics and tier lists for films & series, games, anime etc.</h2>
+            <ul className='flex flex-col gap-8'>
+              <li className='text-xl sm:text-2xl font-bold'>
+                <Link to="/GenAI" className='text-black cursor-pointer hover:text-sky-300 transition-colors duration-300'>Why GenAI art will be obsolete - WIP</Link>
+              </li>
+              <li className='text-xl sm:text-2xl font-bold'>
+                <Link to="/FilmsSeriesAnime" className='text-black cursor-pointer hover:text-sky-300 transition-colors duration-300'>List of my favourite films, series & anime</Link>
+              </li>
+              <li className='text-xl sm:text-2xl font-bold'>
+                <Link to="/Games" className='text-black cursor-pointer hover:text-sky-300 transition-colors duration-300'>List of my favourite games</Link>
               </li>
             </ul>
           </div>

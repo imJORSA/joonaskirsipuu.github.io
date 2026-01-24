@@ -16,18 +16,18 @@ const Navbar = () => {
   ]
 
   return (
-      <div className='relative w-full h-[85px] px-4 sm:px-10 py-2 bg-slate-900 text-white z-10 flex flex-col justify-center gap-1'>
-              <h1 className='cursor-default font-bold text-base sm:text-lg lg:text-xl'>JOONAS KIRSIPUU ART GALLERY</h1>
+      <div className='relative w-full h-auto min-h-[85px] px-4 sm:px-10 py-2 bg-slate-900 text-white z-10 flex flex-col justify-center gap-1'>
+              <h1 className='cursor-default font-bold text-sm sm:text-lg lg:text-xl tracking-widest'>JOONAS KIRSIPUU ART GALLERY</h1>
 
 
           {/* DESKTOP MENU */}
-            <div className='w-full flex justify-between text-white font-bold text-[9px] sm:text-sm xl:text-base items-center'>
+            <div className='w-full grid grid-cols-3 gap-y-1 sm:flex sm:justify-between text-white font-bold text-[8px] sm:text-sm xl:text-base items-center'>
               {links.map((link) => (
                 link.path ? (
                   <Link
                     key={link.name}
                     to={link.path}
-                    className={`px-0 py-1 whitespace-nowrap transition-all duration-300 ease-in-out hover:scale-105 ${
+                    className={`text-center px-0 py-1 whitespace-nowrap transition-all duration-300 ease-in-out hover:scale-105 ${
                       location.pathname === link.path
                         ? 'bg-sky-300 text-slate-900 shadow-[0_0_10px_rgba(125,211,252,0.5)]'
                         : 'hover:bg-sky-300 hover:text-slate-900 hover:shadow-[0_0_10px_rgba(125,211,252,0.5)]'
@@ -39,7 +39,7 @@ const Navbar = () => {
                   <button
                     key={link.name}
                     onClick={link.action}
-                    className="px-0 py-1 whitespace-nowrap transition-all duration-300 ease-in-out hover:scale-105 hover:bg-sky-300 hover:text-slate-900 hover:shadow-[0_0_10px_rgba(125,211,252,0.5)]"
+                    className="text-center px-0 py-1 whitespace-nowrap transition-all duration-300 ease-in-out hover:scale-105 hover:bg-sky-300 hover:text-slate-900 hover:shadow-[0_0_10px_rgba(125,211,252,0.5)]"
                   >
                     {link.name}
                   </button>

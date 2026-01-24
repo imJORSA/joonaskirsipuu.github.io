@@ -1,6 +1,6 @@
 const data = [
     {
-        text: 'Kapslid väljast 1',
+        text: 'Fractals 001',
         subtext: 'Mandelbulb 3D, Photoshop [2024]',
         img: require('../assets/fractal/KAPSLID VÄLJAST 1.jpg'),
     },
@@ -10,7 +10,7 @@ const data = [
         img: require('../assets/fractal/KAPSLI ÖÖVAADE.jpg'),
     },
     {
-        text: 'Wireframe 1',
+        text: 'Wireframe 001',
         subtext: 'Blender, Photoshop [2024]',
         img: require('../assets/fractal/WIREFRAME 1.jpg'),
     },
