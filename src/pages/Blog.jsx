@@ -1,16 +1,15 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Navbar from '../components/Navbar'
-import HeaderPicture from '../assets/gallery/Lonely Robot.jpg'
+import HeaderPicture from '../assets/BANNER.png'
 
 const Blog = () => {
 
   return (
     <div name='Blog' className='w-full min-h-screen bg-white'>
       {/* TITLE */}
-      <div className='relative flex w-full h-80 m-auto justify-center items-center bg-slate-900'>
-        <img src={HeaderPicture} className='w-full h-80 object-cover blur-[2px] opacity-50 grayscale' alt="" />
-        <h1 className='absolute text-4xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-bold text-white cursor-default'>BLOG</h1>
+      <div className='relative flex h-full m-auto bg-slate-900'>
+        <img src={HeaderPicture} className='h-full' alt="" />
       </div>
 
       <Navbar />
@@ -20,16 +19,16 @@ const Blog = () => {
         <div className='flex flex-col w-full mb-10 xl:mb-0'>
           <div className='w-full'>
             <h1 className='text-3xl sm:text-4xl md:text-5xl text-blue-500 mb-2 font-bold'>MY RANDOM RAMBLINGS</h1>
-            <h2 className='text-xl sm:text-2xl text-black mb-10'>This page is for my thoughts on random topics and tier lists for films & series, games, anime etc.</h2>
+            <h2 className='text-xl sm:text-2xl text-black mb-10'>This page is for my thoughts on random topics and listing all my favourite films, series, games and anime, so you could better get to know me.</h2>
             <ul className='flex flex-col gap-8'>
               <li className='text-xl sm:text-2xl font-bold'>
                 <Link to="/GenAI" className='text-black cursor-pointer hover:text-sky-300 transition-colors duration-300'>Why GenAI art will be obsolete - WIP</Link>
               </li>
               <li className='text-xl sm:text-2xl font-bold'>
-                <Link to="/FilmsSeriesAnime" className='text-black cursor-pointer hover:text-sky-300 transition-colors duration-300'>List of my favourite films, series & anime</Link>
+                <Link to="/FilmsSeriesAnime" className='text-black cursor-pointer hover:text-sky-300 transition-colors duration-300'>My favourite films, series and anime</Link>
               </li>
               <li className='text-xl sm:text-2xl font-bold'>
-                <Link to="/Games" className='text-black cursor-pointer hover:text-sky-300 transition-colors duration-300'>List of my favourite games</Link>
+                <Link to="/Games" className='text-black cursor-pointer hover:text-sky-300 transition-colors duration-300'>My favourite games</Link>
               </li>
             </ul>
           </div>

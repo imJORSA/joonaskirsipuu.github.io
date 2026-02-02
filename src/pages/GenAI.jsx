@@ -1,15 +1,14 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-import HeaderPicture from '../assets/gallery/Lonely Robot.jpg'
+import HeaderPicture from '../assets/BANNER.png'
 
 const GenAI = () => {
 
   return (
     <div name='GenAI' className='w-full min-h-screen bg-white'>
       {/* TITLE */}
-      <div className='relative flex w-full h-80 m-auto justify-center items-center bg-slate-900'>
-        <img src={HeaderPicture} className='w-full h-80 object-cover blur-[2px] opacity-50 grayscale' alt="" />
-        <h1 className='absolute text-center text-4xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-bold text-white cursor-default'>_</h1>
+      <div className='relative flex h-full m-auto bg-slate-900'>
+        <img src={HeaderPicture} className='h-full' alt="" />
       </div>
 
       <Navbar />

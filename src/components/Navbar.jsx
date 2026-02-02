@@ -17,11 +17,11 @@ const Navbar = () => {
 
   return (
       <div className='relative w-full h-auto min-h-[85px] px-4 sm:px-10 py-2 bg-slate-900 text-white z-10 flex flex-col justify-center gap-1'>
-              <h1 className='cursor-default font-bold text-sm sm:text-lg lg:text-xl tracking-widest'>JOONAS KIRSIPUU ART GALLERY</h1>
+              <h1 className='cursor-default font-bold text-xs sm:text-lg lg:text-xl tracking-[0.2em]'>JOONAS KIRSIPUU ART GALLERY</h1>
 
 
           {/* DESKTOP MENU */}
-            <div className='w-full grid grid-cols-3 gap-y-1 sm:flex sm:justify-between text-white font-bold text-[8px] sm:text-sm xl:text-base items-center'>
+            <div className='w-full grid grid-cols-3 gap-y-1 sm:flex sm:justify-between text-white font-bold text-[8px] sm:text-sm xl:text-base items-center tracking-widest'>
               {links.map((link) => (
                 link.path ? (
                   <Link

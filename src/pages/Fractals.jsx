@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Navbar from '../components/Navbar'
-import HeaderPicture from '../assets/gallery/Lonely Robot.jpg'
+import HeaderPicture from '../assets/BANNER.png'
 import FractalPicture from '../assets/Fractalpicture.jpg'
 import data from '../data/fractals'
 import Modal from '../components/Modal'
@@ -53,9 +53,8 @@ const Fractals = () => {
   return (
     <div name='Fractals' className='w-full min-h-screen bg-white'>
       {/* TITLE */}
-      <div className='relative flex w-full h-80 m-auto justify-center items-center bg-slate-900'>
-        <img src={HeaderPicture} className='w-full h-80 object-cover blur-[2px] opacity-50 grayscale' alt="" />
-        <h1 className='absolute text-center text-4xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-bold text-white cursor-default'>PROJECT FRACTALS</h1>
+      <div className='relative flex h-full m-auto bg-slate-900'>
+        <img src={HeaderPicture} className='h-full' alt="" />
       </div>
 
       <Navbar />
@@ -64,7 +63,7 @@ const Fractals = () => {
       <div className='relative w-full flex flex-wrap lg:flex-nowrap bg-white py-10 px-4 sm:px-10 xl:px-0'>
         <div className='flex flex-col w-full lg:w-auto items-center lg:items-start'>
           <div className='object-center lg:object-left'>
-            <img src={FractalPicture} className='w-full h-auto max-h-[500px] xl:max-h-[600px] object-contain grayscale hover:grayscale-0 ease-in-out duration-300 ' alt="Project Fractals" />
+            <img src={FractalPicture} loading="lazy" className='w-full h-auto max-h-[500px] xl:max-h-[600px] object-contain grayscale hover:grayscale-0 ease-in-out duration-300 ' alt="Project Fractals" />
           </div>
         </div>
         <div className='text-left mt-10 lg:mt-0 ml-0 lg:ml-[50px] flex-1 cursor-default lg:pt-0 h-auto lg:h-[600px] lg:overflow-y-auto'>
@@ -96,6 +95,7 @@ const Fractals = () => {
             <img className='w-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500'
               src={item.img}
               alt={item.text}
+              loading="lazy"
               onClick={() => handleClick(item, index)}
             />
           </div>

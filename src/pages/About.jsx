@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import ProfilePicture from '../assets/Profile_Picture.jpg'
-import HeaderPicture from '../assets/gallery/Lonely Robot.jpg'
+import HeaderPicture from '../assets/BANNER.png'
 import { FaArtstation } from 'react-icons/fa'
 import { FaLinkedin } from 'react-icons/fa'
 import { FaInstagram } from 'react-icons/fa'
@@ -12,9 +12,8 @@ const About = () => {
   return (
     <div name='About' className='w-full min-h-screen bg-white'>
       {/* TITLE */}
-      <div className='relative flex w-full h-80 m-auto justify-center items-center bg-slate-900'>
-        <img src={HeaderPicture} className='w-full h-80 object-cover blur-[2px] opacity-50 grayscale' alt="" />
-        <h1 className='absolute text-4xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-bold text-white cursor-default'>_</h1>
+      <div className='relative flex h-full m-auto bg-slate-900'>
+        <img src={HeaderPicture} className='h-full' alt="" />
       </div>
 
       <Navbar />
@@ -23,7 +22,7 @@ const About = () => {
       <div className='relative w-full flex flex-wrap lg:flex-nowrap bg-white py-10 px-4 sm:px-10 xl:px-0'>
         <div className='flex flex-col w-full lg:w-auto items-center lg:items-start'>
           <div className='object-center lg:object-left'>
-            <img src={ProfilePicture} className='w-full h-auto max-h-[500px] xl:max-h-[600px] object-contain grayscale hover:grayscale-0 ease-in-out duration-300' alt="" />
+            <img src={ProfilePicture} loading="lazy" className='w-full h-auto max-h-[500px] xl:max-h-[600px] object-contain grayscale hover:grayscale-0 ease-in-out duration-300' alt="" />
           </div>
           {/* SOCIALS */}
           <div className='flex justify-center lg:justify-between gap-8 lg:gap-0 text-4xl pt-10 text-blue-900 list-none w-auto lg:w-full'>

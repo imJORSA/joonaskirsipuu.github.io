@@ -3,7 +3,7 @@ import Navbar from '../components/Navbar'
 import '../gallery.css'
 import data from '../data/images'
 import Modal from '../components/Modal'
-import HeaderPicture from '../assets/gallery/Lonely Robot.jpg'
+import HeaderPicture from '../assets/BANNER.png'
 
 
 function Gallery() {
@@ -52,9 +52,8 @@ function Gallery() {
   return (
   <div name='Gallery' className='w-full min-h-screen bg-white'>
       {/* TITLE */}
-      <div className='relative flex w-full h-80 m-auto justify-center items-center bg-slate-900'>
-        <img src={HeaderPicture} className='w-full h-80 object-cover blur-[2px] opacity-50 grayscale' alt="" />
-        <h1 className='absolute text-4xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-bold text-white cursor-default'>DIGITAL</h1>
+      <div className='relative flex h-full m-auto bg-slate-900'>
+        <img src={HeaderPicture} className='h-full' alt="" />
       </div>
 
       <Navbar />
@@ -66,6 +65,7 @@ function Gallery() {
           <img className=' w-full object-fill grayscale group-hover:grayscale-0 transition-all duration-500'
             src={item.img}
             alt={item.text}
+            loading="lazy"
             onClick={() => handleClick(item, index)}
           />
           <h2 className='pt-3 text-sm sm:text-base xl:text-lg font-bold pointer-events-none text-cyan-950'>{item.text}</h2>
