@@ -1,7 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.d8ec1734.css",
-    "main.js": "/static/js/main.63828d91.js",
+    "main.css": "/static/css/main.0d3f9f91.css",
+    "main.js": "/static/js/main.f9c1d2e4.js",
+    "static/css/9.7786a552.chunk.css": "/static/css/9.7786a552.chunk.css",
+    "static/js/9.f2883353.chunk.js": "/static/js/9.f2883353.chunk.js",
+    "static/js/256.be3714f3.chunk.js": "/static/js/256.be3714f3.chunk.js",
+    "static/css/324.7786a552.chunk.css": "/static/css/324.7786a552.chunk.css",
+    "static/js/324.dde63e5e.chunk.js": "/static/js/324.dde63e5e.chunk.js",
+    "static/js/741.1cecdae5.chunk.js": "/static/js/741.1cecdae5.chunk.js",
+    "static/js/437.fe2bb97d.chunk.js": "/static/js/437.fe2bb97d.chunk.js",
+    "static/js/810.cb108bcc.chunk.js": "/static/js/810.cb108bcc.chunk.js",
+    "static/js/897.394d6c02.chunk.js": "/static/js/897.394d6c02.chunk.js",
+    "static/js/372.4498b91d.chunk.js": "/static/js/372.4498b91d.chunk.js",
+    "static/js/983.4ed286f6.chunk.js": "/static/js/983.4ed286f6.chunk.js",
+    "static/js/774.69cdab4f.chunk.js": "/static/js/774.69cdab4f.chunk.js",
     "static/media/Joonas Kirsipuu_Minu tuleviku ruum_2024_Pallas.pdf": "/static/media/Joonas Kirsipuu_Minu tuleviku ruum_2024_Pallas.ea7c074ed5974b5400aa.pdf",
     "static/media/KAPSLI VAADE 3.jpg": "/static/media/KAPSLI VAADE 3.e4faa90590378f58f7ad.jpg",
     "static/media/KAPSLI LAI VAADE 2.jpg": "/static/media/KAPSLI LAI VAADE 2.d8fc7566a2e737b0e794.jpg",
@@ -37,11 +49,23 @@
     "static/media/BANNER.png": "/static/media/BANNER.e56193a586a4baab3472.png",
     "static/media/Joonas Kirsipuu_My Future Space_2024_Summary_Pallas.pdf": "/static/media/Joonas Kirsipuu_My Future Space_2024_Summary_Pallas.83e65f8a29529d464d9c.pdf",
     "index.html": "/index.html",
-    "main.d8ec1734.css.map": "/static/css/main.d8ec1734.css.map",
-    "main.63828d91.js.map": "/static/js/main.63828d91.js.map"
+    "main.0d3f9f91.css.map": "/static/css/main.0d3f9f91.css.map",
+    "main.f9c1d2e4.js.map": "/static/js/main.f9c1d2e4.js.map",
+    "9.7786a552.chunk.css.map": "/static/css/9.7786a552.chunk.css.map",
+    "9.f2883353.chunk.js.map": "/static/js/9.f2883353.chunk.js.map",
+    "256.be3714f3.chunk.js.map": "/static/js/256.be3714f3.chunk.js.map",
+    "324.7786a552.chunk.css.map": "/static/css/324.7786a552.chunk.css.map",
+    "324.dde63e5e.chunk.js.map": "/static/js/324.dde63e5e.chunk.js.map",
+    "741.1cecdae5.chunk.js.map": "/static/js/741.1cecdae5.chunk.js.map",
+    "437.fe2bb97d.chunk.js.map": "/static/js/437.fe2bb97d.chunk.js.map",
+    "810.cb108bcc.chunk.js.map": "/static/js/810.cb108bcc.chunk.js.map",
+    "897.394d6c02.chunk.js.map": "/static/js/897.394d6c02.chunk.js.map",
+    "372.4498b91d.chunk.js.map": "/static/js/372.4498b91d.chunk.js.map",
+    "983.4ed286f6.chunk.js.map": "/static/js/983.4ed286f6.chunk.js.map",
+    "774.69cdab4f.chunk.js.map": "/static/js/774.69cdab4f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d8ec1734.css",
-    "static/js/main.63828d91.js"
+    "static/css/main.0d3f9f91.css",
+    "static/js/main.f9c1d2e4.js"
   ]
 }
