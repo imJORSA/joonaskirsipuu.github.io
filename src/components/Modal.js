@@ -47,7 +47,7 @@ const Modal = ({
             <span className="dismiss" onClick={handleClick}>
               X
             </span>
-            <div onClick={handelRotationLeft} className="overlay-arrows_left hidden xl:flex">
+            <div onClick={handelRotationLeft} className="overlay-arrows_left flex">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
@@ -61,7 +61,7 @@ const Modal = ({
                 />
               </svg>
             </div>
-            <div onClick={handelRotationRight} className="overlay-arrows_right hidden xl:flex">
+            <div onClick={handelRotationRight} className="overlay-arrows_right flex">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"

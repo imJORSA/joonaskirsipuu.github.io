@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-import HeaderPicture from '../assets/BANNER.png'
+import HeaderPicture from '../assets/BANNER.webp'
 
 const Games = () => {
 
@@ -8,18 +8,18 @@ const Games = () => {
     <div name='Games' className='w-full min-h-screen bg-white'>
       {/* TITLE */}
       <div className='relative flex h-full m-auto bg-slate-900'>
-        <img src={HeaderPicture} className='h-full' alt="" />
+        <img src={HeaderPicture} loading="eager" className='h-full' alt="" />
       </div>
 
       <Navbar />
 
       {/* BODY */}
-      <div className='relative w-full flex flex-wrap xl:flex-nowrap bg-white py-10 px-4 sm:px-10'>
+      <div className='relative w-full flex flex-wrap xl:flex-nowrap bg-white py-10 px-4 xl:px-0'>
         <div className='text-left w-full cursor-default'>
           <div>
-            <h1 className='text-2xl sm:text-4xl xl:text-5xl pb-4 sm:pb-8 font-bold text-blue-500 cursor-default'>LIST OF MY FAVOURITE GAMES</h1>
+            <h1 className='text-xl sm:text-3xl xl:text-5xl pb-4 sm:pb-8 font-bold text-blue-500 cursor-default'>LIST OF MY FAVOURITE GAMES</h1>
             
-            <h2 className='text-xl sm:text-2xl font-bold text-blue-500 mb-4 cursor-default'>SINGLEPLAYER</h2>
+            <h2 className='text-lg sm:text-2xl font-bold text-blue-500 mb-4 cursor-default'>SINGLEPLAYER</h2>
             <ul className='flex flex-col gap-2 text-sm sm:text-base cursor-default leading-6 pb-8'>
               <li className='cursor-default'><span className='font-bold text-black'>Cyberpunk 2077 - 2020/2023</span><span className='text-black'> - One of the coolest video game worlds ever. Everything is rooted in reality, and everything has a purpose.
                 Combat is incredibly fun and varied. A kickass soundtrack. The narrative uses the worldbuilding exceptionally well, and it’s not just a story about punks fighting the system or a gun-for-hire climbing the criminal underworld ladder.
@@ -35,7 +35,7 @@ const Games = () => {
 
             </ul>
 
-            <h2 className='text-xl sm:text-2xl font-bold text-blue-500 mb-4 cursor-default'>MULTIPLAYER</h2>
+            <h2 className='text-lg sm:text-2xl font-bold text-blue-500 mb-4 cursor-default'>MULTIPLAYER</h2>
             <ul className='flex flex-col gap-2 text-sm sm:text-base cursor-default leading-6 pb-5'>
               <li className='cursor-default'><span className='font-bold text-black'>League of Legends - 2009</span><span className='text-black'> - WIP</span></li>
               <li className='cursor-default'><span className='font-bold text-black'>Overwatch - 2016</span><span className='text-black'> - WIP</span></li>

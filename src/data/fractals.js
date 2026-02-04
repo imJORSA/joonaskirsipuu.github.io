@@ -1,63 +1,102 @@
 const data = [
     {
-
-        img: require('../assets/fractal/KAPSLID VÄLJAST 1.jpg'),
+        thumbnail: require('../assets/fractal/KAPSLID_VALJAST_1_thumbnail.webp'),
+        full: require('../assets/fractal/KAPSLID_VALJAST_1.webp'),
+        width: 800,
+        height: 566,
     },
     {
-
-        img: require('../assets/fractal/ESIK.jpg'),
+        thumbnail: require('../assets/fractal/ESIK_thumbnail.webp'),
+        full: require('../assets/fractal/ESIK.webp'),
+        width: 800,
+        height: 566,
     },
     {
-
-        img: require('../assets/fractal/KAPSLI LAI VAADE 1.jpg'),
+        thumbnail: require('../assets/fractal/KAPSLI_LAI_VAADE_1_thumbnail.webp'),
+        full: require('../assets/fractal/KAPSLI_LAI_VAADE_1.webp'),
+        width: 800,
+        height: 566,
     },
     {
-
-        img: require('../assets/fractal/KAPSLI LAI VAADE 2.jpg'),
+        thumbnail: require('../assets/fractal/KAPSLI_LAI_VAADE_2_thumbnail.webp'),
+        full: require('../assets/fractal/KAPSLI_LAI_VAADE_2.webp'),
+        width: 800,
+        height: 566,
     },
     {
-
-        img: require('../assets/fractal/KAPSLI ÖÖVAADE.jpg'),
+        thumbnail: require('../assets/fractal/KAPSLI_OOVAADE_thumbnail.webp'),
+        full: require('../assets/fractal/KAPSLI_OOVAADE.webp'),
+        width: 800,
+        height: 566,
     },
     {
-
-        img: require('../assets/fractal/KAPSLI VAADE 1.jpg'),
+        thumbnail: require('../assets/fractal/KAPSLI_VAADE_1_thumbnail.webp'),
+        full: require('../assets/fractal/KAPSLI_VAADE_1.webp'),
+        width: 800,
+        height: 566,
     },
     {
-
-        img: require('../assets/fractal/KAPSLI VAADE 2.jpg'),
+        thumbnail: require('../assets/fractal/KAPSLI_VAADE_2_thumbnail.webp'),
+        full: require('../assets/fractal/KAPSLI_VAADE_2.webp'),
+        width: 800,
+        height: 566,
     },
     {
-
-        img: require('../assets/fractal/KAPSLI VAADE 3.jpg'),
+        thumbnail: require('../assets/fractal/KAPSLI_VAADE_3_thumbnail.webp'),
+        full: require('../assets/fractal/KAPSLI_VAADE_3.webp'),
+        width: 800,
+        height: 566,
     },
     {
-
-        img: require('../assets/fractal/KAPSLID LÄHEDALT.jpg'),
+        thumbnail: require('../assets/fractal/KAPSLID_LAHEDALT_thumbnail.webp'),
+        full: require('../assets/fractal/KAPSLID_LAHEDALT.webp'),
+        width: 800,
+        height: 566,
     },
     {
-
-        img: require('../assets/fractal/KAPSLID VÄLJAST 2.jpg'),
+        thumbnail: require('../assets/fractal/KAPSLID_VALJAST_2_thumbnail.webp'),
+        full: require('../assets/fractal/KAPSLID_VALJAST_2.webp'),
+        width: 800,
+        height: 566,
     },
     {
-
-        img: require('../assets/fractal/ÜHISRUUM.jpg'),
+        thumbnail: require('../assets/fractal/UHISRUUM_thumbnail.webp'),
+        full: require('../assets/fractal/UHISRUUM.webp'),
+        width: 800,
+        height: 566,
     },
     {
-
-        img: require('../assets/fractal/VANNITUBA 1.jpg'),
+        thumbnail: require('../assets/fractal/VANNITUBA_1_thumbnail.webp'),
+        full: require('../assets/fractal/VANNITUBA_1.webp'),
+        width: 800,
+        height: 566,
     },
     {
-
-        img: require('../assets/fractal/VANNITUBA 2.jpg'),
+        thumbnail: require('../assets/fractal/VANNITUBA_2_thumbnail.webp'),
+        full: require('../assets/fractal/VANNITUBA_2.webp'),
+        width: 800,
+        height: 566,
     },
     {
-
-        img: require('../assets/fractal/WIREFRAME 1.jpg'),
+        thumbnail: require('../assets/fractal/WIREFRAME_1_thumbnail.webp'),
+        full: require('../assets/fractal/WIREFRAME_1.webp'),
+        width: 800,
+        height: 566,
     },
     {
-
-        img: require('../assets/fractal/WIREFRAME 2.jpg'),
+        thumbnail: require('../assets/fractal/WIREFRAME_2_thumbnail.webp'),
+        full: require('../assets/fractal/WIREFRAME_2.webp'),
+        width: 800,
+        height: 566,
+    },
+    {
+        isLink: true,
+        href: "https://www.youtube.com/watch?v=OgJt-XeCctM",
+        thumbnail: require('../assets/fractal/KAPSLID_VALJAST_1_thumbnail.webp'),
+        alt: "Fractals Animation",
+        text: "Fractals Animation",
+        width: 800,
+        height: 566,
     },
 ]
 

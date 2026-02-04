@@ -1,11 +1,12 @@
 import React, { useState } from 'react'
 import Navbar from '../components/Navbar'
-import HeaderPicture from '../assets/BANNER.png'
-import FractalPicture from '../assets/Fractalpicture.jpg'
+import HeaderPicture from '../assets/BANNER.webp'
+import FractalPicture from '../assets/Fractalpicture.webp'
 import data from '../data/fractals'
 import Modal from '../components/Modal'
 import MyFutureSpace from '../assets/fractal/Joonas Kirsipuu_My Future Space_2024_Summary_Pallas.pdf'
 import MinuTulevikuRuum from '../assets/fractal/Joonas Kirsipuu_Minu tuleviku ruum_2024_Pallas.pdf'
+import OptimizedImage from '../OptimizedImage'
 
 const Fractals = () => {
   const [clickedImg, setClickedImg] = useState(null);
@@ -13,62 +14,54 @@ const Fractals = () => {
 
   const handleClick = (item, index) => {
     setCurrentIndex(index);
-    setClickedImg(item.img);
+    setClickedImg(item.full);
   };
 
   const handelRotationRight = () => {
-    const totalLength = data && data.length;
-    if (currentIndex + 1 >= totalLength) {
-      setCurrentIndex(0);
-      const newUrl = data && data[0].img;
-      setClickedImg(newUrl);
-      return;
-    }
-    const newIndex = currentIndex + 1;
-    const newUrl = data && data.filter((item) => {
-      return data && data.indexOf(item) === newIndex;
-    });
-    const newItem = newUrl[0].img;
-    setClickedImg(newItem);
+    let newIndex = currentIndex;
+    const totalLength = data.length;
+
+    // Loop to find the next valid image, skipping links
+    do {
+      newIndex = (newIndex + 1) % totalLength;
+    } while (data[newIndex].isLink);
+
     setCurrentIndex(newIndex);
+    setClickedImg(data[newIndex].full);
   };
 
   const handelRotationLeft = () => {
-    const totalLength = data && data.length;
-    if (currentIndex === 0) {
-      setCurrentIndex(totalLength - 1);
-      const newUrl = data && data[totalLength - 1].img;
-      setClickedImg(newUrl);
-      return;
-    }
-    const newIndex = currentIndex - 1;
-    const newUrl = data && data.filter((item) => {
-      return data && data.indexOf(item) === newIndex;
-    });
-    const newItem = newUrl[0].img;
-    setClickedImg(newItem);
+    let newIndex = currentIndex;
+    const totalLength = data.length;
+
+    // Loop to find the previous valid image, skipping links
+    do {
+      newIndex = (newIndex - 1 + totalLength) % totalLength;
+    } while (data[newIndex].isLink);
+
     setCurrentIndex(newIndex);
+    setClickedImg(data[newIndex].full);
   };
 
   return (
     <div name='Fractals' className='w-full min-h-screen bg-white'>
       {/* TITLE */}
       <div className='relative flex h-full m-auto bg-slate-900'>
-        <img src={HeaderPicture} className='h-full' alt="" />
+        <img src={HeaderPicture} loading="eager" className='h-full' alt="" />
       </div>
 
       <Navbar />
 
       {/* BODY */}
-      <div className='relative w-full flex flex-wrap lg:flex-nowrap bg-white py-10 px-4 sm:px-10 xl:px-0'>
+      <div className='relative w-full flex flex-wrap lg:flex-nowrap bg-white py-10 px-4 xl:px-0'>
         <div className='flex flex-col w-full lg:w-auto items-center lg:items-start'>
           <div className='object-center lg:object-left'>
-            <img src={FractalPicture} loading="lazy" className='w-full h-auto max-h-[500px] xl:max-h-[600px] object-contain grayscale hover:grayscale-0 ease-in-out duration-300 ' alt="Project Fractals" />
+            <img src={FractalPicture} loading="eager" className='w-full h-auto max-h-[500px] xl:max-h-[600px] object-contain grayscale hover:grayscale-0 ease-in-out duration-300 ' alt="Project Fractals" />
           </div>
         </div>
-        <div className='text-left mt-10 lg:mt-0 ml-0 lg:ml-[50px] flex-1 cursor-default lg:pt-0 h-auto lg:h-[600px] lg:overflow-y-auto'>
-          <div className='max-w-[800px]'>
-            <h1 className='text-3xl sm:text-4xl xl:text-5xl pb-4 sm:pb-8 font-bold text-blue-500'>PROJECT FRACTALS</h1>
+        <div className='text-left mt-10 lg:mt-0 ml-0 lg:ml-[50px] flex-1 cursor-default lg:pt-0 h-auto lg:h-[600px] lg:overflow-y-auto pr-4'>
+          <div>
+            <h1 className='text-2xl sm:text-4xl xl:text-5xl pb-4 sm:pb-8 font-bold text-blue-500'>PROJECT FRACTALS</h1>
             <p className='text-sm sm:text-base leading-6 pb-5 text-black'>
               This worldbuilding project started out as a Bachelor's thesis project titled <a href={MyFutureSpace} download className='text-blue-500 hover:underline'>"My Future Space"</a>. I wanted to envision a future space scenario where humanity, due to climate 
               change, has migrated to the mesosphere, living on gigantic floating sculptural objects. The 
@@ -89,17 +82,37 @@ const Fractals = () => {
 
 
       {/* GALLERY */}
-      <div className='w-full bg-white columns-2 lg:columns-3 xl:columns-4 gap-5 pb-10 px-4 sm:px-10 xl:px-0'>
-        {data && data.map((item, index) => (
-          <div key={index} className='break-inside-avoid mb-5 overflow-hidden group cursor-pointer'>
-            <img className='w-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500'
-              src={item.img}
-              alt={item.text}
-              loading="lazy"
-              onClick={() => handleClick(item, index)}
-            />
-          </div>
-        ))}
+      <div className='w-full bg-white grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-4 gap-y-4 pb-10 px-4 xl:px-0'>
+        {data && data.map((item, index) => {
+          if (item.isLink) {
+            return (
+              <div key={index} className='overflow-hidden group cursor-pointer relative'>
+                <a href={item.href} target="_blank" rel="noreferrer">
+                  <OptimizedImage className='w-full object-cover grayscale'
+                    src={item.thumbnail}
+                    alt={item.alt}
+                    width={item.width}
+                    height={item.height}
+                  />
+                  <div className='absolute inset-0 flex justify-center items-center'>
+                    <h1 className='text-lg sm:text-2xl font-bold text-white group-hover:text-sky-300 transition-colors duration-300 drop-shadow-lg text-center'>{item.text}</h1>
+                  </div>
+                </a>
+              </div>
+            );
+          }
+          return (
+            <div key={index} className='overflow-hidden group cursor-pointer'>
+              <OptimizedImage className='w-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500'
+                src={item.thumbnail}
+                alt={item.text}
+                width={item.width}
+                height={item.height}
+                onClick={() => handleClick(item, index)}
+              />
+            </div>
+          );
+        })}
         <div>
           {clickedImg && (
             <Modal

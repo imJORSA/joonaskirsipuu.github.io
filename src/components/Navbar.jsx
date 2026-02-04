@@ -16,18 +16,18 @@ const Navbar = () => {
   ]
 
   return (
-      <div className='relative w-full h-auto min-h-[85px] px-4 sm:px-10 py-2 bg-slate-900 text-white z-10 flex flex-col justify-center gap-1'>
-              <h1 className='cursor-default font-bold text-xs sm:text-lg lg:text-xl tracking-[0.2em]'>JOONAS KIRSIPUU ART GALLERY</h1>
+      <div className='relative w-full h-auto min-h-[60px] sm:min-h-[85px] px-4 py-2 bg-slate-900 text-white z-10 flex flex-col justify-center gap-1'>
+              <h1 className='cursor-default font-bold text-xs sm:text-lg lg:text-xl tracking-[0.2em] text-left max-[450px]:text-center'>JOONAS KIRSIPUU ART GALLERY</h1>
 
 
           {/* DESKTOP MENU */}
-            <div className='w-full grid grid-cols-3 gap-y-1 sm:flex sm:justify-between text-white font-bold text-[8px] sm:text-sm xl:text-base items-center tracking-widest'>
-              {links.map((link) => (
+            <div className='w-full flex justify-between text-white font-bold text-[6px] min-[400px]:text-[8px] sm:text-sm xl:text-base items-center tracking-widest'>
+              {links.map((link, index) => (
                 link.path ? (
                   <Link
                     key={link.name}
                     to={link.path}
-                    className={`text-center px-0 py-1 whitespace-nowrap transition-all duration-300 ease-in-out hover:scale-105 ${
+                    className={`w-fit px-0 py-1 whitespace-nowrap transition-all duration-300 ease-in-out hover:scale-105 ${
                       location.pathname === link.path
                         ? 'bg-sky-300 text-slate-900 shadow-[0_0_10px_rgba(125,211,252,0.5)]'
                         : 'hover:bg-sky-300 hover:text-slate-900 hover:shadow-[0_0_10px_rgba(125,211,252,0.5)]'
@@ -39,7 +39,7 @@ const Navbar = () => {
                   <button
                     key={link.name}
                     onClick={link.action}
-                    className="text-center px-0 py-1 whitespace-nowrap transition-all duration-300 ease-in-out hover:scale-105 hover:bg-sky-300 hover:text-slate-900 hover:shadow-[0_0_10px_rgba(125,211,252,0.5)]"
+                    className={`w-fit px-0 py-1 whitespace-nowrap transition-all duration-300 ease-in-out hover:scale-105 hover:bg-sky-300 hover:text-slate-900 hover:shadow-[0_0_10px_rgba(125,211,252,0.5)]`}
                   >
                     {link.name}
                   </button>

@@ -34,57 +34,65 @@ body:has(.overlay) {
   box-shadow: 3px 5px 7px rgba(0, 0, 0, 0.5);
 }
 
+/* Shared styles for icons */
+.overlay span,
+.overlay-arrows_left svg,
+.overlay-arrows_right svg {
+  cursor: pointer;
+  color: #ffffff;
+  opacity: 0.2;
+}
+
+.overlay span:hover,
+.overlay-arrows_left svg:hover,
+.overlay-arrows_right svg:hover {
+  opacity: 0.5;
+  color: #7dd3fc;
+}
+
 .overlay span {
   position: absolute;
   top: -40px;
   right: 0;
   font-size: 25px;
-  color: #ffffff;
-  z-index: 999;
-  cursor: pointer;
-  opacity: 0.2;
-}
-
-.overlay span:hover {
-  opacity: 0.5;
-}
-
-.overlay-arrows_left {
-  position: absolute;
-  top: 50%;
-  left: -50px;
-  transform: translateY(-50%);
   z-index: 999;
 }
 
-.overlay-arrows_left svg {
-  width: 25px;
-  height: 25px;
-  cursor: pointer;
-  color: #ffffff;
-  opacity: 0.2;
-}
-
-.overlay-arrows_left svg:hover {
-  opacity: 0.5;
-}
-
-.overlay-arrows_right svg {
-  width: 25px;
-  height: 25px;
-  cursor: pointer;
-  color: #ffffff;
-  opacity: 0.2;
-}
-
-.overlay-arrows_right svg:hover {
-  opacity: 0.5;
-}
-
+.overlay-arrows_left,
 .overlay-arrows_right {
   position: absolute;
   top: 50%;
-  right: -50px;
   transform: translateY(-50%);
   z-index: 999;
+}
+
+.overlay-arrows_left {
+  left: -50px;
+}
+
+.overlay-arrows_right {
+  right: -50px;
+}
+
+.overlay-arrows_left svg,
+.overlay-arrows_right svg {
+  width: 25px;
+  height: 25px;
+}
+
+@media (max-width: 640px) {
+  .overlay-arrows_left {
+    left: -30px;
+  }
+  .overlay-arrows_right {
+    right: -30px;
+  }
+  .overlay-arrows_left svg,
+  .overlay-arrows_right svg {
+    width: 18px;
+    height: 18px;
+  }
+  .overlay span {
+    font-size: 18px;
+  }
 }

@@ -1,17 +1,16 @@
 import { Routes, Route } from "react-router-dom";
-import { lazy, Suspense } from "react";
 import Footer from "./components/Footer";
 import ScrollToTop from "./ScrollToTop";
 
-const Gallery = lazy(() => import("./pages/Gallery"));
-const About = lazy(() => import("./pages/About"));
-const Traditional = lazy(() => import("./pages/Traditional"));
-const Worldbuilding = lazy(() => import("./pages/Worldbuilding"));
-const Blog = lazy(() => import("./pages/Blog"));
-const Fractals = lazy(() => import("./pages/Fractals"));
-const GenAI = lazy(() => import("./pages/GenAI"));
-const Games = lazy(() => import("./pages/Games"));
-const FilmsSeriesAnime = lazy(() => import("./pages/FilmsSeriesAnime"));
+import Gallery from "./pages/Gallery";
+import About from "./pages/About";
+import Traditional from "./pages/Traditional";
+import Worldbuilding from "./pages/Worldbuilding";
+import Blog from "./pages/Blog";
+import Fractals from "./pages/Fractals";
+import GenAI from "./pages/GenAI";
+import Games from "./pages/Games";
+import FilmsSeriesAnime from "./pages/FilmsSeriesAnime";
 
 function App() {
   return (
@@ -21,19 +20,17 @@ function App() {
         onDragStart={(e) => e.preventDefault()}
       >
         <ScrollToTop />
-        <Suspense fallback={<div className="h-screen flex items-center justify-center">Loading...</div>}>
-          <Routes>
-            <Route path='/' element={<Gallery/>}/>
-            <Route path='/Traditional' element={<Traditional/>}/>
-            <Route path='/Worldbuilding' element={<Worldbuilding/>}/>
-            <Route path='/Blog' element={<Blog/>}/>
-            <Route path='/Fractals' element={<Fractals/>}/>
-            <Route path='/About' element={<About/>}/>
-            <Route path='/GenAI' element={<GenAI/>}/>
-            <Route path='/Games' element={<Games/>}/>
-            <Route path='/FilmsSeriesAnime' element={<FilmsSeriesAnime/>}/>
-          </Routes>
-        </Suspense>
+        <Routes>
+          <Route path='/' element={<Gallery/>}/>
+          <Route path='/Traditional' element={<Traditional/>}/>
+          <Route path='/Worldbuilding' element={<Worldbuilding/>}/>
+          <Route path='/Blog' element={<Blog/>}/>
+          <Route path='/Fractals' element={<Fractals/>}/>
+          <Route path='/About' element={<About/>}/>
+          <Route path='/GenAI' element={<GenAI/>}/>
+          <Route path='/Games' element={<Games/>}/>
+          <Route path='/FilmsSeriesAnime' element={<FilmsSeriesAnime/>}/>
+        </Routes>
         <Footer />
       </div>
   );
