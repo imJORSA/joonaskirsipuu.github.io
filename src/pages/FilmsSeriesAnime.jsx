@@ -11,7 +11,7 @@ const FilmsSeriesAnime = () => {
       <Helmet>
         <title>Favourite Films, Series & Anime | Joonas Kirsipuu</title>
         <meta name="description" content="A curated list of Joonas Kirsipuu's favorite films, TV series, and anime." />
-        <link rel="canonical" href={`${baseUrl}/filmsseriesanime`} />
+        <link rel="canonical" href={`${baseUrl}/FilmsSeriesAnime`} />
       </Helmet>
       <div name='FilmsSeriesAnime' className='w-full min-h-screen bg-white'>
       {/* TITLE */}

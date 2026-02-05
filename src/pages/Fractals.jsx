@@ -67,7 +67,7 @@ const Fractals = () => {
       <Helmet>
         <title>Project Fractals | Joonas Kirsipuu</title>
         <meta name="description" content="Explore Project Fractals, a worldbuilding project envisioning future space habitats by Joonas Kirsipuu." />
-        <link rel="canonical" href={`${baseUrl}/fractals`} />
+        <link rel="canonical" href={`${baseUrl}/Fractals`} />
         <script type="application/ld+json">{JSON.stringify(imageListSchema)}</script>
       </Helmet>
       <div name='Fractals' className='w-full min-h-screen bg-white'>

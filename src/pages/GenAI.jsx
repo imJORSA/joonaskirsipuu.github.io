@@ -11,7 +11,7 @@ const GenAI = () => {
       <Helmet>
         <title>Why GenAI art will be obsolete - WIP | Joonas Kirsipuu</title>
         <meta name="description" content="Thoughts on the future of Generative AI in art." />
-        <link rel="canonical" href={`${baseUrl}/genai`} />
+        <link rel="canonical" href={`${baseUrl}/GenAI`} />
       </Helmet>
       <div name='GenAI' className='w-full min-h-screen bg-white'>
       {/* TITLE */}

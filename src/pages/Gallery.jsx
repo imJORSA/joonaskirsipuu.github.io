@@ -53,7 +53,7 @@ function Gallery() {
       <Helmet>
         <title>3D & Digital Art Gallery | Joonas Kirsipuu</title>
         <meta name="description" content="A gallery of 3D artwork and visualizations by Joonas Kirsipuu." />
-        <link rel="canonical" href={`${baseUrl}/gallery`} />
+        <link rel="canonical" href={`${baseUrl}/`} />
         <script type="application/ld+json">{JSON.stringify(imageListSchema)}</script>
       </Helmet>
       <div name='Gallery' className='w-full min-h-screen bg-white'>

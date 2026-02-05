@@ -11,7 +11,7 @@ const Games = () => {
       <Helmet>
         <title>Favorite Games | Joonas Kirsipuu</title>
         <meta name="description" content="A list of Joonas Kirsipuu's favorite singleplayer and multiplayer video games." />
-        <link rel="canonical" href={`${baseUrl}/games`} />
+        <link rel="canonical" href={`${baseUrl}/Games`} />
       </Helmet>
       <div name='Games' className='w-full min-h-screen bg-white'>
       {/* TITLE */}

@@ -51,7 +51,7 @@ const About = () => {
       <Helmet>
         <title>About | Joonas Kirsipuu - 3D Geek, Worldbuilder & Designer</title>
         <meta name="description" content="Learn more about Joonas Kirsipuu, a passionate 3D geek, worldbuilder and designer with experience in architectural rendering, wayfinding maps, and freelance 3D modeling." />
-        <link rel="canonical" href={`${baseUrl}/about`} />
+        <link rel="canonical" href={`${baseUrl}/About`} />
         <script type="application/ld+json">{JSON.stringify(personSchema)}</script>
       </Helmet>
       <div name='About' className='w-full min-h-screen bg-white'>

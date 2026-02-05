@@ -7,15 +7,14 @@ const baseUrl = 'https://joonaskirsipuu.github.io';
 // Array of your site's routes
 const routes = [
   '/',
-  '/about',
-  '/gallery',
-  '/traditional',
-  '/fractals',
-  '/worldbuilding',
-  '/blog',
-  '/genai',
-  '/filmsseriesanime',
-  '/games',
+  '/About',
+  '/Traditional',
+  '/Fractals',
+  '/Worldbuilding',
+  '/Blog',
+  '/GenAI',
+  '/FilmsSeriesAnime',
+  '/Games',
 ];
 
 // Generate the sitemap XML content
@@ -27,9 +26,9 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
       <lastmod>${new Date().toISOString().split('T')[0]}</lastmod>
       <priority>${route === '/' ? '1.0' : '0.8'}</priority>
     </url>`).join('')}
-</urlset>`;
+</urlset>`.trim();
 
-// Write the sitemap to the public directory
-fs.writeFileSync(path.resolve(__dirname, 'public', 'sitemap.xml'), sitemap);
+// Write the sitemap to the build directory
+fs.writeFileSync(path.resolve(__dirname, 'build', 'sitemap.xml'), sitemap);
 
 console.log('sitemap.xml generated successfully!');

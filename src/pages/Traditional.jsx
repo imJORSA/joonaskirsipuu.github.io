@@ -53,7 +53,7 @@ function Traditional() {
       <Helmet>
         <title>Traditional Art Gallery | Joonas Kirsipuu</title>
         <meta name="description" content="A collection of traditional art pieces by Joonas Kirsipuu." />
-        <link rel="canonical" href={`${baseUrl}/traditional`} />
+        <link rel="canonical" href={`${baseUrl}/Traditional`} />
         <script type="application/ld+json">{JSON.stringify(imageListSchema)}</script>
       </Helmet>
       <div name='Traditional' className='w-full min-h-screen bg-white'>

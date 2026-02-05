@@ -12,7 +12,7 @@ const Blog = () => {
       <Helmet>
         <title>Blog | Joonas Kirsipuu</title>
         <meta name="description" content="Read random ramblings, thoughts on GenAI, and lists of favorite media by Joonas Kirsipuu." />
-        <link rel="canonical" href={`${baseUrl}/blog`} />
+        <link rel="canonical" href={`${baseUrl}/Blog`} />
       </Helmet>
       <div name='Blog' className='w-full min-h-screen bg-white'>
       {/* TITLE */}
