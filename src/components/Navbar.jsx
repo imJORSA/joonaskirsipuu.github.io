@@ -17,7 +17,7 @@ const Navbar = () => {
 
   return (
       <div className='relative w-full h-auto min-h-[60px] sm:min-h-[85px] px-4 py-2 bg-slate-900 text-white z-10 flex flex-col justify-center gap-1'>
-              <h1 className='cursor-default font-bold text-xs sm:text-lg lg:text-xl tracking-[0.2em] text-left max-[450px]:text-center'>JOONAS KIRSIPUU ART GALLERY</h1>
+              <h1 className='cursor-default font-bold text-xs sm:text-lg lg:text-xl tracking-[0.2em] text-left max-[450px]:text-center'>3D GEEK, WORLDBUILDER & DESIGNER</h1>
 
 
           {/* DESKTOP MENU */}

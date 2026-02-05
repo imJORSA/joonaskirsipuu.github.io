@@ -6,14 +6,16 @@ const data = [
         full: require('../assets/fractal/KAPSLID_VALJAST_1.webp'),
         width: 800,
         height: 566,
+        alt: "3D Fractal art composition titled Fractals 001 by Joonas Kirsipuu",
     },
     {
-        text: 'Kapsli öövaade',
+        text: 'Capsule Nightview',
         subtext: 'Blender, Photoshop [2024]',
         thumbnail: require('../assets/fractal/KAPSLI_OOVAADE_thumbnail.webp'),
         full: require('../assets/fractal/KAPSLI_OOVAADE.webp'),
         width: 800,
         height: 566,
+        alt: "Night view render of a futuristic capsule interior by Joonas Kirsipuu",
     },
     {
         text: 'Wireframe 001',
@@ -22,30 +24,34 @@ const data = [
         full: require('../assets/fractal/WIREFRAME_1.webp'),
         width: 800,
         height: 566,
+        alt: "3D wireframe render of an architectural structure by Joonas Kirsipuu",
     },
     {
-        text: 'Vannituba 2',
+        text: 'Bathroom 001',
         subtext: 'Blender, Photoshop [2024]',
         thumbnail: require('../assets/fractal/VANNITUBA_2_thumbnail.webp'),
         full: require('../assets/fractal/VANNITUBA_2.webp'),
         width: 800,
         height: 566,
+        alt: "3D visualization of a futuristic bathroom interior by Joonas Kirsipuu",
     },
     {
-        text: 'Ühisruum',
+        text: 'Common room',
         subtext: 'Blender, Photoshop [2024]',
         thumbnail: require('../assets/fractal/UHISRUUM_thumbnail.webp'),
         full: require('../assets/fractal/UHISRUUM.webp'),
         width: 800,
         height: 566,
+        alt: "3D visualization of a common room area by Joonas Kirsipuu",
     },
     {
-        text: 'Kapsli lai vaade 2',
+        text: 'Capsule view 001',
         subtext: 'Blender, Photoshop [2024]',
         thumbnail: require('../assets/fractal/KAPSLI_LAI_VAADE_2_thumbnail.webp'),
         full: require('../assets/fractal/KAPSLI_LAI_VAADE_2.webp'),
         width: 800,
         height: 566,
+        alt: "Wide angle 3D view of a capsule interior by Joonas Kirsipuu",
     },
     {
         text: 'ゆのちゃん',
@@ -54,6 +60,7 @@ const data = [
         full: require('../assets/gallery/ゆのちゃん.webp'),
         width: 800,
         height: 388,
+        alt: "3D character model of Yuno-chan by Joonas Kirsipuu",
     },
     {
         text: 'Porsche 911 RWB',
@@ -62,6 +69,7 @@ const data = [
         full: require('../assets/gallery/Porsche_911.webp'),
         width: 800,
         height: 450,
+        alt: "3D render of a Porsche 911 RWB by Joonas Kirsipuu",
     }
 ]
 

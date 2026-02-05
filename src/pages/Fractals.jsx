@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Helmet } from 'react-helmet-async'
 import Navbar from '../components/Navbar'
 import HeaderPicture from '../assets/BANNER.webp'
 import FractalPicture from '../assets/Fractalpicture.webp'
@@ -9,6 +10,24 @@ import MinuTulevikuRuum from '../assets/fractal/Joonas Kirsipuu_Minu tuleviku ru
 import OptimizedImage from '../OptimizedImage'
 
 const Fractals = () => {
+  const baseUrl = 'https://joonaskirsipuu.github.io';
+  const imageListSchema = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "itemListElement": data
+      .filter(item => !item.isLink)
+      .map((item, index) => ({
+        "@type": "ImageObject",
+        "position": index + 1,
+        "name": item.alt,
+        "contentUrl": `${baseUrl}${item.full}`,
+        "thumbnailUrl": `${baseUrl}${item.thumbnail}`,
+        "author": {
+          "@type": "Person",
+          "name": "Joonas Kirsipuu"
+        }
+    }))
+  };
   const [clickedImg, setClickedImg] = useState(null);
   const [currentIndex, setCurrentIndex] = useState(null);
 
@@ -44,10 +63,17 @@ const Fractals = () => {
   };
 
   return (
-    <div name='Fractals' className='w-full min-h-screen bg-white'>
+    <>
+      <Helmet>
+        <title>Project Fractals | Joonas Kirsipuu</title>
+        <meta name="description" content="Explore Project Fractals, a worldbuilding project envisioning future space habitats by Joonas Kirsipuu." />
+        <link rel="canonical" href={`${baseUrl}/fractals`} />
+        <script type="application/ld+json">{JSON.stringify(imageListSchema)}</script>
+      </Helmet>
+      <div name='Fractals' className='w-full min-h-screen bg-white'>
       {/* TITLE */}
       <div className='relative flex h-full m-auto bg-slate-900'>
-        <img src={HeaderPicture} loading="eager" className='h-full' alt="" />
+        <img src={HeaderPicture} loading="eager" className='h-full' alt="Joonas Kirsipuu Banner" />
       </div>
 
       <Navbar />
@@ -88,7 +114,7 @@ const Fractals = () => {
             return (
               <div key={index} className='overflow-hidden group cursor-pointer relative'>
                 <a href={item.href} target="_blank" rel="noreferrer">
-                  <OptimizedImage className='w-full object-cover grayscale'
+                  <OptimizedImage className='text-transparent w-full object-cover grayscale'
                     src={item.thumbnail}
                     alt={item.alt}
                     width={item.width}
@@ -103,9 +129,9 @@ const Fractals = () => {
           }
           return (
             <div key={index} className='overflow-hidden group cursor-pointer'>
-              <OptimizedImage className='w-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500'
+              <OptimizedImage className='text-transparent w-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500'
                 src={item.thumbnail}
-                alt={item.text}
+                alt={item.alt}
                 width={item.width}
                 height={item.height}
                 onClick={() => handleClick(item, index)}
@@ -124,7 +150,8 @@ const Fractals = () => {
           )}
         </div>
       </div>
-    </div>
+      </div>
+    </>
   )
 }
 

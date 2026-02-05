@@ -1,14 +1,22 @@
 import React from 'react'
+import { Helmet } from 'react-helmet-async'
 import Navbar from '../components/Navbar'
 import HeaderPicture from '../assets/BANNER.webp'
 
 const FilmsSeriesAnime = () => {
+  const baseUrl = 'https://joonaskirsipuu.github.io';
 
   return (
-    <div name='FilmsSeriesAnime' className='w-full min-h-screen bg-white'>
+    <>
+      <Helmet>
+        <title>Favourite Films, Series & Anime | Joonas Kirsipuu</title>
+        <meta name="description" content="A curated list of Joonas Kirsipuu's favorite films, TV series, and anime." />
+        <link rel="canonical" href={`${baseUrl}/filmsseriesanime`} />
+      </Helmet>
+      <div name='FilmsSeriesAnime' className='w-full min-h-screen bg-white'>
       {/* TITLE */}
       <div className='relative flex h-full m-auto bg-slate-900'>
-        <img src={HeaderPicture} loading="eager" className='h-full' alt="" />
+        <img src={HeaderPicture} loading="eager" className='h-full' alt="Joonas Kirsipuu Banner" />
       </div>
 
       <Navbar />
@@ -37,6 +45,9 @@ It’s also got some interesting back-and-forth between the black-and-white and 
 
             </ul>
 
+            <div className='pt-10 pb-5'>
+              <div className='border-t-2 border-dotted border-blue-900'></div>
+            </div>
             <h2 className='text-lg sm:text-2xl font-bold text-blue-500 mb-4 cursor-default'>SERIES</h2>
             <ul className='flex flex-col gap-2 text-sm sm:text-base cursor-default leading-6 pb-8'>
               <li className='cursor-default'><span className='font-bold text-black'>Breaking Bad - 2008 - 2013</span><span className='text-black'> - A couple of filler episodes a side, it's ability to deliver 8+/10 so consistently over such a long runtime is impressive.</span></li>
@@ -50,6 +61,9 @@ It’s also got some interesting back-and-forth between the black-and-white and 
 
             </ul>
 
+            <div className='pt-10 pb-5'>
+              <div className='border-t-2 border-dotted border-blue-900'></div>
+            </div>
             <h2 className='text-lg sm:text-2xl font-bold text-blue-500 mb-4 cursor-default'>ANIME</h2>
             <ul className='flex flex-col gap-2 text-sm sm:text-base cursor-default leading-6 pb-5'>
               <li className='cursor-default'><span className='font-bold text-black'>Initial D - 1998 - 2014</span><span className='text-black'> - The anime that sparked my interest in cars. An absolute classic. I daydream about making my own animated car drift battle. Hopefully, someday I can realize that dream.</span></li>
@@ -62,7 +76,8 @@ It’s also got some interesting back-and-forth between the black-and-white and 
           </div>
         </div>
       </div>
-    </div>
+      </div>
+    </>
   )
 }
 

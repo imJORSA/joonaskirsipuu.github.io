@@ -1,14 +1,22 @@
 import React from 'react'
+import { Helmet } from 'react-helmet-async'
 import Navbar from '../components/Navbar'
 import HeaderPicture from '../assets/BANNER.webp'
 
 const Games = () => {
+  const baseUrl = 'https://joonaskirsipuu.github.io';
 
   return (
-    <div name='Games' className='w-full min-h-screen bg-white'>
+    <>
+      <Helmet>
+        <title>Favorite Games | Joonas Kirsipuu</title>
+        <meta name="description" content="A list of Joonas Kirsipuu's favorite singleplayer and multiplayer video games." />
+        <link rel="canonical" href={`${baseUrl}/games`} />
+      </Helmet>
+      <div name='Games' className='w-full min-h-screen bg-white'>
       {/* TITLE */}
       <div className='relative flex h-full m-auto bg-slate-900'>
-        <img src={HeaderPicture} loading="eager" className='h-full' alt="" />
+        <img src={HeaderPicture} loading="eager" className='h-full' alt="Joonas Kirsipuu Banner" />
       </div>
 
       <Navbar />
@@ -35,6 +43,9 @@ const Games = () => {
 
             </ul>
 
+            <div className='pt-10 pb-5'>
+              <div className='border-t-2 border-dotted border-blue-900'></div>
+            </div>
             <h2 className='text-lg sm:text-2xl font-bold text-blue-500 mb-4 cursor-default'>MULTIPLAYER</h2>
             <ul className='flex flex-col gap-2 text-sm sm:text-base cursor-default leading-6 pb-5'>
               <li className='cursor-default'><span className='font-bold text-black'>League of Legends - 2009</span><span className='text-black'> - WIP</span></li>
@@ -45,7 +56,8 @@ const Games = () => {
           </div>
         </div>
       </div>
-    </div>
+      </div>
+    </>
   )
 }
 

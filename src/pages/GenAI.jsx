@@ -1,14 +1,22 @@
 import React from 'react'
+import { Helmet } from 'react-helmet-async'
 import Navbar from '../components/Navbar'
 import HeaderPicture from '../assets/BANNER.webp'
 
 const GenAI = () => {
+  const baseUrl = 'https://joonaskirsipuu.github.io';
 
   return (
-    <div name='GenAI' className='w-full min-h-screen bg-white'>
+    <>
+      <Helmet>
+        <title>Why GenAI art will be obsolete - WIP | Joonas Kirsipuu</title>
+        <meta name="description" content="Thoughts on the future of Generative AI in art." />
+        <link rel="canonical" href={`${baseUrl}/genai`} />
+      </Helmet>
+      <div name='GenAI' className='w-full min-h-screen bg-white'>
       {/* TITLE */}
       <div className='relative flex h-full m-auto bg-slate-900'>
-        <img src={HeaderPicture} loading="eager" className='h-full' alt="" />
+        <img src={HeaderPicture} loading="eager" className='h-full' alt="Joonas Kirsipuu Banner" />
       </div>
 
       <Navbar />
@@ -24,7 +32,8 @@ const GenAI = () => {
           </div>
         </div>
       </div>
-    </div>
+      </div>
+    </>
   )
 }
 

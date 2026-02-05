@@ -6,6 +6,7 @@ const data = [
         full: require('../assets/traditional/Thinking of you.webp'),
         width: 800,
         height: 575,
+        alt: "Pencil drawing portrait titled Thinking of you by Joonas Kirsipuu",
     },
     {
         text: 'Shy',
@@ -14,6 +15,7 @@ const data = [
         full: require('../assets/traditional/Shy.webp'),
         width: 800,
         height: 1098,
+        alt: "Pencil drawing portrait titled Shy by Joonas Kirsipuu",
     },
     {
         text: 'Close your eyes',
@@ -22,6 +24,7 @@ const data = [
         full: require('../assets/traditional/Close your eyes.webp'),
         width: 800,
         height: 1095,
+        alt: "Pencil drawing portrait titled Close your eyes by Joonas Kirsipuu",
     },
     {
         text: 'Girl 001',
@@ -30,6 +33,7 @@ const data = [
         full: require('../assets/traditional/Girl 001.webp'),
         width: 800,
         height: 913,
+        alt: "Pencil drawing of a girl by Joonas Kirsipuu",
     },
     {
         text: 'The opposite',
@@ -38,6 +42,7 @@ const data = [
         full: require('../assets/traditional/The opposite.webp'),
         width: 800,
         height: 983,
+        alt: "Acrylic painting on cardboard titled The opposite by Joonas Kirsipuu",
     },
     {
         text: 'Abstract 001',
@@ -46,6 +51,7 @@ const data = [
         full: require('../assets/traditional/Abstract 001.webp'),
         width: 800,
         height: 1106,
+        alt: "Abstract acrylic painting on cardboard by Joonas Kirsipuu",
     },
     {
         text: 'Act 001',
@@ -54,6 +60,7 @@ const data = [
         full: require('../assets/traditional/Akt 001.webp'),
         width: 800,
         height: 972,
+        alt: "Acrylic painting of a figure titled Act 001 by Joonas Kirsipuu",
     },
     {
         text: 'Linework',
@@ -62,6 +69,7 @@ const data = [
         full: require('../assets/traditional/Linework.webp'),
         width: 800,
         height: 1107,
+        alt: "Pencil linework drawing by Joonas Kirsipuu",
     },
     {
         text: 'Sitting with colours',
@@ -70,6 +78,7 @@ const data = [
         full: require('../assets/traditional/Sitting with colours.webp'),
         width: 800,
         height: 1131,
+        alt: "Gouache painting titled Sitting with colours by Joonas Kirsipuu",
     },
     {
         text: 'Watercolour with rainwater',
@@ -78,6 +87,7 @@ const data = [
         full: require('../assets/traditional/Watercolour with rainwater.webp'),
         width: 800,
         height: 1105,
+        alt: "Watercolour painting created using rainwater by Joonas Kirsipuu",
     },
     {
         text: 'Guitar Glove',
@@ -86,6 +96,7 @@ const data = [
         full: require('../assets/traditional/Guitar Glove.webp'),
         width: 800,
         height: 1151,
+        alt: "Gouache painting titled Guitar Glove by Joonas Kirsipuu",
     },
     {
         text: 'Straighten your tie',
@@ -94,6 +105,7 @@ const data = [
         full: require('../assets/traditional/Straighten your tie.webp'),
         width: 800,
         height: 1130,
+        alt: "Gouache painting titled Straighten your tie by Joonas Kirsipuu",
     },
 ]
 

@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Helmet } from 'react-helmet-async'
 import Navbar from '../components/Navbar'
 import '../gallery.css'
 import data from '../data/images'
@@ -8,6 +9,23 @@ import OptimizedImage from '../OptimizedImage'
 
 
 function Gallery() {
+  const baseUrl = 'https://joonaskirsipuu.github.io';
+  const imageListSchema = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "itemListElement": data.map((item, index) => ({
+      "@type": "ImageObject",
+      "position": index + 1,
+      "name": item.text,
+      "contentUrl": `${baseUrl}${item.full}`,
+      "thumbnailUrl": `${baseUrl}${item.thumbnail}`,
+      "author": {
+        "@type": "Person",
+        "name": "Joonas Kirsipuu"
+      }
+    }))
+  };
+
   const [clickedImg, setClickedImg] = useState(null);
   const [currentIndex, setCurrentIndex] = useState(null);
 
@@ -31,10 +49,17 @@ function Gallery() {
   };
 
   return (
-  <div name='Gallery' className='w-full min-h-screen bg-white'>
+    <>
+      <Helmet>
+        <title>3D & Digital Art Gallery | Joonas Kirsipuu</title>
+        <meta name="description" content="A gallery of 3D artwork and visualizations by Joonas Kirsipuu." />
+        <link rel="canonical" href={`${baseUrl}/gallery`} />
+        <script type="application/ld+json">{JSON.stringify(imageListSchema)}</script>
+      </Helmet>
+      <div name='Gallery' className='w-full min-h-screen bg-white'>
       {/* TITLE */}
       <div className='relative flex h-full m-auto bg-slate-900'>
-        <img src={HeaderPicture} className='h-full' alt="" />
+        <img src={HeaderPicture} className='h-full' alt="Joonas Kirsipuu Banner" />
       </div>
 
       <Navbar />
@@ -43,9 +68,9 @@ function Gallery() {
       <div className=' bg-white grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-4 gap-y-10 pt-10 pb-20 px-4 xl:px-0'>
       {data && data.map((item, index) => (
         <div key={index} className='images overflow-hidden group cursor-pointer'>
-          <OptimizedImage className=' w-full object-fill grayscale group-hover:grayscale-0 transition-all duration-500'
+          <OptimizedImage className='text-transparent w-full object-fill grayscale group-hover:grayscale-0 transition-all duration-500'
             src={item.thumbnail}
-            alt={item.text}
+            alt={item.alt}
             width={item.width}
             height={item.height}
             onClick={() => handleClick(item, index)}
@@ -65,7 +90,8 @@ function Gallery() {
         )}
       </div>
     </div>
-  </div>
+      </div>
+    </>
   );
 }
 
