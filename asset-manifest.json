@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.fb99073e.css",
-    "main.js": "/static/js/main.2a02baa1.js",
+    "main.css": "/static/css/main.84294336.css",
+    "main.js": "/static/js/main.9140fd75.js",
     "static/media/Joonas Kirsipuu_Minu tuleviku ruum_2024_Pallas.pdf": "/static/media/Joonas Kirsipuu_Minu tuleviku ruum_2024_Pallas.ea7c074ed5974b5400aa.pdf",
     "static/media/KAPSLID_VALJAST_1.webp": "/static/media/KAPSLID_VALJAST_1.76148743e8e7583b7b66.webp",
     "static/media/KAPSLID_LAHEDALT.webp": "/static/media/KAPSLID_LAHEDALT.a1c58c36f0bf74591bdb.webp",
@@ -66,11 +66,11 @@
     "static/media/Joonas Kirsipuu_My Future Space_2024_Summary_Pallas.pdf": "/static/media/Joonas Kirsipuu_My Future Space_2024_Summary_Pallas.83e65f8a29529d464d9c.pdf",
     "static/media/WIREFRAME_1_thumbnail.webp": "/static/media/WIREFRAME_1_thumbnail.dbf6342626943103c8d9.webp",
     "index.html": "/index.html",
-    "main.fb99073e.css.map": "/static/css/main.fb99073e.css.map",
-    "main.2a02baa1.js.map": "/static/js/main.2a02baa1.js.map"
+    "main.84294336.css.map": "/static/css/main.84294336.css.map",
+    "main.9140fd75.js.map": "/static/js/main.9140fd75.js.map"
   },
   "entrypoints": [
-    "static/css/main.fb99073e.css",
-    "static/js/main.2a02baa1.js"
+    "static/css/main.84294336.css",
+    "static/js/main.9140fd75.js"
   ]
 }
