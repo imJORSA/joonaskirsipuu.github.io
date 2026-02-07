@@ -1,0 +1,244 @@
+{
+  "translation": {
+    "description": "Hey! I'm Joonas Kirsipuu. 3D Geek, Worldbuilder & Designer.",
+    "title": "3D GEEK, WORLDBUILDER & DESIGNER",
+    "banner_alt": "Joonas Kirsipuu Banner",
+    "portfolio": "This is my art portfolio, have a look around!",
+    "nav": {
+      "digital": "DIGITAL",
+      "traditional": "TRADITIONAL",
+      "worldbuilding": "WORLD BUILDING",
+      "blog": "BLOG",
+      "about": "ABOUT",
+      "contact": "CONTACT"
+    },
+    "seo": {
+      "gallery": {
+        "title": "Gallery | Joonas Kirsipuu",
+        "desc": "Portfolio gallery featuring digital artworks by Joonas Kirsipuu."
+      },
+      "traditional": {
+        "title": "Traditional Art | Joonas Kirsipuu",
+        "desc": "Traditional drawings, paintings, and sketches by Joonas Kirsipuu."
+      },
+      "worldbuilding": {
+        "title": "Worldbuilding | Joonas Kirsipuu",
+        "desc": "Worldbuilding projects and concept art by Joonas Kirsipuu."
+      },
+      "blog": {
+        "title": "Blog | Joonas Kirsipuu",
+        "desc": "Personal blog and updates from Joonas Kirsipuu."
+      },
+      "fractals": {
+        "title": "Fractals | Joonas Kirsipuu",
+        "desc": "3D fractal worldbuilding project by Joonas Kirsipuu."
+      },
+      "about": {
+        "title": "About Me | Joonas Kirsipuu",
+        "desc": "Learn more about Joonas Kirsipuu, a 3D geek, worldbuilder and designer."
+      },
+      "genai": {
+        "title": "Generative AI | Joonas Kirsipuu",
+        "desc": "Why GenAI art will be obsolete by Joonas Kirsipuu."
+      },
+      "games": {
+        "title": "Games | Joonas Kirsipuu",
+        "desc": "Favourite games by Joonas Kirsipuu."
+      },
+      "films": {
+        "title": "Films, Series & Anime | Joonas Kirsipuu",
+        "desc": "Favourite films, series, and anime by Joonas Kirsipuu."
+      }
+    },
+    "about_page": {
+      "profile_alt": "Joonas Kirsipuu",
+      "thats_me": "That's me",
+      "intro1": "For me, art is quite a broad concept. Probably because I'm young and I can absorb it all - different materials, colours and technologies. However, I tend to lean more towards newer art methods, the most exciting of which is 3D. For me, this form of visual expression offers the most freedom and surprising results.",
+      "intro2": "I have a rather 'weird' approach to generating ideas - new and exciting ideas that pop into my head and stay there for quite a long time before they start to form into something more concrete. I don't draw or write anything anywhere, but I think intensely and finally decide that now is the time to get something done. This can happen spontaneously or by forcing myself. The work is usually slow, I like to let it settle for a couple of months or more and then come back again.",
+      "intro3": "I find ideas in different places but the main source is still the internet. That's where there's the most information and where cultures, subcultures and countercultures evolve rapidly. I'm most into visually stricking themes and architecture but I'm also interested in different cultures. Lately, I have started to look more closely at different political and geopolitical issues, the human psyche, mental disorders and how this gives rise to different subcultures and/or countercultures.",
+      "experience": "EXPERIENCE",
+      "jobs": {
+        "harmonia": {
+          "title": "Founder, CEO & 3D Designer | Harmonia INside OÜ",
+          "desc": "Spearhead 3D visualization projects, specializing in high-fidelity interior and exterior architectural rendering and design.",
+          "date": "Nov 2023 – Present"
+        },
+        "tech3d": {
+          "title": "3D Designer (Part-time) | 3D Technologies R&D AS",
+          "desc": "Develop comprehensive 3D and 2D wayfinding map designs for large-scale facilities, including hospitals, shopping malls, and commercial buildings.",
+          "date": "Mar 2022 – Present"
+        },
+        "freelance": {
+          "title": "Freelance 3D Artist | Polüwerk OÜ & Bluray OÜ",
+          "desc": "Delivered custom 3D modeling and visualization assets for diverse client requirements across multiple industries.",
+          "date": "Feb 2019 – Feb 2023"
+        }
+      },
+      "education": "EDUCATION",
+      "schools": {
+        "pallas": {
+          "title": "Bachelor's Degree | Pallas University of Applied Sciences",
+          "desc": "Field of study: Sculpture",
+          "date": "Sep 2019 – Jun 2024"
+        },
+        "tartu": {
+          "title": "Vocational Secondary Education | Tartu Art School",
+          "desc": "Field of study: 3D Modelling & Animation",
+          "date": "Sep 2015 – Feb 2019"
+        },
+        "reiniku": {
+          "title": "Basic Education | Tartu Mart Reiniku School",
+          "date": "Sep 2006 – Jun 2015"
+        }
+      },
+      "exhibitions": "EXHIBITIONS",
+      "exhibs": {
+        "pallas": {
+          "title": "Final Project Exhibition | Pallas Art Gallery",
+          "date": "Jun 2024 – Jul 2024"
+        }
+      }
+    },
+    "blog_page": {
+      "title": "MY RANDOM RAMBLINGS",
+      "subtitle": "This page is for my thoughts on random topics and listing all my favourite films, series, games and anime, so you could better get to know me.",
+      "links": {
+        "genai": "Why GenAI art will be obsolete - WIP",
+        "films": "My favourite films, series and anime",
+        "games": "My favourite games"
+      }
+    },
+    "worldbuilding_page": {
+      "fractals_thumb_alt": "Project Fractals thumbnail",
+      "fractals": "PROJECT FRACTALS",
+      "project3088": "PROJECT 3088"
+    },
+    "fractals_page": {
+      "title": "PROJECT FRACTALS",
+      "alt": "Project Fractals",
+      "desc1": "This worldbuilding project started out as a Bachelor's thesis project titled <1>\"My Future Space\"</1>. I wanted to envision a future space scenario where humanity, due to climate change, has migrated to the mesosphere, living on gigantic floating sculptural objects. The capsules within these objects serve as individual living quarters, inspired by shapes from nature. In addition to the capsules, there is also a communal area where everyone gets to socialize. My design process involved extensive research, drawing inspiration from various sources including architectural marvels in Asia, science fiction literature, and film classics from the 60’s to the modern age big blockbuster spectacles.",
+      "desc2": "You can find the full thesis <1>here</1> in Estonian, and I want to thank Merille Hommik for being an amazing mentor throughout this bachelor’s project.",
+      "desc3": "Updates on this project are slow due to my time being taken up by other projects and life changes.",
+      "animation": "Fractal Animation"
+    },
+    "genai_page": {
+      "title": "Why GenAI art will be obsolete - WIP",
+      "wip": "WIP"
+    },
+    "films_page": {
+      "title": "MY FAVOURITE FILMS, SERIES AND ANIME",
+      "films_title": "FILMS",
+      "series_title": "SERIES",
+      "anime_title": "ANIME",
+      "imdb_link": "If you're interested, you can check out my ratings for films & series <1>here</1>. It's far from complete though, I'm updating it periodically.",
+      "films": {
+        "br": { "title": "Blade Runner - 1982", "desc": " - The stunning world of Philip K. Dick’s Do Androids Dream of Electric Sheep? created on film in fantastic detail." },
+        "br2049": { "title": "Blade Runner 2049 - 2017", "desc": " - One of the best film sequels ever made. It’s distinctly Blade Runner, yet it’s different enough in its tonality and direction to stand on it's own two feet." },
+        "alien": { "title": "Alien - 1979", "desc": " - Holds up incredibly well in its horror elements. Spectacular set design and atmosphere." },
+        "space_odyssey": { "title": "2001: A Space Odyssey - 1968", "desc": " - It’s so good that it convinced a certain group of people that the Earth is flat. Enough said." },
+        "dune": { "title": "Dune part 1 & 2 - 2021/2024", "desc": " - The unfilmable book capsured on film by one of the best directors of our time. CINEMA!" },
+        "lotr": { "title": "LOTR Trilogy - 2001/2002/2003", "desc": " - The gold standard of worldbuilding, made into three films by an incredibly passionate group of people. It’s just magical." },
+        "arrival": { "title": "Arrival - 2016", "desc": " - A fantastic take on the sci-fi genre. Great acting and directing." },
+        "whiplash": { "title": "Whiplash - 2014", "desc": " - Proves that you don’t need a big budget to make an amazing film. The corrosive and convoluted relationship between a student who longs for his teacher’s praise is really chilling and hits home." },
+        "joker": { "title": "Joker - 2019", "desc": " - A very different take on a classic Batman villain. In a time of mental health crisis—either because people are increasingly lonely or because some think it’s ‘cool’—Joker’s relevance is only bound to increase." },
+        "y1917": { "title": "1917 - 2019", "desc": " - Spectacular cinematography disguised as a war film that is just brutal." },
+        "pirates": { "title": "Pirates of the Caribbean: The Curse of the Black Pearl - 2003", "desc": " - Pirates used to be cartoony and something you’d scare kids with, but not after this film. It’s an absolute gem that still holds up incredibly well visually, and Johnny Depp is just brilliant." },
+        "oppenheimer": { "title": "Oppenheimer - 2023", "desc": " - Written like an action flick, but it’s just some guys in a room talking and a big explosion at the halfway mark. And yet it managed to keep me on the edge of my seat for the full runtime. It’s also got some interesting back-and-forth between the black-and-white and color shots—one from Strauss’s POV and the other from Oppenheimer’s, respectively. I wish I’d had the chance to see it in IMAX." }
+      },
+      "series": {
+        "bb": { "title": "Breaking Bad - 2008 - 2013", "desc": " - A couple of filler episodes a side, it's ability to deliver 8+/10 so consistently over such a long runtime is impressive." },
+        "got": { "title": "Game of Thrones - 2011 - 2019", "desc": " - As long as you don't watch the last two seasons, it's solid television with complex characters and interesting plotlines." },
+        "andor": { "title": "Andor - 2022- 2025", "desc": " - Surprisingly deep narrative for Star Wars. It's also pretty relevant in today's world." },
+        "mr_robot": { "title": "Mr. Robot - 2015 - 2019", "desc": " - My personal favourite series. Every twist and turn is carefully thought out. It’s even better on a rewatch, especially Season 1." },
+        "chernobyl": { "title": "Chernobyl - 2019", "desc": " - One of the best miniseries ever made. Captures the human condition of living in the Soviet Union quite well." },
+        "house": { "title": "House M.D. - 2004 - 2012", "desc": " - A medical drama made fun by a flawed, hilarious, and witty doctor." },
+        "aib": { "title": "Alice in Borderland - 2020 - 2025", "desc": " - Stellar first two seasons; the third falls flat. Overall, very engaging, fun, and mindfucky." },
+        "clarkson": { "title": "Clarkson's Farm - 2021 - ?", "desc": " - A guy who drove cars for a living now drives tractors for a living. Clarkson’s Farm is hilarious, emotional, educational, and important." }
+      },
+      "anime": {
+        "initial_d": { "title": "Initial D - 1998 - 2014", "desc": " - The anime that sparked my interest in cars. An absolute classic. I daydream about making my own animated car drift battle. Hopefully, someday I can realize that dream." },
+        "edgerunners": { "title": "Cyberpunk: Edgerunners - 2022 - ?", "desc": " - If you like Cyberpunk 2077, you will love this anime. This stayed with me for a long time." }
+      }
+    },
+    "games_page": {
+      "title": "LIST OF MY FAVOURITE GAMES",
+      "singleplayer_title": "SINGLEPLAYER",
+      "multiplayer_title": "MULTIPLAYER",
+      "singleplayer": {
+        "cp2077": { "title": "Cyberpunk 2077 - 2020/2023", "desc": " - One of the coolest video game worlds ever. Everything is rooted in reality, and everything has a purpose. Combat is incredibly fun and varied. A kickass soundtrack. The narrative uses the worldbuilding exceptionally well, and it’s not just a story about punks fighting the system or a gun-for-hire climbing the criminal underworld ladder. Cyberpunk 2077’s main quest is far more philosophical, drawing heavily from existentialism and posthumanism. At its core, it’s a story about identity, weaving that theme through every part of the game. The length of the main quest is also pretty spot on. It’s sharp and to the point — all killer, no filler. The quests have some decision-making that ripples outward, though less so than The Witcher 3, but the production value is also higher. The characters are excellent. - 9/10" },
+        "witcher3": { "title": "The Witcher 3: Wild Hunt - 2015/2016", "desc": " - This game showed everyone (and Bethesda) that vast open-world games can have an abundance of complex stories and well-written characters. The combat is by far the weakest link, but it’s by no means bad, and eventually becomes fun. Both main and side quests offer a decent amount of decision-making, with consequences that appear later down the line. Gwent was so good that CDPR ended up making a separate game just for it. The soundtrack is just lovely. - 8/10" },
+        "mario_galaxy": { "title": "Super Mario Galaxy 1 & 2- 2007/2010", "desc": " - WIP" },
+        "ori": { "title": "Ori and the Blind Forest, Ori and the Will of the Wisps - 2015/2020", "desc": " - WIP" },
+        "dead_space": { "title": "Dead Space Remake - 2023", "desc": " - WIP" },
+        "minecraft": { "title": "Minecraft - 2009", "desc": " - WIP" }
+      },
+      "multiplayer": {
+        "lol": { "title": "League of Legends - 2009", "desc": " - WIP" },
+        "overwatch": { "title": "Overwatch - 2016", "desc": " - WIP" },
+        "warframe": { "title": "Warframe - 2013", "desc": " - WIP" }
+      }
+    },
+    "footer": {
+      "title": "JOONAS KIRSIPUU ART GALLERY",
+      "copyright": "© {{year}} All rights reserved."
+    },
+    "Fractals 001": "Fractals 001",
+    "Mandelbulb 3D, Photoshop [2024]": "Mandelbulb 3D, Photoshop [2024]",
+    "3D Fractal art composition titled Fractals 001 by Joonas Kirsipuu": "3D Fractal art composition titled Fractals 001 by Joonas Kirsipuu",
+    "Capsule Nightview": "Capsule Nightview",
+    "Blender, Photoshop [2024]": "Blender, Photoshop [2024]",
+    "Night view render of a futuristic capsule interior by Joonas Kirsipuu": "Night view render of a futuristic capsule interior by Joonas Kirsipuu",
+    "Wireframe 001": "Wireframe 001",
+    "3D wireframe render of an architectural structure by Joonas Kirsipuu": "3D wireframe render of an architectural structure by Joonas Kirsipuu",
+    "Bathroom 001": "Bathroom 001",
+    "3D visualization of a futuristic bathroom interior by Joonas Kirsipuu": "3D visualization of a futuristic bathroom interior by Joonas Kirsipuu",
+    "Common room": "Common room",
+    "3D visualization of a common room area by Joonas Kirsipuu": "3D visualization of a common room area by Joonas Kirsipuu",
+    "Capsule view 001": "Capsule view 001",
+    "Wide angle 3D view of a capsule interior by Joonas Kirsipuu": "Wide angle 3D view of a capsule interior by Joonas Kirsipuu",
+    "ゆのちゃん": "ゆのちゃん",
+    "Blender, Substance Painter/Designer, Character Creator 4, Marvelous Designer [2023]": "Blender, Substance Painter/Designer, Character Creator 4, Marvelous Designer [2023]",
+    "3D character model of Yuno-chan by Joonas Kirsipuu": "3D character model of Yuno-chan by Joonas Kirsipuu",
+    "Porsche 911 RWB": "Porsche 911 RWB",
+    "Blender [2018]": "Blender [2018]",
+    "3D render of a Porsche 911 RWB by Joonas Kirsipuu": "3D render of a Porsche 911 RWB by Joonas Kirsipuu",
+    "Thinking of you": "Thinking of you",
+    "Pencils on paper [2022]": "Pencils on paper [2022]",
+    "Pencil drawing portrait titled Thinking of you by Joonas Kirsipuu": "Pencil drawing portrait titled Thinking of you by Joonas Kirsipuu",
+    "Shy": "Shy",
+    "Pencil drawing portrait titled Shy by Joonas Kirsipuu": "Pencil drawing portrait titled Shy by Joonas Kirsipuu",
+    "Close your eyes": "Close your eyes",
+    "Pencil drawing portrait titled Close your eyes by Joonas Kirsipuu": "Pencil drawing portrait titled Close your eyes by Joonas Kirsipuu",
+    "Girl 001": "Girl 001",
+    "Pencil drawing of a girl by Joonas Kirsipuu": "Pencil drawing of a girl by Joonas Kirsipuu",
+    "The opposite": "The opposite",
+    "Acrylic on Finnish cardboard [2021]": "Acrylic on Finnish cardboard [2021]",
+    "Acrylic painting on cardboard titled The opposite by Joonas Kirsipuu": "Acrylic painting on cardboard titled The opposite by Joonas Kirsipuu",
+    "Abstract 001": "Abstract 001",
+    "Abstract acrylic painting on cardboard by Joonas Kirsipuu": "Abstract acrylic painting on cardboard by Joonas Kirsipuu",
+    "Act 001": "Act 001",
+    "Acrylic painting of a figure titled Act 001 by Joonas Kirsipuu": "Acrylic painting of a figure titled Act 001 by Joonas Kirsipuu",
+    "Linework": "Linework",
+    "Pencils on paper [2017]": "Pencils on paper [2017]",
+    "Pencil linework drawing by Joonas Kirsipuu": "Pencil linework drawing by Joonas Kirsipuu",
+    "Sitting with colours": "Sitting with colours",
+    "Gouache on cardboard [2017]": "Gouache on cardboard [2017]",
+    "Gouache painting titled Sitting with colours by Joonas Kirsipuu": "Gouache painting titled Sitting with colours by Joonas Kirsipuu",
+    "Watercolour with rainwater": "Watercolour with rainwater",
+    "Watercolour on paper [2017]": "Watercolour on paper [2017]",
+    "Watercolour painting created using rainwater by Joonas Kirsipuu": "Watercolour painting created using rainwater by Joonas Kirsipuu",
+    "Guitar Glove": "Guitar Glove",
+    "Gouache on cardboard [2016]": "Gouache on cardboard [2016]",
+    "Gouache painting titled Guitar Glove by Joonas Kirsipuu": "Gouache painting titled Guitar Glove by Joonas Kirsipuu",
+    "Straighten your tie": "Straighten your tie",
+    "Gouache painting titled Straighten your tie by Joonas Kirsipuu": "Gouache painting titled Straighten your tie by Joonas Kirsipuu",
+    "contact_modal": {
+      "title": "Contact Me",
+      "default_mail": "Default Mail App",
+      "gmail": "Gmail",
+      "outlook": "Outlook",
+      "yahoo": "Yahoo",
+      "close": "Close"
+    }
+  }
+}

@@ -96,3 +96,54 @@ body:has(.overlay) {
     font-size: 18px;
   }
 }
+
+/* Sci-fi Loader */
+.scifi-loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80px;
+  height: 80px;
+  border: 2px solid transparent;
+  border-top: 2px solid #7dd3fc;
+  border-radius: 50%;
+  animation: spin 1.5s linear infinite;
+  z-index: 1000;
+}
+
+.scifi-loader::before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  border: 2px solid transparent;
+  border-top: 2px solid #38bdf8;
+  border-radius: 50%;
+  animation: spin-simple 2s linear infinite reverse;
+}
+
+.scifi-loader::after {
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+  border: 2px solid transparent;
+  border-top: 2px solid #0ea5e9;
+  border-radius: 50%;
+  animation: spin-simple 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: translate(-50%, -50%) rotate(0deg); }
+  100% { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+@keyframes spin-simple {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
