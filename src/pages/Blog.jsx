@@ -1,14 +1,21 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
+import { Helmet } from 'react-helmet-async'
 import Navbar from '../components/Navbar'
 import HeaderPicture from '../assets/BANNER.webp'
 
 const Blog = () => {
   const { t } = useTranslation();
+  const baseUrl = 'https://joonaskirsipuu.eu';
+  const ogImage = `${baseUrl}${HeaderPicture}`;
 
   return (
     <>
+      <Helmet>
+        <meta property="og:image" content={ogImage} />
+        <meta name="twitter:image" content={ogImage} />
+      </Helmet>
       <div name='Blog' className='w-full min-h-screen bg-white'>
       {/* TITLE */}
       <div className='relative flex h-full m-auto bg-slate-900'>

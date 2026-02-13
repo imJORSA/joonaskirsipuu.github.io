@@ -52,6 +52,8 @@ const About = () => {
     <>
       <Helmet>
         <script type="application/ld+json">{JSON.stringify(personSchema)}</script>
+        <meta property="og:image" content={`${baseUrl}${ProfilePicture}`} />
+        <meta name="twitter:image" content={`${baseUrl}${ProfilePicture}`} />
       </Helmet>
       <div name='About' className='w-full min-h-screen bg-white'>
       {/* TITLE */}

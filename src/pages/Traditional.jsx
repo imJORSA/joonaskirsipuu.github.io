@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react'
 import { useTranslation } from 'react-i18next'
+import { Helmet } from 'react-helmet-async'
 import { FaTimes, FaChevronLeft, FaChevronRight } from 'react-icons/fa'
 import Navbar from '../components/Navbar'
 import '../gallery.css'
@@ -17,6 +18,8 @@ function Traditional() {
   const [touchStart, setTouchStart] = useState(null);
   const [touchEnd, setTouchEnd] = useState(null);
   const minSwipeDistance = 50;
+  const baseUrl = 'https://joonaskirsipuu.eu';
+  const ogImage = data && data.length > 0 ? `${baseUrl}${data[0].thumbnail}` : `${baseUrl}${HeaderPicture}`;
 
   const handleClick = (item, index) => {
     setCurrentIndex(index);
@@ -96,6 +99,10 @@ function Traditional() {
 
   return (
     <>
+      <Helmet>
+        <meta property="og:image" content={ogImage} />
+        <meta name="twitter:image" content={ogImage} />
+      </Helmet>
       <div name='Traditional' className='w-full min-h-screen bg-white'>
       {/* TITLE */}
       <div className='relative flex h-full m-auto bg-slate-900'>

@@ -1,13 +1,20 @@
 import React from 'react'
 import { useTranslation, Trans } from 'react-i18next'
+import { Helmet } from 'react-helmet-async'
 import Navbar from '../components/Navbar'
 import HeaderPicture from '../assets/BANNER.webp'
 
 const FilmsSeriesAnime = () => {
   const { t } = useTranslation();
+  const baseUrl = 'https://joonaskirsipuu.eu';
+  const ogImage = `${baseUrl}${HeaderPicture}`;
 
   return (
     <>
+      <Helmet>
+        <meta property="og:image" content={ogImage} />
+        <meta name="twitter:image" content={ogImage} />
+      </Helmet>
       <div name='FilmsSeriesAnime' className='w-full min-h-screen bg-white'>
       {/* TITLE */}
       <div className='relative flex h-full m-auto bg-slate-900'>

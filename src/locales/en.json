@@ -13,12 +13,12 @@
       "contact": "CONTACT"
     },
     "seo": {
-      "gallery": {
-        "title": "Gallery | Joonas Kirsipuu",
+      "digital": {
+        "title": "Digital | Joonas Kirsipuu",
         "desc": "Portfolio gallery featuring digital artworks by Joonas Kirsipuu."
       },
       "traditional": {
-        "title": "Traditional Art | Joonas Kirsipuu",
+        "title": "Traditional | Joonas Kirsipuu",
         "desc": "Traditional drawings, paintings, and sketches by Joonas Kirsipuu."
       },
       "worldbuilding": {
@@ -34,7 +34,7 @@
         "desc": "3D fractal worldbuilding project by Joonas Kirsipuu."
       },
       "about": {
-        "title": "About Me | Joonas Kirsipuu",
+        "title": "About | Joonas Kirsipuu",
         "desc": "Learn more about Joonas Kirsipuu, a 3D geek, worldbuilder and designer."
       },
       "genai": {

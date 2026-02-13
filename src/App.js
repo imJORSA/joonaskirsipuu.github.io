@@ -28,8 +28,8 @@ function App() {
           <Route path='/' element={
             <>
               <SEO 
-                title={t('seo.gallery.title')}
-                description={t('seo.gallery.desc')}
+                title={t('seo.digital.title')}
+                description={t('seo.digital.desc')}
               />
               <Gallery/>
             </>
