@@ -12,7 +12,7 @@ import { FaFacebook } from 'react-icons/fa'
 
 const About = () => {
   const { t } = useTranslation();
-  const baseUrl = 'https://joonaskirsipuu.github.io';
+  const baseUrl = 'https://joonaskirsipuu.eu';
   const personSchema = {
     "@context": "https://schema.org",
     "@type": "Person",

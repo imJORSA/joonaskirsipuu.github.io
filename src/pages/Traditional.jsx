@@ -62,7 +62,7 @@ function Traditional() {
   };
 
   useEffect(() => {
-    if (clickedImg && !preloaded.current) {
+    if (clickedImg && !loading && !preloaded.current) {
       data.forEach((item) => {
         if (item.full) {
           const img = new Image();
@@ -71,7 +71,7 @@ function Traditional() {
       });
       preloaded.current = true;
     }
-  }, [clickedImg]);
+  }, [clickedImg, loading]);
 
   useEffect(() => {
     const handleKeyDown = (e) => {
@@ -157,6 +157,14 @@ function Traditional() {
                 onLoad={() => setLoading(false)} 
                 style={{ display: loading ? 'none' : 'block' }} 
               />
+            </div>
+            <div className='absolute bottom-0 left-0 w-full text-center p-4 bg-gradient-to-t from-sky-900 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300'>
+              <h2 className='text-white text-xl md:text-2xl font-bold drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]'>
+                {data[currentIndex] && t(data[currentIndex].text)}
+              </h2>
+              <p className='text-white text-sm md:text-base font-light drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]'>
+                {data[currentIndex] && t(data[currentIndex].subtext)}
+              </p>
             </div>
           </div>
         )}
