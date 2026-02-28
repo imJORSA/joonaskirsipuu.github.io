@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d266096b.css",
-    "main.js": "/static/js/main.a5788eb7.js",
+    "main.js": "/static/js/main.e27edd1a.js",
     "static/media/Joonas Kirsipuu_Minu tuleviku ruum_2024_Pallas.pdf": "/static/media/Joonas Kirsipuu_Minu tuleviku ruum_2024_Pallas.ea7c074ed5974b5400aa.pdf",
     "static/media/KAPSLID_VALJAST_1.webp": "/static/media/KAPSLID_VALJAST_1.76148743e8e7583b7b66.webp",
     "static/media/KAPSLID_LAHEDALT.webp": "/static/media/KAPSLID_LAHEDALT.a1c58c36f0bf74591bdb.webp",
@@ -33,7 +33,9 @@
     "static/media/Close your eyes.webp": "/static/media/Close your eyes.9939f71c10c4f6037332.webp",
     "static/media/Fractalpicture.webp": "/static/media/Fractalpicture.7ade09cbbd9a92634672.webp",
     "static/media/Profile_Picture.webp": "/static/media/Profile_Picture.6c7aa0c5cb9ea70f5a91.webp",
+    "static/media/Cerebrum_Joonas Kirsipuu.webp": "/static/media/Cerebrum_Joonas Kirsipuu.da8a8bf0c51daebb4ed2.webp",
     "static/media/WIREFRAME_1.webp": "/static/media/WIREFRAME_1.8e54a1fdf952d3725485.webp",
+    "static/media/Cerebrum_Joonas Kirsipuu_thumbnail.webp": "/static/media/Cerebrum_Joonas Kirsipuu_thumbnail.cae51e947d652edaa810.webp",
     "static/media/Sitting with colours_thumbnail.webp": "/static/media/Sitting with colours_thumbnail.a77a07f4d7a35c1a8ddb.webp",
     "static/media/WIREFRAME_2_thumbnail.webp": "/static/media/WIREFRAME_2_thumbnail.25d16dff664c5f4fd012.webp",
     "static/media/Guitar Glove_thumbnail.webp": "/static/media/Guitar Glove_thumbnail.dd0a1a7757ed3a066535.webp",
@@ -67,10 +69,10 @@
     "static/media/WIREFRAME_1_thumbnail.webp": "/static/media/WIREFRAME_1_thumbnail.dbf6342626943103c8d9.webp",
     "index.html": "/index.html",
     "main.d266096b.css.map": "/static/css/main.d266096b.css.map",
-    "main.a5788eb7.js.map": "/static/js/main.a5788eb7.js.map"
+    "main.e27edd1a.js.map": "/static/js/main.e27edd1a.js.map"
   },
   "entrypoints": [
     "static/css/main.d266096b.css",
-    "static/js/main.a5788eb7.js"
+    "static/js/main.e27edd1a.js"
   ]
 }
