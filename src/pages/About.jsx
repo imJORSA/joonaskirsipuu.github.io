@@ -51,8 +51,11 @@ const About = () => {
   return (
     <>
       <Helmet>
+        <title>{t('seo.about.title')}</title>
+        <meta name="description" content={t('seo.about.desc')} />
         <script type="application/ld+json">{JSON.stringify(personSchema)}</script>
         <meta property="og:image" content={`${baseUrl}${ProfilePicture}`} />
+        <meta property="og:image:alt" content={t('about_page.profile_alt')} />
         <meta name="twitter:image" content={`${baseUrl}${ProfilePicture}`} />
       </Helmet>
       <div name='About' className='w-full min-h-screen bg-white'>

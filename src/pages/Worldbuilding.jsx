@@ -14,7 +14,10 @@ function Worldbuilding() {
   return (
     <>
       <Helmet>
+        <title>{t('seo.worldbuilding.title')}</title>
+        <meta name="description" content={t('seo.worldbuilding.desc')} />
         <meta property="og:image" content={ogImage} />
+        <meta property="og:image:alt" content={t('fractals_page.alt')} />
         <meta name="twitter:image" content={ogImage} />
       </Helmet>
       <div name='Worldbuilding' className='w-full min-h-screen bg-white'>

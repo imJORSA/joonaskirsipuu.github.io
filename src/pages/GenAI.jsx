@@ -12,7 +12,10 @@ const GenAI = () => {
   return (
     <>
       <Helmet>
+        <title>{t('seo.genai.title')}</title>
+        <meta name="description" content={t('seo.genai.desc')} />
         <meta property="og:image" content={ogImage} />
+        <meta property="og:image:alt" content={t('banner_alt')} />
         <meta name="twitter:image" content={ogImage} />
       </Helmet>
       <div name='GenAI' className='w-full min-h-screen bg-white'>

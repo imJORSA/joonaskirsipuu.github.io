@@ -1,130 +1,30 @@
-import React, { useState, useEffect, useCallback, useRef } from 'react'
+import React from 'react'
 import { useTranslation, Trans } from 'react-i18next'
-import { Helmet } from 'react-helmet-async'
-import { FaTimes, FaChevronLeft, FaChevronRight } from 'react-icons/fa'
-import Navbar from '../components/Navbar'
 import HeaderPicture from '../assets/BANNER.webp'
 import FractalPicture from '../assets/Fractalpicture.webp'
 import data from '../data/fractals'
 import MyFutureSpace from '../assets/fractal/Joonas Kirsipuu_My Future Space_2024_Summary_Pallas.pdf'
 import MinuTulevikuRuum from '../assets/fractal/Joonas Kirsipuu_Minu tuleviku ruum_2024_Pallas.pdf'
-import OptimizedImage from '../OptimizedImage'
+import GalleryPage from '../components/GalleryPage'
 
 const Fractals = () => {
   const { t } = useTranslation();
-  const [clickedImg, setClickedImg] = useState(null);
-  const [currentIndex, setCurrentIndex] = useState(null);
-  const [loading, setLoading] = useState(false);
-  const preloaded = useRef(false);
-  const [touchStart, setTouchStart] = useState(null);
-  const [touchEnd, setTouchEnd] = useState(null);
-  const minSwipeDistance = 50;
   const baseUrl = 'https://joonaskirsipuu.eu';
   const ogImage = `${baseUrl}${FractalPicture}`;
-
-  const handleClick = (item, index) => {
-    setCurrentIndex(index);
-    setClickedImg(item.full);
-    setLoading(true);
-  };
-
-  const handelRotationRight = useCallback(() => {
-    let newIndex = currentIndex;
-    const totalLength = data.length;
-
-    // Loop to find the next valid image, skipping links
-    do {
-      newIndex = (newIndex + 1) % totalLength;
-    } while (data[newIndex].isLink);
-
-    setCurrentIndex(newIndex);
-    setClickedImg(data[newIndex].full);
-    setLoading(true);
-  }, [currentIndex]);
-
-  const handelRotationLeft = useCallback(() => {
-    let newIndex = currentIndex;
-    const totalLength = data.length;
-
-    // Loop to find the previous valid image, skipping links
-    do {
-      newIndex = (newIndex - 1 + totalLength) % totalLength;
-    } while (data[newIndex].isLink);
-
-    setCurrentIndex(newIndex);
-    setClickedImg(data[newIndex].full);
-    setLoading(true);
-  }, [currentIndex]);
-
-  const onTouchStart = (e) => {
-    setTouchEnd(null);
-    setTouchStart(e.targetTouches[0].clientX);
-  };
-
-  const onTouchMove = (e) => {
-    setTouchEnd(e.targetTouches[0].clientX);
-  };
-
-  const onTouchEnd = () => {
-    if (!touchStart || !touchEnd) return;
-    const distance = touchStart - touchEnd;
-    const isLeftSwipe = distance > minSwipeDistance;
-    const isRightSwipe = distance < -minSwipeDistance;
-    if (isLeftSwipe) handelRotationRight();
-    if (isRightSwipe) handelRotationLeft();
-  };
-
-  useEffect(() => {
-    if (clickedImg && !loading && !preloaded.current) {
-      data.forEach((item) => {
-        if (item.full) {
-          const img = new Image();
-          img.src = item.full;
-        }
-      });
-      preloaded.current = true;
-    }
-  }, [clickedImg, loading]);
-
-  useEffect(() => {
-    const handleKeyDown = (e) => {
-      if (!clickedImg) return;
-      if (e.key === 'Escape') {
-        setClickedImg(null);
-      } else if (e.key === 'ArrowRight') {
-        handelRotationRight();
-      } else if (e.key === 'ArrowLeft') {
-        handelRotationLeft();
-      }
-    };
-    window.addEventListener('keydown', handleKeyDown);
-    return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [clickedImg, handelRotationRight, handelRotationLeft]);
-
-  useEffect(() => {
-    if (clickedImg) {
-      document.body.style.overflow = 'hidden';
-    } else {
-      document.body.style.overflow = 'unset';
-    }
-    return () => { document.body.style.overflow = 'unset'; };
-  }, [clickedImg]);
+  const ogImageAlt = 'fractals_page.alt';
 
   return (
-    <>
-      <Helmet>
-        <meta property="og:image" content={ogImage} />
-        <meta name="twitter:image" content={ogImage} />
-      </Helmet>
-      <div name='Fractals' className='w-full min-h-screen bg-white'>
-      {/* TITLE */}
-      <div className='relative flex h-full m-auto bg-slate-900'>
-        <img src={HeaderPicture} loading="eager" className='h-full' alt="Joonas Kirsipuu Banner" />
-      </div>
-
-      <Navbar />
-
-      {/* BODY */}
+    <GalleryPage 
+      name='Fractals' 
+      data={data} 
+      headerImage={HeaderPicture} 
+      ogImage={ogImage} 
+      ogImageAlt={ogImageAlt} 
+      showText={false} 
+      imageObjectFit="object-cover"
+      title="seo.fractals.title"
+      description="seo.fractals.desc"
+    >
       <div className='relative w-full flex flex-wrap lg:flex-nowrap bg-white py-10 px-4 xl:px-0'>
         <div className='flex flex-col w-full lg:w-auto items-center lg:items-start'>
           <div className='object-center lg:object-left'>
@@ -148,86 +48,7 @@ const Fractals = () => {
           </div>
         </div>
       </div>
-
-
-      {/* GALLERY */}
-      <div className='w-full bg-white grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-4 gap-y-4 pb-10 px-4 xl:px-0'>
-        {data && data.map((item, index) => {
-          if (item.isLink) {
-            return (
-              <div key={index} className='overflow-hidden group cursor-pointer relative'>
-                <a href={item.href} target="_blank" rel="noreferrer">
-                  <OptimizedImage className='text-transparent w-full object-cover grayscale'
-                    src={item.thumbnail}
-                    alt={t(item.alt)}
-                    width={item.width}
-                    height={item.height}
-                  />
-                  <div className='absolute inset-0 flex justify-center items-center'>
-                    <h1 className='text-lg sm:text-2xl font-bold text-white group-hover:text-sky-300 transition-colors duration-300 drop-shadow-lg text-center'>{t('fractals_page.animation')}</h1>
-                  </div>
-                </a>
-              </div>
-            );
-          }
-          return (
-            <div key={index} className='overflow-hidden group cursor-pointer'>
-              <OptimizedImage className='text-transparent w-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500'
-                src={item.thumbnail}
-                alt={t(item.alt)}
-                width={item.width}
-                height={item.height}
-                onClick={() => handleClick(item, index)}
-              />
-            </div>
-          );
-        })}
-        <div>
-          {clickedImg && (
-            <div className="overlay" 
-              onClick={(e) => {
-                if (e.target.classList.contains('overlay')) {
-                  setClickedImg(null);
-                }
-              }}
-              onTouchStart={onTouchStart}
-              onTouchMove={onTouchMove}
-              onTouchEnd={onTouchEnd}
-            >
-              <div className="modal-wrapper">
-                {!loading && (
-                  <>
-                    <span onClick={() => setClickedImg(null)}><FaTimes /></span>
-                    <div className="overlay-arrows_left" onClick={handelRotationLeft}>
-                      <FaChevronLeft />
-                    </div>
-                    <div className="overlay-arrows_right" onClick={handelRotationRight}>
-                      <FaChevronRight />
-                    </div>
-                  </>
-                )}
-                {loading && <div className="scifi-loader"></div>}
-                <img 
-                  src={clickedImg} 
-                  alt={data[currentIndex] ? t(data[currentIndex].alt) : 'Fractal Image'}
-                  onLoad={() => setLoading(false)} 
-                  style={{ display: loading ? 'none' : 'block' }} 
-                />
-              </div>
-              <div className='absolute bottom-0 left-0 w-full text-center p-4 bg-gradient-to-t from-sky-900 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300'>
-                <h2 className='text-white text-xl md:text-2xl font-bold drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]'>
-                  {data[currentIndex] && t(data[currentIndex].text)}
-                </h2>
-                <p className='text-white text-sm md:text-base font-light drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]'>
-                  {data[currentIndex] && t(data[currentIndex].subtext)}
-                </p>
-              </div>
-            </div>
-          )}
-        </div>
-      </div>
-      </div>
-    </>
+    </GalleryPage>
   )
 }
 

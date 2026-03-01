@@ -13,7 +13,10 @@ const Blog = () => {
   return (
     <>
       <Helmet>
+        <title>{t('seo.blog.title')}</title>
+        <meta name="description" content={t('seo.blog.desc')} />
         <meta property="og:image" content={ogImage} />
+        <meta property="og:image:alt" content={t('banner_alt')} />
         <meta name="twitter:image" content={ogImage} />
       </Helmet>
       <div name='Blog' className='w-full min-h-screen bg-white'>

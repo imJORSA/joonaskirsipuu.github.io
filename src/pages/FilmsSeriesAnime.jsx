@@ -12,7 +12,10 @@ const FilmsSeriesAnime = () => {
   return (
     <>
       <Helmet>
+        <title>{t('seo.films.title')}</title>
+        <meta name="description" content={t('seo.films.desc')} />
         <meta property="og:image" content={ogImage} />
+        <meta property="og:image:alt" content={t('banner_alt')} />
         <meta name="twitter:image" content={ogImage} />
       </Helmet>
       <div name='FilmsSeriesAnime' className='w-full min-h-screen bg-white'>
