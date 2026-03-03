@@ -10,4 +10,9 @@ export default defineConfig({
     tailwind(),
     sitemap(),
   ],
+  vite: {
+    ssr: {
+      noExternal: ['react-icons']
+    }
+  }
 });
