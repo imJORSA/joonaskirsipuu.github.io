@@ -2,21 +2,17 @@ import React from 'react'
 import { useTranslation } from 'react-i18next'
 import { Helmet } from 'react-helmet-async'
 import Navbar from '../components/Navbar'
-import HeaderPicture from '../assets/BANNER.webp'
+
+const HeaderPicture = '/images/BANNER.webp';
 
 const Games = () => {
   const { t } = useTranslation();
-  const baseUrl = 'https://joonaskirsipuu.eu';
-  const ogImage = `${baseUrl}${HeaderPicture}`;
 
   return (
     <>
       <Helmet>
         <title>{t('seo.games.title')}</title>
         <meta name="description" content={t('seo.games.desc')} />
-        <meta property="og:image" content={ogImage} />
-        <meta property="og:image:alt" content={t('banner_alt')} />
-        <meta name="twitter:image" content={ogImage} />
       </Helmet>
       <div name='Games' className='w-full min-h-screen bg-white'>
       {/* TITLE */}

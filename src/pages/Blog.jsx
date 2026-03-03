@@ -3,21 +3,18 @@ import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { Helmet } from 'react-helmet-async'
 import Navbar from '../components/Navbar'
-import HeaderPicture from '../assets/BANNER.webp'
+
+const HeaderPicture = '/images/BANNER.webp';
 
 const Blog = () => {
   const { t } = useTranslation();
-  const baseUrl = 'https://joonaskirsipuu.eu';
-  const ogImage = `${baseUrl}${HeaderPicture}`;
 
   return (
     <>
       <Helmet>
         <title>{t('seo.blog.title')}</title>
         <meta name="description" content={t('seo.blog.desc')} />
-        <meta property="og:image" content={ogImage} />
-        <meta property="og:image:alt" content={t('banner_alt')} />
-        <meta name="twitter:image" content={ogImage} />
+
       </Helmet>
       <div name='Blog' className='w-full min-h-screen bg-white'>
       {/* TITLE */}

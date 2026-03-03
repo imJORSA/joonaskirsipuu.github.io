@@ -1,11 +1,12 @@
 import React from 'react'
 import { useTranslation, Trans } from 'react-i18next'
-import HeaderPicture from '../assets/BANNER.webp'
-import FractalPicture from '../assets/Fractalpicture.webp'
 import data from '../data/fractals'
-import MyFutureSpace from '../assets/fractal/Joonas Kirsipuu_My Future Space_2024_Summary_Pallas.pdf'
-import MinuTulevikuRuum from '../assets/fractal/Joonas Kirsipuu_Minu tuleviku ruum_2024_Pallas.pdf'
+import MyFutureSpace from '../assets/Joonas Kirsipuu_My Future Space_2024_Summary_Pallas.pdf'
+import MinuTulevikuRuum from '../assets/Joonas Kirsipuu_Minu tuleviku ruum_2024_Pallas.pdf'
 import GalleryPage from '../components/GalleryPage'
+
+const HeaderPicture = '/images/BANNER.webp';
+const FractalPicture = '/images/Fractalpicture.webp';
 
 const Fractals = () => {
   const { t } = useTranslation();

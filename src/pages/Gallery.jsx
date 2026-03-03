@@ -1,8 +1,8 @@
 import React from 'react'
 import data from '../data/images'
-import HeaderPicture from '../assets/BANNER.webp'
 import GalleryPage from '../components/GalleryPage'
 
+const HeaderPicture = '/images/BANNER.webp';
 
 function Gallery() {
   const baseUrl = 'https://joonaskirsipuu.eu';

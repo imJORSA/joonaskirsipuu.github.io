@@ -2,13 +2,13 @@ import React from 'react'
 import { useTranslation } from 'react-i18next'
 import { Helmet } from 'react-helmet-async'
 import Navbar from '../components/Navbar'
-import ProfilePicture from '../assets/Profile_Picture.webp'
-import HeaderPicture from '../assets/BANNER.webp'
 import { FaArtstation } from 'react-icons/fa'
 import { FaLinkedin } from 'react-icons/fa'
 import { FaInstagram } from 'react-icons/fa'
 import { FaFacebook } from 'react-icons/fa'
 
+const ProfilePicture = '/images/Profile_Picture.webp';
+const HeaderPicture = '/images/BANNER.webp';
 
 const About = () => {
   const { t } = useTranslation();
@@ -54,9 +54,7 @@ const About = () => {
         <title>{t('seo.about.title')}</title>
         <meta name="description" content={t('seo.about.desc')} />
         <script type="application/ld+json">{JSON.stringify(personSchema)}</script>
-        <meta property="og:image" content={`${baseUrl}${ProfilePicture}`} />
-        <meta property="og:image:alt" content={t('about_page.profile_alt')} />
-        <meta name="twitter:image" content={`${baseUrl}${ProfilePicture}`} />
+
       </Helmet>
       <div name='About' className='w-full min-h-screen bg-white'>
       {/* TITLE */}

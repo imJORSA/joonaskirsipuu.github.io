@@ -3,22 +3,18 @@ import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { Helmet } from 'react-helmet-async'
 import Navbar from '../components/Navbar'
-import HeaderPicture from '../assets/BANNER.webp'
-import FractalPicture from '../assets/Fractalpicture.webp'
+
+const HeaderPicture = '/images/BANNER.webp';
+const FractalPicture = '/images/Fractalpicture.webp';
 
 function Worldbuilding() {
   const { t } = useTranslation();
-  const baseUrl = 'https://joonaskirsipuu.eu';
-  const ogImage = `${baseUrl}${FractalPicture}`;
 
   return (
     <>
       <Helmet>
         <title>{t('seo.worldbuilding.title')}</title>
         <meta name="description" content={t('seo.worldbuilding.desc')} />
-        <meta property="og:image" content={ogImage} />
-        <meta property="og:image:alt" content={t('fractals_page.alt')} />
-        <meta name="twitter:image" content={ogImage} />
       </Helmet>
       <div name='Worldbuilding' className='w-full min-h-screen bg-white'>
       {/* TITLE */}

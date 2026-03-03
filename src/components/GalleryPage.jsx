@@ -149,11 +149,6 @@ const GalleryPage = ({
   return (
     <>
       <Helmet>
-        {title && <title>{t(title)}</title>}
-        {description && <meta name="description" content={t(description)} />}
-        <meta property="og:image" content={ogImage} />
-        <meta name="twitter:image" content={ogImage} />
-        {ogImageAlt && <meta property="og:image:alt" content={t(ogImageAlt)} />}
         <script type="application/ld+json">{JSON.stringify(schema)}</script>
       </Helmet>
       <div name={name} className='w-full min-h-screen bg-white'>
