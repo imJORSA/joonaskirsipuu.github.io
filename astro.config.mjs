@@ -1,16 +1,14 @@
 import { defineConfig } from 'astro/config';
 import react from '@astrojs/react';
 import tailwind from '@astrojs/tailwind';
-import sitemap from '@astrojs/sitemap';
+// import sitemap from '@astrojs/sitemap'; // Comment this out
 
 export default defineConfig({
   site: 'https://joonaskirsipuu.eu',
   integrations: [
     react(),
     tailwind(),
-    sitemap({
-      filter: (page) => page !== 'https://joonaskirsipuu.eu/404'
-    }),
+    // sitemap(), // Comment this out
   ],
   vite: {
     ssr: {
