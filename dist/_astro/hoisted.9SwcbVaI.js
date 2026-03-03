@@ -1,1 +1,0 @@
-import"https://unpkg.com/gifler@0.1.0/gifler.min.js";const n=document.createElement("canvas"),t=document.querySelector("link#gif-favicon");t&&window.gifler&&gifler("/favicon.gif").frames(n,function(e,i){n.width=i.width,n.height=i.height,e.drawImage(i.buffer,i.x,i.y),t.href=n.toDataURL("image/png")});
