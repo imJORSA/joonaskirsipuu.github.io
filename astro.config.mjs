@@ -8,7 +8,9 @@ export default defineConfig({
   integrations: [
     react(),
     tailwind(),
-    sitemap(),
+    sitemap({
+      filter: (page) => page !== 'https://joonaskirsipuu.eu/404'
+    }),
   ],
   vite: {
     ssr: {
