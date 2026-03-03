@@ -1,10 +1,8 @@
-import React, { useState, useEffect, useCallback, useRef } from 'react'
+import { useState, useEffect, useCallback, useRef } from 'react'
 import { useTranslation } from 'react-i18next'
-import { Helmet } from 'react-helmet-async'
 import { FaTimes, FaChevronLeft, FaChevronRight } from 'react-icons/fa'
 import Navbar from './Navbar'
-import OptimizedImage from '../OptimizedImage'
-import '../gallery.css'
+import OptimizedImage from './OptimizedImage'
 
 const GalleryPage = ({ 
   name, 
@@ -113,9 +111,11 @@ const GalleryPage = ({
     return () => { document.body.style.overflow = 'unset'; };
   }, [clickedImg]);
 
-  const containerClass = isMasonry
-    ? 'bg-white columns-2 lg:columns-3 xl:columns-4 gap-4 pt-10 px-4 xl:px-0'
-    : `bg-white grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-4 gap-y-${showText ? '10' : '4'} pt-10 pb-${showText ? '20' : '10'} px-4 xl:px-0`;
+    const containerClass = isMasonry
+      ? 'bg-white columns-2 lg:columns-3 xl:columns-4 gap-4 pt-10 px-4 xl:px-0'
+      : showText
+        ? 'bg-white grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-4 gap-y-10 pt-10 pb-20 px-4 xl:px-0'
+        : 'bg-white grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-4 gap-y-4 pt-10 pb-10 px-4 xl:px-0';
 
   const schema = {
     "@context": "https://schema.org",
@@ -148,9 +148,7 @@ const GalleryPage = ({
 
   return (
     <>
-      <Helmet>
-        <script type="application/ld+json">{JSON.stringify(schema)}</script>
-      </Helmet>
+
       <div name={name} className='w-full min-h-screen bg-white'>
         <div className='relative flex h-full m-auto bg-slate-900'>
           <img src={headerImage} loading="eager" className='h-full' alt={t('banner_alt')} />

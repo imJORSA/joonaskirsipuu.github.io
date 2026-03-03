@@ -1,0 +1,11 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import BlogApp from '../components/BlogApp.jsx';
+---
+
+<BaseLayout
+  title="Blog | Joonas Kirsipuu"
+  description="Personal blog and updates from Joonas Kirsipuu."
+>
+  <BlogApp client:load />
+</BaseLayout>

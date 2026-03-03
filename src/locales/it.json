@@ -116,10 +116,12 @@
     "fractals_page": {
       "title": "PROGETTO FRATTALI",
       "alt": "Progetto Frattali",
-      "desc1": "Questo progetto di worldbuilding è iniziato come tesi di laurea intitolata <1>\"Il Mio Spazio Futuro\"</1>. Ho voluto immaginare uno scenario spaziale futuro in cui l'umanità, a causa del cambiamento climatico, è migrata nella mesosfera, vivendo su giganteschi oggetti scultorei fluttuanti. Le capsule all'interno di questi oggetti fungono da alloggi individuali, ispirati alle forme della natura. Oltre alle capsule, c'è anche un'area comune dove tutti possono socializzare. Il mio processo di progettazione ha comportato un'ampia ricerca, traendo ispirazione da varie fonti tra cui meraviglie architettoniche in Asia, letteratura di fantascienza e classici del cinema dagli anni '60 ai grandi blockbuster dell'era moderna.",
-      "desc2": "Puoi trovare la tesi completa <1>qui</1> in estone, e voglio ringraziare Merille Hommik per essere stata una mentore straordinaria durante questo progetto di laurea.",
+      "desc1": "Questo progetto di worldbuilding è iniziato come tesi di laurea intitolata [LINK1]. Ho voluto immaginare uno scenario spaziale futuro in cui l'umanità, a causa del cambiamento climatico, è migrata nella mesosfera, vivendo su giganteschi oggetti scultorei fluttuanti. Le capsule all'interno di questi oggetti fungono da alloggi individuali, ispirati alle forme della natura. Oltre alle capsule, c'è anche un'area comune dove tutti possono socializzare. Il mio processo di progettazione ha comportato un'ampia ricerca, traendo ispirazione da varie fonti tra cui meraviglie architettoniche in Asia, letteratura di fantascienza e classici del cinema dagli anni '60 ai grandi blockbuster dell'era moderna.",
+      "desc2": "Puoi trovare la tesi completa [LINK2] in estone, e voglio ringraziare Merille Hommik per essere stata una mentore straordinaria durante questo progetto di laurea.",
       "desc3": "Gli aggiornamenti su questo progetto sono lenti a causa del mio tempo occupato da altri progetti e cambiamenti di vita.",
-      "animation": "Animazione Frattale"
+      "animation": "Animazione Frattale",
+      "link1_text": "\"Il Mio Spazio Futuro\"",
+      "link2_text": "qui"
     },
     "genai_page": {
       "title": "Perché l'arte GenAI diventerà obsoleta - WIP",

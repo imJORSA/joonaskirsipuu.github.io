@@ -1,0 +1,13 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import WorldbuildingApp from '../components/WorldbuildingApp.jsx';
+---
+
+<BaseLayout
+  title="Worldbuilding | Joonas Kirsipuu"
+  description="Worldbuilding projects and concept art by Joonas Kirsipuu."
+  ogImage="https://joonaskirsipuu.eu/images/Fractalpicture.webp"
+  ogImageAlt="Worldbuilding by Joonas Kirsipuu"
+>
+  <WorldbuildingApp client:load />
+</BaseLayout>

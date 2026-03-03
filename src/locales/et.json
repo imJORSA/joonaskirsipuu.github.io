@@ -116,10 +116,12 @@
     "fractals_page": {
       "title": "PROJEKT FRAKTAALID",
       "alt": "Projekt Fraktaalid",
-      "desc1": "See maailmaloome projekt sai alguse bakalaureusetöö projektina pealkirjaga <1>\"Minu tuleviku ruum\"</1>. Tahtsin ette kujutada tuleviku kosmosestsenaariumi, kus inimkond on kliimamuutuste tõttu rännanud mesosfääri, elades hiiglaslikel hõljuvatel skulpturaalsetel objektidel. Nende objektide sees olevad kapslid toimivad individuaalsete eluruumidena, mis on inspireeritud loodusvormidest. Lisaks kapslitele on olemas ka ühisala, kus kõik saavad suhelda. Minu disainiprotsess hõlmas ulatuslikku uurimistööd, ammutades inspiratsiooni erinevatest allikatest, sealhulgas Aasia arhitektuurilistest imedest, ulmekirjandusest ja filmiklassikast alates 60ndatest kuni tänapäevaste suurte kassahittideni.",
-      "desc2": "Täispika lõputöö leiate <1>siit</1> eesti keeles ja soovin tänada Merille Hommikut, kes oli selle bakalaureuseprojekti vältel suurepärane juhendaja.",
+      "desc1": "See maailmaloome projekt sai alguse bakalaureusetöö projektina pealkirjaga [LINK1]. Tahtsin ette kujutada tuleviku kosmosestsenaariumi, kus inimkond on kliimamuutuste tõttu rännanud mesosfääri, elades hiiglaslikel hõljuvatel skulpturaalsetel objektidel. Nende objektide sees olevad kapslid toimivad individuaalsete eluruumidena, mis on inspireeritud loodusvormidest. Lisaks kapslitele on olemas ka ühisala, kus kõik saavad suhelda. Minu disainiprotsess hõlmas ulatuslikku uurimistööd, ammutades inspiratsiooni erinevatest allikatest, sealhulgas Aasia arhitektuurilistest imedest, ulmekirjandusest ja filmiklassikast alates 60ndatest kuni tänapäevaste suurte kassahittideni.",
+      "desc2": "Täispika lõputöö leiate [LINK2] eesti keeles ja soovin tänada Merille Hommikut, kes oli selle bakalaureuseprojekti vältel suurepärane juhendaja.",
       "desc3": "Selle projekti uuendused on aeglased, kuna minu aega võtavad muud projektid ja elumuutused.",
-      "animation": "Fraktaali animatsioon"
+      "animation": "Fraktaali animatsioon",
+      "link1_text": "\"Minu tuleviku ruum\"",
+      "link2_text": "siit"
     },
     "genai_page": {
       "title": "Miks GenAI kunst vananeb - WIP",

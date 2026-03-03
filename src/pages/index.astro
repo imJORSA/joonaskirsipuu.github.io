@@ -1,0 +1,13 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import GalleryApp from '../components/GalleryApp.jsx';
+---
+
+<BaseLayout
+  title="Joonas Kirsipuu | 3D Geek, Worldbuilder & Designer"
+  description="Portfolio gallery featuring digital artworks by Joonas Kirsipuu."
+  ogImage="https://joonaskirsipuu.eu/images/gallery/Cerebrum_Joonas Kirsipuu_thumbnail.webp"
+  ogImageAlt="Cerebrum by Joonas Kirsipuu"
+>
+  <GalleryApp client:load />
+</BaseLayout>

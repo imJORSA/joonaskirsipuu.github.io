@@ -1,0 +1,13 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import FractalsApp from '../components/FractalsApp.jsx';
+---
+
+<BaseLayout
+  title="Fractals | Joonas Kirsipuu"
+  description="3D fractal worldbuilding project by Joonas Kirsipuu."
+  ogImage="https://joonaskirsipuu.eu/images/Fractalpicture.webp"
+  ogImageAlt="Project Fractals by Joonas Kirsipuu"
+>
+  <FractalsApp client:load />
+</BaseLayout>

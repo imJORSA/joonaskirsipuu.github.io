@@ -116,10 +116,12 @@
     "fractals_page": {
       "title": "PROJECT FRACTALS",
       "alt": "Project Fractals",
-      "desc1": "This worldbuilding project started out as a Bachelor's thesis project titled <1>\"My Future Space\"</1>. I wanted to envision a future space scenario where humanity, due to climate change, has migrated to the mesosphere, living on gigantic floating sculptural objects. The capsules within these objects serve as individual living quarters, inspired by shapes from nature. In addition to the capsules, there is also a communal area where everyone gets to socialize. My design process involved extensive research, drawing inspiration from various sources including architectural marvels in Asia, science fiction literature, and film classics from the 60’s to the modern age big blockbuster spectacles.",
-      "desc2": "You can find the full thesis <1>here</1> in Estonian, and I want to thank Merille Hommik for being an amazing mentor throughout this bachelor’s project.",
+      "desc1": "This worldbuilding project started out as a Bachelor's thesis project titled [LINK1]. I wanted to envision a future space scenario where humanity, due to climate change, has migrated to the mesosphere, living on gigantic floating sculptural objects. The capsules within these objects serve as individual living quarters, inspired by shapes from nature. In addition to the capsules, there is also a communal area where everyone gets to socialize. My design process involved extensive research, drawing inspiration from various sources including architectural marvels in Asia, science fiction literature, and film classics from the 60’s to the modern age big blockbuster spectacles.",
+      "desc2": "You can find the full thesis [LINK2] in Estonian, and I want to thank Merille Hommik for being an amazing mentor throughout this bachelor’s project.",
       "desc3": "Updates on this project are slow due to my time being taken up by other projects and life changes.",
-      "animation": "Fractal Animation"
+      "animation": "Fractal Animation",
+      "link1_text": "\"My Future Space\"",
+      "link2_text": "here"
     },
     "genai_page": {
       "title": "Why GenAI art will be obsolete - WIP",

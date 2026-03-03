@@ -1,0 +1,13 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import TraditionalApp from '../components/TraditionalApp.jsx';
+---
+
+<BaseLayout
+  title="Traditional | Joonas Kirsipuu"
+  description="Traditional drawings, paintings, and sketches by Joonas Kirsipuu."
+  ogImage="https://joonaskirsipuu.eu/images/traditional/Thinking of you_thumbnail.webp"
+  ogImageAlt="Thinking of You by Joonas Kirsipuu"
+>
+  <TraditionalApp client:load />
+</BaseLayout>

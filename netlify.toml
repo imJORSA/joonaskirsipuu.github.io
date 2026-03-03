@@ -1,8 +1,0 @@
-[build]
-  command = "echo 'Using pre-built files'"
-  publish = "build"
-
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200

@@ -1,0 +1,11 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import GamesApp from '../components/GamesApp.jsx';
+---
+
+<BaseLayout
+  title="Games | Joonas Kirsipuu"
+  description="Favourite games by Joonas Kirsipuu."
+>
+  <GamesApp client:load />
+</BaseLayout>

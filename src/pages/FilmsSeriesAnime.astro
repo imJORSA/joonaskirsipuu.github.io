@@ -1,0 +1,11 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import FilmsApp from '../components/FilmsApp.jsx';
+---
+
+<BaseLayout
+  title="Films, Series & Anime | Joonas Kirsipuu"
+  description="Favourite films, series, and anime by Joonas Kirsipuu."
+>
+  <FilmsApp client:load />
+</BaseLayout>

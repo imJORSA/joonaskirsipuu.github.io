@@ -1,0 +1,13 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import AboutApp from '../components/AboutApp.jsx';
+---
+
+<BaseLayout
+  title="About | Joonas Kirsipuu"
+  description="Learn more about Joonas Kirsipuu, a 3D geek, worldbuilder and designer."
+  ogImage="https://joonaskirsipuu.eu/images/Profile_Picture.webp"
+  ogImageAlt="Joonas Kirsipuu"
+>
+  <AboutApp client:load />
+</BaseLayout>
