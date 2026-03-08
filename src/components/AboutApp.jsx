@@ -22,8 +22,12 @@ const About = () => {
 
       <Navbar />
 
+      <div className='px-4 xl:px-0 pt-8'>
+          <h1 className='text-xl sm:text-3xl xl:text-5xl pb-4 font-bold text-blue-500'>{t('nav.about')}</h1>
+      </div>
+
       {/* BODY */}
-      <div className='relative w-full flex flex-wrap lg:flex-nowrap bg-white py-10 px-4 xl:px-0'>
+      <div className='relative w-full flex flex-wrap lg:flex-nowrap bg-white pb-8 px-4 xl:px-0'>
         <div className='flex flex-col w-full lg:w-auto items-center lg:items-start'>
           <div className="inline-block">
             <div className='object-center lg:object-left'>

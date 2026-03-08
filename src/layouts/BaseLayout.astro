@@ -1,6 +1,7 @@
 ---
 import '../styles/global.css';
 import '../i18n.js';
+import { ViewTransitions } from 'astro:transitions';
 
 export interface Props {
   title: string;
@@ -81,6 +82,8 @@ const canonicalUrl = new URL(Astro.url.pathname, siteUrl).toString();
         ]
       }
     </script>
+
+    <ViewTransitions />
   </head>
   <body>
       <div class="max-w-[1400px] mx-auto">

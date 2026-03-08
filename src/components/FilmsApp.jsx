@@ -19,10 +19,10 @@ const FilmsSeriesAnime = () => {
       <Navbar />
 
       {/* BODY */}
-      <div className='relative w-full flex flex-wrap xl:flex-nowrap bg-white py-10 px-4 xl:px-0'>
+      <div className='relative w-full flex flex-wrap xl:flex-nowrap bg-white py-8 px-4 xl:px-0'>
         <div className='text-left w-full cursor-default'>
           <div>
-            <h1 className='text-xl sm:text-3xl xl:text-5xl pb-4 sm:pb-8 font-bold text-blue-500 cursor-default'>{t('films_page.title')}</h1>
+            <h1 className='text-xl sm:text-3xl xl:text-5xl pb-4 font-bold text-blue-500 cursor-default'>{t('films_page.title')}</h1>
             
             <h2 className='text-lg sm:text-2xl font-bold text-blue-500 mb-4 cursor-default'>{t('films_page.films_title')}</h2>
             <ul className='flex flex-col gap-2 text-sm sm:text-base cursor-default leading-6 pb-8'>

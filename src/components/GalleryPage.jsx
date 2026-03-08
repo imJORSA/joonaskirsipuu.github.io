@@ -112,7 +112,7 @@ const GalleryPage = ({
   }, [clickedImg]);
 
     const containerClass = isMasonry
-      ? 'bg-white columns-2 lg:columns-3 xl:columns-4 gap-4 pt-10 px-4 xl:px-0'
+      ? 'bg-white columns-2 lg:columns-3 xl:columns-4 gap-4 pb-8 px-4 xl:px-0'
       : showText
         ? 'bg-white grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-4 gap-y-10 pt-10 pb-20 px-4 xl:px-0'
         : 'bg-white grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-4 gap-y-4 pt-10 pb-10 px-4 xl:px-0';
@@ -209,15 +209,7 @@ const GalleryPage = ({
               >
                 <div className="modal-wrapper">
                   {!loading && (
-                    <>
-                      <span onClick={() => setClickedImg(null)}><FaTimes /></span>
-                      <div className="overlay-arrows_left" onClick={handleRotationLeft}>
-                        <FaChevronLeft />
-                      </div>
-                      <div className="overlay-arrows_right" onClick={handleRotationRight}>
-                        <FaChevronRight />
-                      </div>
-                    </>
+                    <span onClick={() => setClickedImg(null)}><FaTimes /></span>
                   )}
                   {loading && <div className="scifi-loader"></div>}
                   <img
@@ -226,6 +218,16 @@ const GalleryPage = ({
                     onLoad={() => setLoading(false)}
                     style={{ display: loading ? 'none' : 'block' }}
                   />
+                  {!loading && (
+                    <div className="overlay-nav">
+                      <div className="overlay-arrows_left" onClick={handleRotationLeft}>
+                        <FaChevronLeft />
+                      </div>
+                      <div className="overlay-arrows_right" onClick={handleRotationRight}>
+                        <FaChevronRight />
+                      </div>
+                    </div>
+                  )}
                 </div>
                 <div className='absolute bottom-0 left-0 w-full text-center p-4 bg-gradient-to-t from-sky-900 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300'>
                   <h2 className='text-white text-xl md:text-2xl font-bold drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]'>
