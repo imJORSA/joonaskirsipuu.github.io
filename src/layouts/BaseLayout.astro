@@ -90,16 +90,23 @@ const canonicalUrl = new URL(Astro.url.pathname, siteUrl).toString();
     <slot />
 
     <script>
-      const canvas = document.createElement('canvas');
-      const favicon = document.querySelector("link#gif-favicon");
-      if (favicon && window.gifler) {
-        gifler('/favicon.gif').frames(canvas, function(ctx, frame) {
-          canvas.width = frame.width;
-          canvas.height = frame.height;
-          ctx.drawImage(frame.buffer, frame.x, frame.y);
-          favicon.href = canvas.toDataURL('image/png');
-        });
+      function initAnimatedFavicon() {
+        const canvas = document.createElement('canvas');
+        const favicon = document.querySelector("link#gif-favicon");
+        if (favicon && window.gifler) {
+          gifler('/favicon.gif').frames(canvas, function(ctx, frame) {
+            canvas.width = frame.width;
+            canvas.height = frame.height;
+            ctx.drawImage(frame.buffer, frame.x, frame.y);
+            favicon.href = canvas.toDataURL('image/png');
+          });
+        }
       }
+
+      // Run on first load
+      document.addEventListener('DOMContentLoaded', initAnimatedFavicon);
+      // Re-run on every Astro page transition
+      document.addEventListener('astro:page-load', initAnimatedFavicon);
     </script>
   </body>
 </html>
