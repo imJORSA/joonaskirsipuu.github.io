@@ -15,11 +15,13 @@
     "seo": {
       "digital": {
         "title": "Joonas Kirsipuu | Appassionato di 3D, Costruttore di Mondi e Designer",
-        "desc": "Galleria portfolio con opere d'arte digitale di Joonas Kirsipuu."
+        "desc": "Galleria portfolio con opere d'arte digitale di Joonas Kirsipuu.",
+        "image": "/images/gallery/Cerebrum_Joonas Kirsipuu.webp"
       },
       "traditional": {
         "title": "Tradizionale | Joonas Kirsipuu",
-        "desc": "Disegni, dipinti e schizzi tradizionali di Joonas Kirsipuu."
+        "desc": "Disegni, dipinti e schizzi tradizionali di Joonas Kirsipuu.",
+        "image": "/images/traditional/Thinking of you.webp"
       },
       "worldbuilding": {
         "title": "Worldbuilding | Joonas Kirsipuu",
@@ -31,11 +33,13 @@
       },
       "fractals": {
         "title": "Frattali | Joonas Kirsipuu",
-        "desc": "Progetto di worldbuilding con frattali 3D di Joonas Kirsipuu."
+        "desc": "Progetto di worldbuilding con frattali 3D di Joonas Kirsipuu.",
+        "image": "/images/Fractalpicture.webp"
       },
       "about": {
         "title": "Chi Sono | Joonas Kirsipuu",
-        "desc": "Scopri di più su Joonas Kirsipuu, appassionato di 3D, worldbuilder e designer."
+        "desc": "Scopri di più su Joonas Kirsipuu, appassionato di 3D, worldbuilder e designer.",
+        "image": "/images/Profile_Picture.webp"
       },
       "genai": {
         "title": "IA Generativa | Joonas Kirsipuu",
@@ -95,7 +99,13 @@
       "exhibs": {
         "pallas": {
           "title": "Mostra del Progetto Finale | Pallas Art Gallery",
-          "date": "Giu 2024 – Lug 2024"
+          "date": "Giu 2024 – Lug 2024",
+          "location": "Tartu, Estonia"
+        },
+        "kunstwerk": {
+          "title": "Mostra Collettiva \"Fear\" | KunstWerk Art Gallery",
+          "date": "Set 2021",
+          "location": "Potsdam, Germania"
         }
       }
     },
@@ -116,8 +126,8 @@
     "fractals_page": {
       "title": "PROGETTO FRATTALI",
       "alt": "Progetto Frattali",
-      "desc1": "Questo progetto di worldbuilding è iniziato come tesi di laurea intitolata [LINK1]. Ho voluto immaginare uno scenario spaziale futuro in cui l'umanità, a causa del cambiamento climatico, è migrata nella mesosfera, vivendo su giganteschi oggetti scultorei fluttuanti. Le capsule all'interno di questi oggetti fungono da alloggi individuali, ispirati alle forme della natura. Oltre alle capsule, c'è anche un'area comune dove tutti possono socializzare. Il mio processo di progettazione ha comportato un'ampia ricerca, traendo ispirazione da varie fonti tra cui meraviglie architettoniche in Asia, letteratura di fantascienza e classici del cinema dagli anni '60 ai grandi blockbuster dell'era moderna.",
-      "desc2": "Puoi trovare la tesi completa [LINK2] in estone, e voglio ringraziare Merille Hommik per essere stata una mentore straordinaria durante questo progetto di laurea.",
+      "desc1": "Questo progetto di worldbuilding è iniziato come tesi di laurea intitolata <1>{{link1_text}}</1>. Ho voluto immaginare uno scenario spaziale futuro in cui l'umanità, a causa del cambiamento climatico, è migrata nella mesosfera, vivendo su giganteschi oggetti scultorei fluttuanti. Le capsule all'interno di questi oggetti fungono da alloggi individuali, ispirati alle forme della natura. Oltre alle capsule, c'è anche un'area comune dove tutti possono socializzare. Il mio processo di progettazione ha comportato un'ampia ricerca, traendo ispirazione da varie fonti tra cui meraviglie architettoniche in Asia, letteratura di fantascienza e classici del cinema dagli anni '60 ai grandi blockbuster dell'era moderna.",
+      "desc2": "Puoi trovare la tesi completa <1>{{link2_text}}</1> in estone, e voglio ringraziare Merille Hommik per essere stata una mentore straordinaria durante questo progetto di laurea.",
       "desc3": "Gli aggiornamenti su questo progetto sono lenti a causa del mio tempo occupato da altri progetti e cambiamenti di vita.",
       "animation": "Animazione Frattale",
       "link1_text": "\"Il Mio Spazio Futuro\"",
@@ -155,7 +165,8 @@
         "chernobyl": { "title": "Chernobyl - 2019", "desc": " - Una delle migliori miniserie mai realizzate. Cattura abbastanza bene la condizione umana di vivere nell'Unione Sovietica." },
         "house": { "title": "House M.D. - 2004 - 2012", "desc": " - Un dramma medico reso divertente da un dottore imperfetto, esilarante e arguto." },
         "aib": { "title": "Alice in Borderland - 2020 - 2025", "desc": " - Prime due stagioni stellari; la terza è deludente. Nel complesso, molto coinvolgente, divertente e cervellotico." },
-        "clarkson": { "title": "Clarkson's Farm - 2021 - ?", "desc": " - Un tizio che guidava auto per vivere ora guida trattori per vivere. Clarkson's Farm è esilarante, emozionante, educativo e importante." }
+        "clarkson": { "title": "Clarkson's Farm - 2021 - ?", "desc": " - Un tizio che guidava auto per vivere ora guida trattori per vivere. Clarkson's Farm è esilarante, emozionante, educativo e importante." },
+        "shogun": { "title": "Shogun - 2024 - 2026", "desc": " - Un racconto classico, magistralmente rifatto. Mostra perfettamente la brutalità e la bellezza del Giappone dell'era Edo." }
       },
       "anime": {
         "initial_d": { "title": "Initial D - 1998 - 2014", "desc": " - L'anime che ha acceso il mio interesse per le auto. Un classico assoluto. Sogno ad occhi aperti di creare la mia battaglia di derapate animate. Spero un giorno di poter realizzare quel sogno." },

@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
 import { FaChevronDown, FaBars, FaTimes } from 'react-icons/fa'
+import '../i18n.js'
 
 const Navbar = () => {
   const { t, i18n } = useTranslation()
@@ -10,8 +11,20 @@ const Navbar = () => {
     setPathname(p)
   }, [])
 
+  // Re-read pathname on every Astro page transition
+  useEffect(() => {
+    const handler = () => {
+      const p = window.location.pathname.replace(/\/$/, '') || '/'
+      setPathname(p)
+    }
+    document.addEventListener('astro:page-load', handler)
+    return () => document.removeEventListener('astro:page-load', handler)
+  }, [])
+
   const isActive = (path) => {
     if (path === '/') return pathname === '/'
+    // Blog sub-pages should highlight Blog
+    if (path === '/Blog' && ['/genai', '/filmseriesanime', '/games'].includes(pathname.toLowerCase())) return true
     return pathname.toLowerCase() === path.toLowerCase()
   }
   const [isContactOpen, setIsContactOpen] = useState(false)

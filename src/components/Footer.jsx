@@ -1,3 +1,4 @@
+import '../i18n.js'
 import { useTranslation } from 'react-i18next'
 
 const Footer = () => {

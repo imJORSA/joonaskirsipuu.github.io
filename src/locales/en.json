@@ -15,11 +15,13 @@
     "seo": {
       "digital": {
         "title": "Joonas Kirsipuu | 3D Geek, Worldbuilder & Designer",
-        "desc": "Portfolio gallery featuring digital & traditional artworks, worldbuilding projects by Joonas Kirsipuu."
+        "desc": "Portfolio gallery featuring digital & traditional artworks, worldbuilding projects by Joonas Kirsipuu.",
+        "image": "/images/gallery/Cerebrum_Joonas Kirsipuu.webp"
       },
       "traditional": {
         "title": "Traditional | Joonas Kirsipuu",
-        "desc": "Traditional drawings, paintings, and sketches by Joonas Kirsipuu."
+        "desc": "Traditional drawings, paintings, and sketches by Joonas Kirsipuu.",
+        "image": "/images/traditional/Thinking of you.webp"
       },
       "worldbuilding": {
         "title": "Worldbuilding | Joonas Kirsipuu",
@@ -31,11 +33,13 @@
       },
       "fractals": {
         "title": "Fractals | Joonas Kirsipuu",
-        "desc": "3D fractal worldbuilding project by Joonas Kirsipuu."
+        "desc": "3D fractal worldbuilding project by Joonas Kirsipuu.",
+        "image": "/images/Fractalpicture.webp"
       },
       "about": {
         "title": "About | Joonas Kirsipuu",
-        "desc": "Learn more about Joonas Kirsipuu, a 3D geek, worldbuilder and designer."
+        "desc": "Learn more about Joonas Kirsipuu, a 3D geek, worldbuilder and designer.",
+        "image": "/images/Profile_Picture.webp"
       },
       "genai": {
         "title": "Generative AI | Joonas Kirsipuu",
@@ -95,7 +99,13 @@
       "exhibs": {
         "pallas": {
           "title": "Final Project Exhibition | Pallas Art Gallery",
-          "date": "Jun 2024 – Jul 2024"
+          "date": "Jun 2024 – Jul 2024",
+          "location": "Tartu, Estonia"
+        },
+        "kunstwerk": {
+          "title": "Group Exhibition \"Fear\" | KunstWerk Art Gallery",
+          "date": "Sep 2021",
+          "location": "Potsdam, Germany"
         }
       }
     },
@@ -116,8 +126,8 @@
     "fractals_page": {
       "title": "PROJECT FRACTALS",
       "alt": "Project Fractals",
-      "desc1": "This worldbuilding project started out as a Bachelor's thesis project titled [LINK1]. I wanted to envision a future space scenario where humanity, due to climate change, has migrated to the mesosphere, living on gigantic floating sculptural objects. The capsules within these objects serve as individual living quarters, inspired by shapes from nature. In addition to the capsules, there is also a communal area where everyone gets to socialize. My design process involved extensive research, drawing inspiration from various sources including architectural marvels in Asia, science fiction literature, and film classics from the 60’s to the modern age big blockbuster spectacles.",
-      "desc2": "You can find the full thesis [LINK2] in Estonian, and I want to thank Merille Hommik for being an amazing mentor throughout this bachelor’s project.",
+      "desc1": "This worldbuilding project started out as a Bachelor's thesis project titled <1>{{link1_text}}</1>. I wanted to envision a future space scenario where humanity, due to climate change, has migrated to the mesosphere, living on gigantic floating sculptural objects. The capsules within these objects serve as individual living quarters, inspired by shapes from nature. In addition to the capsules, there is also a communal area where everyone gets to socialize. My design process involved extensive research, drawing inspiration from various sources including architectural marvels in Asia, science fiction literature, and film classics from the 60’s to the modern age big blockbuster spectacles.",
+      "desc2": "You can find the full thesis <1>{{link2_text}}</1> in Estonian, and I want to thank Merille Hommik for being an amazing mentor throughout this bachelor’s project.",
       "desc3": "Updates on this project are slow due to my time being taken up by other projects and life changes.",
       "animation": "Fractal Animation",
       "link1_text": "\"My Future Space\"",
@@ -155,7 +165,8 @@
         "chernobyl": { "title": "Chernobyl - 2019", "desc": " - One of the best miniseries ever made. Captures the human condition of living in the Soviet Union quite well." },
         "house": { "title": "House M.D. - 2004 - 2012", "desc": " - A medical drama made fun by a flawed, hilarious, and witty doctor." },
         "aib": { "title": "Alice in Borderland - 2020 - 2025", "desc": " - Stellar first two seasons; the third falls flat. Overall, very engaging, fun, and mindfucky." },
-        "clarkson": { "title": "Clarkson's Farm - 2021 - ?", "desc": " - A guy who drove cars for a living now drives tractors for a living. Clarkson’s Farm is hilarious, emotional, educational, and important." }
+        "clarkson": { "title": "Clarkson's Farm - 2021 - ?", "desc": " - A guy who drove cars for a living now drives tractors for a living. Clarkson’s Farm is hilarious, emotional, educational, and important." },
+        "shogun": { "title": "Shogun - 2024 - 2026", "desc": " - A classic tale, masterfully remade. Perfectly showcases the brutality and beauty of Edo-era Japan." }
       },
       "anime": {
         "initial_d": { "title": "Initial D - 1998 - 2014", "desc": " - The anime that sparked my interest in cars. An absolute classic. I daydream about making my own animated car drift battle. Hopefully, someday I can realize that dream." },

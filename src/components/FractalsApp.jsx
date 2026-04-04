@@ -1,10 +1,8 @@
-import { useTranslation } from 'react-i18next';
+import { Trans, useTranslation } from 'react-i18next';
 import '../i18n.js';
 import data from '../data/fractals.js';
 import GalleryPage from './GalleryPage.jsx';
-import Footer from './Footer.jsx';
 
-const HeaderPicture = '/images/BANNER.webp';
 const FractalPicture = '/images/Fractalpicture.webp';
 const MyFutureSpace = '/docs/Joonas Kirsipuu_My Future Space_2024_Summary_Pallas.pdf';
 const MinuTulevikuRuum = '/docs/Joonas Kirsipuu_Minu tuleviku ruum_2024_Pallas.pdf';
@@ -17,7 +15,6 @@ export default function FractalsApp() {
       <GalleryPage
         name='Fractals'
         data={data}
-        headerImage={HeaderPicture}
         showText={false}
         imageObjectFit="object-cover"
       >
@@ -37,20 +34,16 @@ export default function FractalsApp() {
               <h1 className='text-2xl sm:text-4xl xl:text-5xl pb-4 sm:pb-8 font-bold text-blue-500'>
                 {t('fractals_page.title')}
               </h1>
-                <p className='text-sm sm:text-base leading-6 pb-5 text-black'>
-                  {t('fractals_page.desc1').split('[LINK1]')[0]}
-                  <a href={MyFutureSpace} download className='text-blue-500 hover:underline'>
-                    {t('fractals_page.link1_text')}
-                  </a>
-                  {t('fractals_page.desc1').split('[LINK1]')[1]}
-                </p>
-                <p className='text-sm sm:text-base leading-6 pb-5 text-black'>
-                  {t('fractals_page.desc2').split('[LINK2]')[0]}
-                  <a href={MinuTulevikuRuum} download className='text-blue-500 hover:underline'>
-                    {t('fractals_page.link2_text')}
-                  </a>
-                  {t('fractals_page.desc2').split('[LINK2]')[1]}
-                </p>
+              <p className='text-sm sm:text-base leading-6 pb-5 text-black'>
+                <Trans i18nKey="fractals_page.desc1" values={{ link1_text: t('fractals_page.link1_text') }}>
+                  This worldbuilding project started out as a Bachelor's thesis project titled <a href={MyFutureSpace} download className='text-blue-500 hover:underline' />.
+                </Trans>
+              </p>
+              <p className='text-sm sm:text-base leading-6 pb-5 text-black'>
+                <Trans i18nKey="fractals_page.desc2" values={{ link2_text: t('fractals_page.link2_text') }}>
+                  You can find the full thesis <a href={MinuTulevikuRuum} download className='text-blue-500 hover:underline' /> in Estonian.
+                </Trans>
+              </p>
               <p className='text-sm sm:text-base leading-6 pb-5 text-black'>
                 {t('fractals_page.desc3')}
               </p>
@@ -58,7 +51,6 @@ export default function FractalsApp() {
           </div>
         </div>
       </GalleryPage>
-      <Footer />
     </>
   );
 }

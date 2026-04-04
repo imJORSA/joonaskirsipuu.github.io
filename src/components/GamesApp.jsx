@@ -1,9 +1,6 @@
 import '../i18n.js'
 import { useTranslation } from 'react-i18next'
-import Navbar from './Navbar'
-import Footer from './Footer'
 
-const HeaderPicture = '/images/BANNER.webp';
 
 const Games = () => {
   const { t } = useTranslation();
@@ -11,15 +8,10 @@ const Games = () => {
   return (
     <>
 <div name='Games' className='w-full min-h-screen bg-white'>
-      {/* TITLE */}
-      <div className='relative flex h-full m-auto bg-slate-900'>
-        <img src={HeaderPicture} loading="eager" className='h-full' alt={t('banner_alt')} />
-      </div>
 
-      <Navbar />
 
       {/* BODY */}
-      <div className='relative w-full flex flex-wrap xl:flex-nowrap bg-white py-8 px-4 xl:px-0'>
+      <div className='relative w-full flex flex-wrap xl:flex-nowrap bg-white py-10 px-4 xl:px-0'>
         <div className='text-left w-full cursor-default'>
           <div>
             <h1 className='text-xl sm:text-3xl xl:text-5xl pb-4 sm:pb-8 font-bold text-blue-500 cursor-default'>{t('games_page.title')}</h1>
@@ -47,7 +39,6 @@ const Games = () => {
         </div>
       </div>
     </div>
-      <Footer />
     </>
   )
 }

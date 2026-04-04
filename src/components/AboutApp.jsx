@@ -1,33 +1,23 @@
 import '../i18n.js'
 import { useTranslation } from 'react-i18next'
 
-import Navbar from './Navbar'
-import Footer from './Footer'
 import { FaArtstation } from 'react-icons/fa'
 import { FaLinkedin } from 'react-icons/fa'
 import { FaInstagram } from 'react-icons/fa'
 import { FaFacebook } from 'react-icons/fa'
 
 const ProfilePicture = '/images/Profile_Picture.webp';
-const HeaderPicture = '/images/BANNER.webp';
 
 const About = () => {
   const { t } = useTranslation();
   return (
     <div name='About' className='w-full min-h-screen bg-white'>
-      {/* TITLE */}
-      <div className='relative flex h-full m-auto bg-slate-900'>
-        <img src={HeaderPicture} loading="eager" className='h-full' alt={t('banner_alt')} />
-      </div>
-
-      <Navbar />
-
-      <div className='px-4 xl:px-0 pt-8'>
-          <h1 className='text-xl sm:text-3xl xl:text-5xl pb-4 font-bold text-blue-500'>{t('nav.about')}</h1>
+      <div className='px-4 xl:px-0 pt-8 pb-4'>
+        <h1 className='text-xl sm:text-3xl xl:text-5xl font-bold text-blue-500'>{t('nav.about')}</h1>
       </div>
 
       {/* BODY */}
-      <div className='relative w-full flex flex-wrap lg:flex-nowrap bg-white pb-8 px-4 xl:px-0'>
+      <div className='relative w-full flex flex-wrap lg:flex-nowrap bg-white pb-10 px-4 xl:px-0'>
         <div className='flex flex-col w-full lg:w-auto items-center lg:items-start'>
           <div className="inline-block">
             <div className='object-center lg:object-left'>
@@ -61,7 +51,7 @@ const About = () => {
         <div className='text-left mt-10 lg:mt-0 ml-0 lg:ml-[50px] flex-1 cursor-default lg:pt-0 h-auto lg:h-[990px] lg:overflow-y-auto pr-4'>
           <div>
             <h2 className='text-lg sm:text-2xl text-blue-900'>{t('about_page.thats_me')}</h2>
-            <h1 className='text-3xl sm:text-4xl lg:text-5xl pt-2 pb-8 font-bold text-blue-500'>Joonas Kirsipuu</h1>
+            <h1 className='text-xl sm:text-3xl xl:text-5xl pt-2 pb-8 font-bold text-blue-500'>Joonas Kirsipuu</h1>
             <p className='text-sm sm:text-base leading-6 text-black'>{t('about_page.intro1')}</p> 
             <p className='text-sm sm:text-base leading-6 py-5 text-black'>{t('about_page.intro2')}</p>
             <p className='text-sm sm:text-base leading-6 text-black'>{t('about_page.intro3')}</p>
@@ -120,12 +110,17 @@ const About = () => {
               <li>
                 <div className='font-bold text-base sm:text-lg'>{t('about_page.exhibs.pallas.title')}</div>
                 <div className='text-slate-500 text-xs sm:text-sm italic mb-1'>{t('about_page.exhibs.pallas.date')}</div>
+                <div className='text-slate-500 text-xs sm:text-sm italic mb-1'>{t('about_page.exhibs.pallas.location')}</div>
+              </li>
+              <li>
+                <div className='font-bold text-base sm:text-lg'>{t('about_page.exhibs.kunstwerk.title')}</div>
+                <div className='text-slate-500 text-xs sm:text-sm italic mb-1'>{t('about_page.exhibs.kunstwerk.date')}</div>
+                <div className='text-slate-500 text-xs sm:text-sm italic mb-1'>{t('about_page.exhibs.kunstwerk.location')}</div>
               </li>
             </ul>
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   )
 }

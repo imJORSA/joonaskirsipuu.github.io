@@ -1,13 +1,11 @@
 import { useState, useEffect, useCallback, useRef } from 'react'
 import { useTranslation } from 'react-i18next'
 import { FaTimes, FaChevronLeft, FaChevronRight } from 'react-icons/fa'
-import Navbar from './Navbar'
 import OptimizedImage from './OptimizedImage'
 
 const GalleryPage = ({ 
   name, 
   data, 
-  headerImage, 
   children, 
   isMasonry = false, 
   ogImage,
@@ -150,11 +148,7 @@ const GalleryPage = ({
     <>
 
       <div name={name} className='w-full min-h-screen bg-white'>
-        <div className='relative flex h-full m-auto bg-slate-900'>
-          <img src={headerImage} loading="eager" className='h-full' alt={t('banner_alt')} />
-        </div>
 
-        <Navbar />
 
         {children}
 

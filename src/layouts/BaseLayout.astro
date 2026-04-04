@@ -2,6 +2,8 @@
 import '../styles/global.css';
 import '../i18n.js';
 import { ViewTransitions } from 'astro:transitions';
+import Navbar from '../components/Navbar.jsx';
+import Footer from '../components/Footer.jsx';
 
 export interface Props {
   title: string;
@@ -86,8 +88,14 @@ const canonicalUrl = new URL(Astro.url.pathname, siteUrl).toString();
     <ViewTransitions />
   </head>
   <body>
-      <div class="max-w-[1400px] mx-auto">
-    <slot />
+    <div class="max-w-[1400px] mx-auto">
+      <div class="relative flex h-full m-auto bg-slate-900">
+        <img src="/images/BANNER.webp" loading="eager" class="h-full" alt="Joonas Kirsipuu Banner" />
+      </div>
+      <Navbar client:only="react" transition:persist />
+      <slot />
+      <Footer client:only="react" transition:persist />
+    </div>
 
     <script>
       function initAnimatedFavicon() {
@@ -102,10 +110,7 @@ const canonicalUrl = new URL(Astro.url.pathname, siteUrl).toString();
           });
         }
       }
-
-      // Run on first load
       document.addEventListener('DOMContentLoaded', initAnimatedFavicon);
-      // Re-run on every Astro page transition
       document.addEventListener('astro:page-load', initAnimatedFavicon);
     </script>
   </body>

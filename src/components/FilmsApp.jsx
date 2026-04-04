@@ -1,9 +1,6 @@
 import '../i18n.js'
 import { useTranslation, Trans } from 'react-i18next'
-import Navbar from './Navbar'
-import Footer from './Footer'
 
-const HeaderPicture = '/images/BANNER.webp';
 
 const FilmsSeriesAnime = () => {
   const { t } = useTranslation();
@@ -11,12 +8,7 @@ const FilmsSeriesAnime = () => {
   return (
     <>
 <div name='FilmsSeriesAnime' className='w-full min-h-screen bg-white'>
-      {/* TITLE */}
-      <div className='relative flex h-full m-auto bg-slate-900'>
-        <img src={HeaderPicture} loading="eager" className='h-full' alt={t('banner_alt')} />
-      </div>
 
-      <Navbar />
 
       {/* BODY */}
       <div className='relative w-full flex flex-wrap xl:flex-nowrap bg-white py-8 px-4 xl:px-0'>
@@ -54,6 +46,7 @@ const FilmsSeriesAnime = () => {
               <li className='cursor-default'><span className='font-bold text-black'>{t('films_page.series.house.title')}</span><span className='text-black'>{t('films_page.series.house.desc')}</span></li>
               <li className='cursor-default'><span className='font-bold text-black'>{t('films_page.series.aib.title')}</span><span className='text-black'>{t('films_page.series.aib.desc')}</span></li>
               <li className='cursor-default'><span className='font-bold text-black'>{t('films_page.series.clarkson.title')}</span><span className='text-black'>{t('films_page.series.clarkson.desc')}</span></li>
+              <li className='cursor-default'><span className='font-bold text-black'>{t('films_page.series.shogun.title')}</span><span className='text-black'>{t('films_page.series.shogun.desc')}</span></li>
 
             </ul>
 
@@ -75,7 +68,6 @@ const FilmsSeriesAnime = () => {
         </div>
       </div>
     </div>
-      <Footer />
     </>
   )
 }

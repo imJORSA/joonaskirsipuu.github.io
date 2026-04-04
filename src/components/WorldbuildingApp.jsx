@@ -1,9 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import '../i18n.js';
-import Navbar from './Navbar.jsx';
-import Footer from './Footer.jsx';
 
-const HeaderPicture = '/images/BANNER.webp';
 const FractalPicture = '/images/Fractalpicture.webp';
 
 export default function WorldbuildingApp() {
@@ -11,15 +8,9 @@ export default function WorldbuildingApp() {
 
   return (
     <div name='Worldbuilding' className='w-full min-h-screen bg-white flex flex-col'>
-      <div className='relative flex h-full m-auto bg-slate-900'>
-        <img src={HeaderPicture} loading="eager" className='h-full' alt="Joonas Kirsipuu Banner" />
-      </div>
-
-      <Navbar />
-
-      <div className='px-4 xl:px-0 pt-8'>
-        <h1 className='text-xl sm:text-3xl xl:text-5xl pb-4 font-bold text-blue-500'>{t('nav.worldbuilding')}</h1>
-      </div>
+        <div className='px-4 xl:px-0 pt-8 pb-4'>
+          <h1 className='text-xl sm:text-3xl xl:text-5xl font-bold text-blue-500'>{t('nav.worldbuilding')}</h1>
+        </div>
 
       <div className='w-full flex-1 h-auto flex flex-col md:flex-row pb-10 gap-4 px-4 xl:px-0'>
         <div className='relative w-full md:w-1/2 aspect-square overflow-hidden group cursor-pointer'>
@@ -49,7 +40,6 @@ export default function WorldbuildingApp() {
         </div>
       </div>
 
-      <Footer />
     </div>
   );
 }
