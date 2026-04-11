@@ -46,8 +46,8 @@
         "desc": "Joonas Kirsipuu lemmikmängud."
       },
       "films": {
-        "title": "Filmid, sarjad ja anime | Joonas Kirsipuu",
-        "desc": "Joonas Kirsipuu lemmikfilmid, -sarjad ja -anime."
+        "title": "Filmid, sarjad, dokumentaalid ja anime | Joonas Kirsipuu",
+        "desc": "Joonas Kirsipuu lemmikfilmid, -sarjad, -dokumentaalid ja -anime."
       }
     },
     "about_page": {
@@ -95,16 +95,22 @@
       "exhibs": {
         "pallas": {
           "title": "Lõputööde näitus | Pallase galerii",
-          "date": "Juuni 2024 – Juuli 2024"
+          "date": "Juuni 2024 – Juuli 2024",
+          "location": "Tartu, Eesti"
+        },
+        "kunstwerk": {
+          "title": "Grupinäitus \"Fear\" | KunstWerk galerii",
+          "date": "Sept 2021",
+          "location": "Potsdam, Saksamaa"
         }
       }
     },
     "blog_page": {
       "title": "MINU JUHUSLIKUD MÕTTED",
-      "subtitle": "See leht on minu mõtete jaoks juhuslikel teemadel ja loetleb kõik minu lemmikfilmid, -sarjad, -mängud ja -anime, et saaksite mind paremini tundma õppida.",
+      "subtitle": "See leht on minu mõtete jaoks juhuslikel teemadel ja loetleb kõik minu lemmikfilmid, -sarjad, -dokumentaalid, -anime ja -mängud, et saaksite mind paremini tundma õppida.",
       "links": {
         "genai": "Miks GenAI kunst vananeb - WIP",
-        "films": "Minu lemmikfilmid, -sarjad ja -anime",
+        "films": "Minu lemmikfilmid, -sarjad, -dokumentaalid ja -anime",
         "games": "Minu lemmikmängud"
       }
     },
@@ -128,56 +134,164 @@
       "wip": "WIP"
     },
     "films_page": {
-      "title": "MINU LEMMIKFILMID, -SARJAD JA -ANIME",
+      "title": "MINU LEMMIKFILMID, -SARJAD, -DOKUMENTAALID JA -ANIME",
       "films_title": "FILMID",
       "series_title": "SARJAD",
       "anime_title": "ANIME",
       "imdb_link": "Kui olete huvitatud, saate vaadata minu filmide ja sarjade hinnanguid <1>siit</1>. See on kaugel täielikkusest, uuendan seda perioodiliselt.",
       "films": {
-        "br": { "title": "Blade Runner - 1982", "desc": " - Philip K. Dicki \"Kas androidid unistavad elektrilammastest?\" vapustav maailm, mis on loodud filmilindile fantastilise detailsusega." },
-        "br2049": { "title": "Blade Runner 2049 - 2017", "desc": " - Üks parimaid filmikunsti järgesid, mis eales tehtud. See on selgelt Blade Runner, kuid oma tonaalsuselt ja suunalt piisavalt erinev, et seista iseseisvalt." },
-        "alien": { "title": "Tulnukas - 1979", "desc": " - Peab oma õuduselementides uskumatult hästi vastu. Suurejooneline lavakujundus ja atmosfäär." },
-        "space_odyssey": { "title": "2001: Kosmoseodüsseia - 1968", "desc": " - See on nii hea, et veenis teatud gruppi inimesi, et Maa on lame. Rohkem pole vaja öelda." },
-        "dune": { "title": "Düün osa 1 & 2 - 2021/2024", "desc": " - Filmimatuks peetud raamat, mille on filmilindile jäädvustanud üks meie aja parimaid režissööre. KINO!" },
-        "lotr": { "title": "Sõrmuste isanda triloogia - 2001/2002/2003", "desc": " - Maailmaloome kuldstandard, mille on kolmeks filmiks teinud uskumatult kirglik inimeste grupp. See on lihtsalt maagiline." },
-        "arrival": { "title": "Saabumine - 2016", "desc": " - Fantastiline lähenemine ulmežanrile. Suurepärane näitlejatöö ja režii." },
-        "whiplash": { "title": "Whiplash - 2014", "desc": " - Tõestab, et suurepärase filmi tegemiseks pole vaja suurt eelarvet. Söövitav ja keeruline suhe õpilase vahel, kes igatseb oma õpetaja kiitust, on tõeliselt judinaid tekitav ja läheb hinge." },
-        "joker": { "title": "Jokker - 2019", "desc": " - Väga teistsugune lähenemine klassikalisele Batmani kurikaelale. Vaimse tervise kriisi ajal – kas seetõttu, et inimesed on üha üksildasemad või seetõttu, et mõned arvavad, et see on 'lahe' – Jokkeri asjakohasus ainult kasvab." },
-        "y1917": { "title": "1917 - 2019", "desc": " - Suurejooneline operaatoritöö, mis on maskeeritud sõjafilmiks, mis on lihtsalt jõhker." },
-        "pirates": { "title": "Kariibi mere piraadid: Musta Pärli needus - 2003", "desc": " - Piraadid olid varem multikalikud ja midagi, millega lapsi hirmutada, kuid mitte pärast seda filmi. See on absoluutne pärl, mis peab visuaalselt endiselt uskumatult hästi vastu, ja Johnny Depp on lihtsalt geniaalne." },
-        "oppenheimer": { "title": "Oppenheimer - 2023", "desc": " - Kirjutatud nagu märulifilm, kuid see on vaid mõned mehed toas rääkimas ja suur plahvatus poole peal. Ja ometi suutis see mind terve aja tooli serval hoida. Sellel on ka huvitav edasi-tagasi liikumine mustvalgete ja värviliste kaadrite vahel – vastavalt Straussi ja Oppenheimeri vaatenurgast. Soovin, et oleksin saanud võimaluse seda IMAXis näha." }
+        "br": {
+          "title": "Blade Runner - 1982",
+          "desc": " - Philip K. Dicki \"Kas androidid unistavad elektrilammastest?\" vapustav maailm, mis on loodud filmilindile fantastilise detailsusega."
+        },
+        "br2049": {
+          "title": "Blade Runner 2049 - 2017",
+          "desc": " - Üks parimaid filmikunsti järgesid, mis eales tehtud. See on selgelt Blade Runner, kuid oma tonaalsuselt ja suunalt piisavalt erinev, et seista iseseisvalt."
+        },
+        "alien": {
+          "title": "Tulnukas - 1979",
+          "desc": " - Peab oma õuduselementides uskumatult hästi vastu. Suurejooneline lavakujundus ja atmosfäär."
+        },
+        "space_odyssey": {
+          "title": "2001: Kosmoseodüsseia - 1968",
+          "desc": " - See on nii hea, et veenis teatud gruppi inimesi, et Maa on lame. Rohkem pole vaja öelda."
+        },
+        "dune": {
+          "title": "Düün osa 1 & 2 - 2021/2024",
+          "desc": " - Filmimatuks peetud raamat, mille on filmilindile jäädvustanud üks meie aja parimaid režissööre. KINO!"
+        },
+        "lotr": {
+          "title": "Sõrmuste isanda triloogia - 2001/2002/2003",
+          "desc": " - Maailmaloome kuldstandard, mille on kolmeks filmiks teinud uskumatult kirglik inimeste grupp. See on lihtsalt maagiline."
+        },
+        "arrival": {
+          "title": "Saabumine - 2016",
+          "desc": " - Fantastiline lähenemine ulmežanrile. Suurepärane näitlejatöö ja režii."
+        },
+        "whiplash": {
+          "title": "Whiplash - 2014",
+          "desc": " - Tõestab, et suurepärase filmi tegemiseks pole vaja suurt eelarvet. Söövitav ja keeruline suhe õpilase vahel, kes igatseb oma õpetaja kiitust, on tõeliselt judinaid tekitav ja läheb hinge."
+        },
+        "joker": {
+          "title": "Jokker - 2019",
+          "desc": " - Väga teistsugune lähenemine klassikalisele Batmani kurikaelale. Vaimse tervise kriisi ajal – kas seetõttu, et inimesed on üha üksildasemad või seetõttu, et mõned arvavad, et see on 'lahe' – Jokkeri asjakohasus ainult kasvab."
+        },
+        "y1917": {
+          "title": "1917 - 2019",
+          "desc": " - Suurejooneline operaatoritöö, mis on maskeeritud sõjafilmiks, mis on lihtsalt jõhker."
+        },
+        "pirates": {
+          "title": "Kariibi mere piraadid: Musta Pärli needus - 2003",
+          "desc": " - Piraadid olid varem multikalikud ja midagi, millega lapsi hirmutada, kuid mitte pärast seda filmi. See on absoluutne pärl, mis peab visuaalselt endiselt uskumatult hästi vastu, ja Johnny Depp on lihtsalt geniaalne."
+        },
+        "oppenheimer": {
+          "title": "Oppenheimer - 2023",
+          "desc": " - Kirjutatud nagu märulifilm, kuid see on vaid mõned mehed toas rääkimas ja suur plahvatus poole peal. Ja ometi suutis see mind terve aja tooli serval hoida. Sellel on ka huvitav edasi-tagasi liikumine mustvalgete ja värviliste kaadrite vahel – vastavalt Straussi ja Oppenheimeri vaatenurgast. Soovin, et oleksin saanud võimaluse seda IMAXis näha."
+        }
       },
       "series": {
-        "bb": { "title": "Breaking Bad - 2008 - 2013", "desc": " - Paar täiteepisoodi kõrvale jättes on selle võime pakkuda nii pika aja jooksul järjepidevalt 8+/10 muljetavaldav." },
-        "got": { "title": "Troonide mäng - 2011 - 2019", "desc": " - Kuni te ei vaata kahte viimast hooaega, on see soliidne televisioon keerukate tegelaste ja huvitavate süžeeliinidega." },
-        "andor": { "title": "Andor - 2022- 2025", "desc": " - Tähesõdade kohta üllatavalt sügav narratiiv. See on ka tänapäeva maailmas üsna asjakohane." },
-        "mr_robot": { "title": "Mr. Robot - 2015 - 2019", "desc": " - Minu isiklik lemmiksari. Iga pööre ja keerdkäik on hoolikalt läbi mõeldud. See on kordusvaatamisel veelgi parem, eriti 1. hooaeg." },
-        "chernobyl": { "title": "Tšernobõl - 2019", "desc": " - Üks parimaid minisarju, mis eales tehtud. Tabab Nõukogude Liidus elamise inimlikku seisundit üsna hästi." },
-        "house": { "title": "Dr. House - 2004 - 2012", "desc": " - Meditsiinidraama, mille teeb lõbusaks vigane, naljakas ja teravmeelne arst." },
-        "aib": { "title": "Alice in Borderland - 2020 - 2025", "desc": " - Suurepärased kaks esimest hooaega; kolmas jääb lahjaks. Üldiselt väga kaasahaarav, lõbus ja meeltmööda." },
-        "clarkson": { "title": "Clarksoni farm - 2021 - ?", "desc": " - Mees, kes teenis elatist autodega sõites, teenib nüüd elatist traktoriga sõites. Clarksoni farm on naljakas, emotsionaalne, hariv ja oluline." }
+        "bb": {
+          "title": "Breaking Bad - 2008 - 2013",
+          "desc": " - Paar täiteepisoodi kõrvale jättes on selle võime pakkuda nii pika aja jooksul järjepidevalt 8+/10 muljetavaldav."
+        },
+        "got": {
+          "title": "Troonide mäng - 2011 - 2019",
+          "desc": " - Kuni te ei vaata kahte viimast hooaega, on see soliidne televisioon keerukate tegelaste ja huvitavate süžeeliinidega."
+        },
+        "andor": {
+          "title": "Andor - 2022- 2025",
+          "desc": " - Tähesõdade kohta üllatavalt sügav narratiiv. See on ka tänapäeva maailmas üsna asjakohane."
+        },
+        "mr_robot": {
+          "title": "Mr. Robot - 2015 - 2019",
+          "desc": " - Minu isiklik lemmiksari. Iga pööre ja keerdkäik on hoolikalt läbi mõeldud. See on kordusvaatamisel veelgi parem, eriti 1. hooaeg."
+        },
+        "chernobyl": {
+          "title": "Tšernobõl - 2019",
+          "desc": " - Üks parimaid minisarju, mis eales tehtud. Tabab Nõukogude Liidus elamise inimlikku seisundit üsna hästi."
+        },
+        "house": {
+          "title": "Dr. House - 2004 - 2012",
+          "desc": " - Meditsiinidraama, mille teeb lõbusaks vigane, naljakas ja teravmeelne arst."
+        },
+        "aib": {
+          "title": "Alice in Borderland - 2020 - 2025",
+          "desc": " - Suurepärased kaks esimest hooaega; kolmas jääb lahjaks. Üldiselt väga kaasahaarav, lõbus ja meeltmööda."
+        },
+        "clarkson": {
+          "title": "Clarksoni farm - 2021 - ?",
+          "desc": " - Mees, kes teenis elatist autodega sõites, teenib nüüd elatist traktoriga sõites. Clarksoni farm on naljakas, emotsionaalne, hariv ja oluline."
+        }
+      },
+      "docs": {
+        "andriivka": {
+          "title": "2000 Meters to Andriivka - 2026",
+          "desc": " - Väga toores ja südantlõhestav vaade järkjärgulistele sammudele strateegilise Andriivka küla tagasivallutamiseks. See näitab eesliini igapäevaelu tegelikkust ja seda, kuidas kaasaegne sõda meest muudab."
+        },
+        "sinikollane": {
+          "title": "Sinikollane - 2025",
+          "desc": " - See lugu jälgib Eesti vabatahtlikku meedikut Erko Laidineni ja tema perekonda paljude kuude jooksul, näidates, et sõja mõjud on kodusolijatele sama laastavad kui neile, kes võitlevad."
+        },
+        "into_the_void": {
+          "title": "Into the Void: Putin's Foreign Fighters - 2026",
+          "desc": " - Kuidas Venemaa värbab globaalsest lõunast kodanikke oma ebaseaduslikuks sõjaks Ukrainas."
+        }
       },
       "anime": {
-        "initial_d": { "title": "Initial D - 1998 - 2014", "desc": " - Anime, mis tekitas minus huvi autode vastu. Absoluutne klassika. Unistan oma animeeritud autode driftilahingu tegemisest. Loodetavasti saan kunagi selle unistuse teoks teha." },
-        "edgerunners": { "title": "Cyberpunk: Edgerunners - 2022 - ?", "desc": " - Kui teile meeldib Cyberpunk 2077, siis armastate seda animet. See jäi minuga pikaks ajaks." }
-      }
+        "initial_d": {
+          "title": "Initial D - 1998 - 2014",
+          "desc": " - Anime, mis tekitas minus huvi autode vastu. Absoluutne klassika. Unistan oma animeeritud autode driftilahingu tegemisest. Loodetavasti saan kunagi selle unistuse teoks teha."
+        },
+        "edgerunners": {
+          "title": "Cyberpunk: Edgerunners - 2022 - ?",
+          "desc": " - Kui teile meeldib Cyberpunk 2077, siis armastate seda animet. See jäi minuga pikaks ajaks."
+        }
+      },
+      "docs_title": "UKRAINA JA VENEMAA SÕJA DOKUMENTAALID"
     },
     "games_page": {
       "title": "MINU LEMMIKMÄNGUDE NIMEKIRI",
       "singleplayer_title": "ÜKSIKMÄNGIJA",
       "multiplayer_title": "MITMEMÄNGIJA",
       "singleplayer": {
-        "cp2077": { "title": "Cyberpunk 2077 - 2020/2023", "desc": " - Üks lahedamaid videomängumaailmu üldse. Kõik on juurdunud reaalsuses ja kõigel on eesmärk. Võitlus on uskumatult lõbus ja mitmekesine. Vägev heliriba. Narratiiv kasutab maailmaloomet erakordselt hästi ja see pole lihtsalt lugu punkaritest, kes võitlevad süsteemiga, või palgamõrvarist, kes ronib kriminaalse allilma redelil. Cyberpunk 2077 põhiülesanne on palju filosoofilisem, ammutades palju eksistentsialismist ja posthumanismist. Oma olemuselt on see lugu identiteedist, põimides selle teema läbi mängu iga osa. Põhiülesande pikkus on samuti üsna täpne. See on terav ja asjakohane — kõik on oluline, ei mingit täidet. Ülesannetel on mõningane otsuste tegemine, mis lainetab väljapoole, kuigi vähem kui The Witcher 3-s, kuid tootmisväärtus on ka kõrgem. Tegelased on suurepärased. - 9/10" },
-        "witcher3": { "title": "The Witcher 3: Wild Hunt - 2015/2016", "desc": " - See mäng näitas kõigile (ja Bethesdale), et suurtel avatud maailma mängudel võib olla rohkesti keerukaid lugusid ja hästi kirjutatud tegelasi. Võitlus on vaieldamatult nõrgim lüli, kuid see pole sugugi halb ja muutub lõpuks lõbusaks. Nii põhi- kui ka kõrvalülesanded pakuvad korralikku hulka otsuste tegemist, mille tagajärjed ilmnevad hiljem. Gwent oli nii hea, et CDPR tegi lõpuks eraldi mängu just selle jaoks. Heliriba on lihtsalt armas. - 8/10" },
-        "mario_galaxy": { "title": "Super Mario Galaxy 1 & 2- 2007/2010", "desc": " - WIP" },
-        "ori": { "title": "Ori and the Blind Forest, Ori and the Will of the Wisps - 2015/2020", "desc": " - WIP" },
-        "dead_space": { "title": "Dead Space Remake - 2023", "desc": " - WIP" },
-        "minecraft": { "title": "Minecraft - 2009", "desc": " - WIP" }
+        "cp2077": {
+          "title": "Cyberpunk 2077 - 2020/2023",
+          "desc": " - Üks lahedamaid videomängumaailmu üldse. Kõik on juurdunud reaalsuses ja kõigel on eesmärk. Võitlus on uskumatult lõbus ja mitmekesine. Vägev heliriba. Narratiiv kasutab maailmaloomet erakordselt hästi ja see pole lihtsalt lugu punkaritest, kes võitlevad süsteemiga, või palgamõrvarist, kes ronib kriminaalse allilma redelil. Cyberpunk 2077 põhiülesanne on palju filosoofilisem, ammutades palju eksistentsialismist ja posthumanismist. Oma olemuselt on see lugu identiteedist, põimides selle teema läbi mängu iga osa. Põhiülesande pikkus on samuti üsna täpne. See on terav ja asjakohane — kõik on oluline, ei mingit täidet. Ülesannetel on mõningane otsuste tegemine, mis lainetab väljapoole, kuigi vähem kui The Witcher 3-s, kuid tootmisväärtus on ka kõrgem. Tegelased on suurepärased. - 9/10"
+        },
+        "witcher3": {
+          "title": "The Witcher 3: Wild Hunt - 2015/2016",
+          "desc": " - See mäng näitas kõigile (ja Bethesdale), et suurtel avatud maailma mängudel võib olla rohkesti keerukaid lugusid ja hästi kirjutatud tegelasi. Võitlus on vaieldamatult nõrgim lüli, kuid see pole sugugi halb ja muutub lõpuks lõbusaks. Nii põhi- kui ka kõrvalülesanded pakuvad korralikku hulka otsuste tegemist, mille tagajärjed ilmnevad hiljem. Gwent oli nii hea, et CDPR tegi lõpuks eraldi mängu just selle jaoks. Heliriba on lihtsalt armas. - 8/10"
+        },
+        "mario_galaxy": {
+          "title": "Super Mario Galaxy 1 & 2- 2007/2010",
+          "desc": " - WIP"
+        },
+        "ori": {
+          "title": "Ori and the Blind Forest, Ori and the Will of the Wisps - 2015/2020",
+          "desc": " - WIP"
+        },
+        "dead_space": {
+          "title": "Dead Space Remake - 2023",
+          "desc": " - WIP"
+        },
+        "minecraft": {
+          "title": "Minecraft - 2009",
+          "desc": " - WIP"
+        }
       },
       "multiplayer": {
-        "lol": { "title": "League of Legends - 2009", "desc": " - WIP" },
-        "overwatch": { "title": "Overwatch - 2016", "desc": " - WIP" },
-        "warframe": { "title": "Warframe - 2013", "desc": " - WIP" }
+        "lol": {
+          "title": "League of Legends - 2009",
+          "desc": " - WIP"
+        },
+        "overwatch": {
+          "title": "Overwatch - 2016",
+          "desc": " - WIP"
+        },
+        "warframe": {
+          "title": "Warframe - 2013",
+          "desc": " - WIP"
+        }
       }
     },
     "footer": {

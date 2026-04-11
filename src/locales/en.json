@@ -50,8 +50,8 @@
         "desc": "Favourite games by Joonas Kirsipuu."
       },
       "films": {
-        "title": "Films, Series & Anime | Joonas Kirsipuu",
-        "desc": "Favourite films, series, and anime by Joonas Kirsipuu."
+        "title": "Films, Series, Documentaries & Anime | Joonas Kirsipuu",
+        "desc": "Favourite films, series, documentaries, and anime by Joonas Kirsipuu."
       }
     },
     "about_page": {
@@ -111,10 +111,10 @@
     },
     "blog_page": {
       "title": "MY RANDOM RAMBLINGS",
-      "subtitle": "This page is for my thoughts on random topics and listing all my favourite films, series, games and anime, so you could better get to know me.",
+      "subtitle": "This page is for my thoughts on random topics and listing all my favourite films, series, documentaries, anime and games, so you could better get to know me.",
       "links": {
         "genai": "Why GenAI art will be obsolete - WIP",
-        "films": "My favourite films, series and anime",
+        "films": "My favourite films, series, documentaries and anime",
         "games": "My favourite games"
       }
     },
@@ -138,9 +138,10 @@
       "wip": "WIP"
     },
     "films_page": {
-      "title": "MY FAVOURITE FILMS, SERIES AND ANIME",
+      "title": "MY FAVOURITE FILMS, SERIES, DOCUMENTARIES AND ANIME",
       "films_title": "FILMS",
       "series_title": "SERIES",
+      "docs_title": "UKRAINE AND RUSSIA WAR DOCUMENTARIES",
       "anime_title": "ANIME",
       "imdb_link": "If you're interested, you can check out my ratings for films & series <1>here</1>. It's far from complete though, I'm updating it periodically.",
       "films": {
@@ -167,6 +168,11 @@
         "aib": { "title": "Alice in Borderland - 2020 - 2025", "desc": " - Stellar first two seasons; the third falls flat. Overall, very engaging, fun, and mindfucky." },
         "clarkson": { "title": "Clarkson's Farm - 2021 - ?", "desc": " - A guy who drove cars for a living now drives tractors for a living. Clarkson’s Farm is hilarious, emotional, educational, and important." },
         "shogun": { "title": "Shogun - 2024 - 2026", "desc": " - A classic tale, masterfully remade. Perfectly showcases the brutality and beauty of Edo-era Japan." }
+      },
+      "docs": {
+        "andriivka": { "title": "2000 Meters to Andriivka - 2026", "desc": " - A very raw and gut-wrenching look at the incremental steps to retake the strategic village of Andriivka. It shows the reality of everyday life on the front lines and how modern war changes a man." },
+        "sinikollane": { "title": "Sinikollane - 2025", "desc": " - This story follows an Estonian volunteer medic Erko Laidinen and his family for many months, showing that the effects of war are just as damning for the ones staying at home as they are for the ones fighting." },
+        "into_the_void": { "title": "Into the Void: Putin's Foreign Fighters - 2026", "desc": " - How Russia recruits citizens from the Global South for it's illegal war in Ukraine." }
       },
       "anime": {
         "initial_d": { "title": "Initial D - 1998 - 2014", "desc": " - The anime that sparked my interest in cars. An absolute classic. I daydream about making my own animated car drift battle. Hopefully, someday I can realize that dream." },

@@ -111,10 +111,10 @@
     },
     "blog_page": {
       "title": "I MIEI PENSIERI CASUALI",
-      "subtitle": "Questa pagina è per i miei pensieri su argomenti casuali ed elenca tutti i miei film, serie, giochi e anime preferiti, così potrai conoscermi meglio.",
+      "subtitle": "Questa pagina è per i miei pensieri su argomenti casuali ed elenca tutti i miei film, serie, documentari, anime e giochi preferiti, così puoi conoscermi meglio.",
       "links": {
         "genai": "Perché l'arte GenAI diventerà obsoleta - WIP",
-        "films": "I miei film, serie e anime preferiti",
+        "films": "I miei film, serie, documentari e anime preferiti",
         "games": "I miei giochi preferiti"
       }
     },
@@ -138,57 +138,168 @@
       "wip": "WIP"
     },
     "films_page": {
-      "title": "I MIEI FILM, SERIE E ANIME PREFERITI",
+      "title": "I MIEI FILM, SERIE, DOCUMENTARI E ANIME PREFERITI",
       "films_title": "FILM",
       "series_title": "SERIE",
       "anime_title": "ANIME",
       "imdb_link": "Se sei interessato, puoi controllare le mie valutazioni per film e serie <1>qui</1>. È lontano dall'essere completo, lo aggiorno periodicamente.",
       "films": {
-        "br": { "title": "Blade Runner - 1982", "desc": " - Lo straordinario mondo di 'Ma gli androidi sognano pecore elettriche?' di Philip K. Dick creato su pellicola con dettagli fantastici." },
-        "br2049": { "title": "Blade Runner 2049 - 2017", "desc": " - Uno dei migliori sequel cinematografici mai realizzati. È distintamente Blade Runner, ma è abbastanza diverso nella sua tonalità e regia da reggersi in piedi da solo." },
-        "alien": { "title": "Alien - 1979", "desc": " - Mantiene incredibilmente bene i suoi elementi horror. Scenografia e atmosfera spettacolari." },
-        "space_odyssey": { "title": "2001: Odissea nello spazio - 1968", "desc": " - È così bello che ha convinto un certo gruppo di persone che la Terra è piatta. Non c'è altro da aggiungere." },
-        "dune": { "title": "Dune parte 1 & 2 - 2021/2024", "desc": " - Il libro 'infilmabile' catturato su pellicola da uno dei migliori registi del nostro tempo. CINEMA!" },
-        "lotr": { "title": "Trilogia de Il Signore degli Anelli - 2001/2002/2003", "desc": " - Lo standard d'oro del worldbuilding, trasformato in tre film da un gruppo di persone incredibilmente appassionate. È semplicemente magico." },
-        "arrival": { "title": "Arrival - 2016", "desc": " - Un'interpretazione fantastica del genere sci-fi. Ottima recitazione e regia." },
-        "whiplash": { "title": "Whiplash - 2014", "desc": " - Dimostra che non serve un grande budget per fare un film fantastico. La relazione corrosiva e contorta tra uno studente che desidera l'elogio del suo insegnante è davvero agghiacciante e colpisce nel segno." },
-        "joker": { "title": "Joker - 2019", "desc": " - Un'interpretazione molto diversa di un classico cattivo di Batman. In un'epoca di crisi della salute mentale - sia perché le persone sono sempre più sole, sia perché alcuni pensano che sia 'cool' - la rilevanza di Joker è destinata solo ad aumentare." },
-        "y1917": { "title": "1917 - 2019", "desc": " - Cinematografia spettacolare mascherata da film di guerra che è semplicemente brutale." },
-        "pirates": { "title": "Pirati dei Caraibi: La maledizione della prima luna - 2003", "desc": " - I pirati erano soliti essere personaggi da cartone animato e qualcosa con cui spaventare i bambini, ma non dopo questo film. È un gioiello assoluto che regge ancora incredibilmente bene visivamente, e Johnny Depp è semplicemente brillante." },
-        "oppenheimer": { "title": "Oppenheimer - 2023", "desc": " - Scritto come un film d'azione, ma sono solo alcuni ragazzi in una stanza che parlano e una grande esplosione a metà. Eppure è riuscito a tenermi con il fiato sospeso per tutta la durata. Ha anche un interessante andirivieni tra le riprese in bianco e nero e a colori - una dal punto di vista di Strauss e l'altra da quello di Oppenheimer, rispettivamente. Vorrei aver avuto la possibilità di vederlo in IMAX." }
+        "br": {
+          "title": "Blade Runner - 1982",
+          "desc": " - Lo straordinario mondo di 'Ma gli androidi sognano pecore elettriche?' di Philip K. Dick creato su pellicola con dettagli fantastici."
+        },
+        "br2049": {
+          "title": "Blade Runner 2049 - 2017",
+          "desc": " - Uno dei migliori sequel cinematografici mai realizzati. È distintamente Blade Runner, ma è abbastanza diverso nella sua tonalità e regia da reggersi in piedi da solo."
+        },
+        "alien": {
+          "title": "Alien - 1979",
+          "desc": " - Mantiene incredibilmente bene i suoi elementi horror. Scenografia e atmosfera spettacolari."
+        },
+        "space_odyssey": {
+          "title": "2001: Odissea nello spazio - 1968",
+          "desc": " - È così bello che ha convinto un certo gruppo di persone che la Terra è piatta. Non c'è altro da aggiungere."
+        },
+        "dune": {
+          "title": "Dune parte 1 & 2 - 2021/2024",
+          "desc": " - Il libro 'infilmabile' catturato su pellicola da uno dei migliori registi del nostro tempo. CINEMA!"
+        },
+        "lotr": {
+          "title": "Trilogia de Il Signore degli Anelli - 2001/2002/2003",
+          "desc": " - Lo standard d'oro del worldbuilding, trasformato in tre film da un gruppo di persone incredibilmente appassionate. È semplicemente magico."
+        },
+        "arrival": {
+          "title": "Arrival - 2016",
+          "desc": " - Un'interpretazione fantastica del genere sci-fi. Ottima recitazione e regia."
+        },
+        "whiplash": {
+          "title": "Whiplash - 2014",
+          "desc": " - Dimostra che non serve un grande budget per fare un film fantastico. La relazione corrosiva e contorta tra uno studente che desidera l'elogio del suo insegnante è davvero agghiacciante e colpisce nel segno."
+        },
+        "joker": {
+          "title": "Joker - 2019",
+          "desc": " - Un'interpretazione molto diversa di un classico cattivo di Batman. In un'epoca di crisi della salute mentale - sia perché le persone sono sempre più sole, sia perché alcuni pensano che sia 'cool' - la rilevanza di Joker è destinata solo ad aumentare."
+        },
+        "y1917": {
+          "title": "1917 - 2019",
+          "desc": " - Cinematografia spettacolare mascherata da film di guerra che è semplicemente brutale."
+        },
+        "pirates": {
+          "title": "Pirati dei Caraibi: La maledizione della prima luna - 2003",
+          "desc": " - I pirati erano soliti essere personaggi da cartone animato e qualcosa con cui spaventare i bambini, ma non dopo questo film. È un gioiello assoluto che regge ancora incredibilmente bene visivamente, e Johnny Depp è semplicemente brillante."
+        },
+        "oppenheimer": {
+          "title": "Oppenheimer - 2023",
+          "desc": " - Scritto come un film d'azione, ma sono solo alcuni ragazzi in una stanza che parlano e una grande esplosione a metà. Eppure è riuscito a tenermi con il fiato sospeso per tutta la durata. Ha anche un interessante andirivieni tra le riprese in bianco e nero e a colori - una dal punto di vista di Strauss e l'altra da quello di Oppenheimer, rispettivamente. Vorrei aver avuto la possibilità di vederlo in IMAX."
+        }
       },
       "series": {
-        "bb": { "title": "Breaking Bad - 2008 - 2013", "desc": " - A parte un paio di episodi riempitivi, la sua capacità di fornire costantemente un voto di 8+/10 per una durata così lunga è impressionante." },
-        "got": { "title": "Game of Thrones - 2011 - 2019", "desc": " - Finché non guardi le ultime due stagioni, è una televisione solida con personaggi complessi e trame interessanti." },
-        "andor": { "title": "Andor - 2022- 2025", "desc": " - Narrativa sorprendentemente profonda per Star Wars. È anche piuttosto rilevante nel mondo di oggi." },
-        "mr_robot": { "title": "Mr. Robot - 2015 - 2019", "desc": " - La mia serie preferita in assoluto. Ogni colpo di scena è attentamente studiato. È ancora meglio a una seconda visione, specialmente la prima stagione." },
-        "chernobyl": { "title": "Chernobyl - 2019", "desc": " - Una delle migliori miniserie mai realizzate. Cattura abbastanza bene la condizione umana di vivere nell'Unione Sovietica." },
-        "house": { "title": "House M.D. - 2004 - 2012", "desc": " - Un dramma medico reso divertente da un dottore imperfetto, esilarante e arguto." },
-        "aib": { "title": "Alice in Borderland - 2020 - 2025", "desc": " - Prime due stagioni stellari; la terza è deludente. Nel complesso, molto coinvolgente, divertente e cervellotico." },
-        "clarkson": { "title": "Clarkson's Farm - 2021 - ?", "desc": " - Un tizio che guidava auto per vivere ora guida trattori per vivere. Clarkson's Farm è esilarante, emozionante, educativo e importante." },
-        "shogun": { "title": "Shogun - 2024 - 2026", "desc": " - Un racconto classico, magistralmente rifatto. Mostra perfettamente la brutalità e la bellezza del Giappone dell'era Edo." }
+        "bb": {
+          "title": "Breaking Bad - 2008 - 2013",
+          "desc": " - A parte un paio di episodi riempitivi, la sua capacità di fornire costantemente un voto di 8+/10 per una durata così lunga è impressionante."
+        },
+        "got": {
+          "title": "Game of Thrones - 2011 - 2019",
+          "desc": " - Finché non guardi le ultime due stagioni, è una televisione solida con personaggi complessi e trame interessanti."
+        },
+        "andor": {
+          "title": "Andor - 2022- 2025",
+          "desc": " - Narrativa sorprendentemente profonda per Star Wars. È anche piuttosto rilevante nel mondo di oggi."
+        },
+        "mr_robot": {
+          "title": "Mr. Robot - 2015 - 2019",
+          "desc": " - La mia serie preferita in assoluto. Ogni colpo di scena è attentamente studiato. È ancora meglio a una seconda visione, specialmente la prima stagione."
+        },
+        "chernobyl": {
+          "title": "Chernobyl - 2019",
+          "desc": " - Una delle migliori miniserie mai realizzate. Cattura abbastanza bene la condizione umana di vivere nell'Unione Sovietica."
+        },
+        "house": {
+          "title": "House M.D. - 2004 - 2012",
+          "desc": " - Un dramma medico reso divertente da un dottore imperfetto, esilarante e arguto."
+        },
+        "aib": {
+          "title": "Alice in Borderland - 2020 - 2025",
+          "desc": " - Prime due stagioni stellari; la terza è deludente. Nel complesso, molto coinvolgente, divertente e cervellotico."
+        },
+        "clarkson": {
+          "title": "Clarkson's Farm - 2021 - ?",
+          "desc": " - Un tizio che guidava auto per vivere ora guida trattori per vivere. Clarkson's Farm è esilarante, emozionante, educativo e importante."
+        },
+        "shogun": {
+          "title": "Shogun - 2024 - 2026",
+          "desc": " - Un racconto classico, magistralmente rifatto. Mostra perfettamente la brutalità e la bellezza del Giappone dell'era Edo."
+        }
+      },
+      "docs": {
+        "andriivka": {
+          "title": "2000 Meters to Andriivka - 2026",
+          "desc": " - Uno sguardo crudo e straziante ai passi incrementali per riconquistare il villaggio strategico di Andriivka. Mostra la realtà della vita quotidiana in prima linea e come la guerra moderna cambia un uomo."
+        },
+        "sinikollane": {
+          "title": "Sinikollane - 2025",
+          "desc": " - Questa storia segue il medico volontario estone Erko Laidinen e la sua famiglia per molti mesi, mostrando che gli effetti della guerra sono altrettanto devastanti per chi rimane a casa quanto per chi combatte."
+        },
+        "into_the_void": {
+          "title": "Into the Void: Putin's Foreign Fighters - 2026",
+          "desc": " - Come la Russia recluta cittadini dal Sud globale per la sua guerra illegale in Ucraina."
+        }
       },
       "anime": {
-        "initial_d": { "title": "Initial D - 1998 - 2014", "desc": " - L'anime che ha acceso il mio interesse per le auto. Un classico assoluto. Sogno ad occhi aperti di creare la mia battaglia di derapate animate. Spero un giorno di poter realizzare quel sogno." },
-        "edgerunners": { "title": "Cyberpunk: Edgerunners - 2022 - ?", "desc": " - Se ti piace Cyberpunk 2077, adorerai questo anime. Mi è rimasto impresso per molto tempo." }
-      }
+        "initial_d": {
+          "title": "Initial D - 1998 - 2014",
+          "desc": " - L'anime che ha acceso il mio interesse per le auto. Un classico assoluto. Sogno ad occhi aperti di creare la mia battaglia di derapate animate. Spero un giorno di poter realizzare quel sogno."
+        },
+        "edgerunners": {
+          "title": "Cyberpunk: Edgerunners - 2022 - ?",
+          "desc": " - Se ti piace Cyberpunk 2077, adorerai questo anime. Mi è rimasto impresso per molto tempo."
+        }
+      },
+      "docs_title": "DOCUMENTARI SULLA GUERRA TRA UCRAINA E RUSSIA"
     },
     "games_page": {
       "title": "ELENCO DEI MIEI GIOCHI PREFERITI",
       "singleplayer_title": "SINGLEPLAYER",
       "multiplayer_title": "MULTIPLAYER",
       "singleplayer": {
-        "cp2077": { "title": "Cyberpunk 2077 - 2020/2023", "desc": " - Uno dei mondi di videogiochi più belli di sempre. Tutto è radicato nella realtà e tutto ha uno scopo. Il combattimento è incredibilmente divertente e vario. Una colonna sonora fantastica. La narrazione utilizza eccezionalmente bene il worldbuilding, e non è solo una storia di punk che combattono il sistema o di un mercenario che scala la malavita. La missione principale di Cyberpunk 2077 è molto più filosofica, attingendo pesantemente dall'esistenzialismo e dal postumanesimo. Al suo centro, è una storia sull'identità, che intreccia quel tema in ogni parte del gioco. Anche la lunghezza della missione principale è perfetta. È nitida e diretta - tutto essenziale, niente riempitivi. Le missioni hanno alcune decisioni che si ripercuotono, anche se meno di The Witcher 3, ma anche il valore della produzione è più alto. I personaggi sono eccellenti. - 9/10" },
-        "witcher3": { "title": "The Witcher 3: Wild Hunt - 2015/2016", "desc": " - Questo gioco ha mostrato a tutti (e a Bethesda) che i vasti giochi open-world possono avere un'abbondanza di storie complesse e personaggi ben scritti. Il combattimento è di gran lunga l'anello più debole, ma non è affatto male, e alla fine diventa divertente. Sia le missioni principali che quelle secondarie offrono una discreta quantità di decisioni, con conseguenze che appaiono più avanti. Gwent era così bello che CDPR ha finito per creare un gioco separato solo per quello. La colonna sonora è semplicemente adorabile. - 8/10" },
-        "mario_galaxy": { "title": "Super Mario Galaxy 1 & 2- 2007/2010", "desc": " - WIP" },
-        "ori": { "title": "Ori and the Blind Forest, Ori and the Will of the Wisps - 2015/2020", "desc": " - WIP" },
-        "dead_space": { "title": "Dead Space Remake - 2023", "desc": " - WIP" },
-        "minecraft": { "title": "Minecraft - 2009", "desc": " - WIP" }
+        "cp2077": {
+          "title": "Cyberpunk 2077 - 2020/2023",
+          "desc": " - Uno dei mondi di videogiochi più belli di sempre. Tutto è radicato nella realtà e tutto ha uno scopo. Il combattimento è incredibilmente divertente e vario. Una colonna sonora fantastica. La narrazione utilizza eccezionalmente bene il worldbuilding, e non è solo una storia di punk che combattono il sistema o di un mercenario che scala la malavita. La missione principale di Cyberpunk 2077 è molto più filosofica, attingendo pesantemente dall'esistenzialismo e dal postumanesimo. Al suo centro, è una storia sull'identità, che intreccia quel tema in ogni parte del gioco. Anche la lunghezza della missione principale è perfetta. È nitida e diretta - tutto essenziale, niente riempitivi. Le missioni hanno alcune decisioni che si ripercuotono, anche se meno di The Witcher 3, ma anche il valore della produzione è più alto. I personaggi sono eccellenti. - 9/10"
+        },
+        "witcher3": {
+          "title": "The Witcher 3: Wild Hunt - 2015/2016",
+          "desc": " - Questo gioco ha mostrato a tutti (e a Bethesda) che i vasti giochi open-world possono avere un'abbondanza di storie complesse e personaggi ben scritti. Il combattimento è di gran lunga l'anello più debole, ma non è affatto male, e alla fine diventa divertente. Sia le missioni principali che quelle secondarie offrono una discreta quantità di decisioni, con conseguenze che appaiono più avanti. Gwent era così bello che CDPR ha finito per creare un gioco separato solo per quello. La colonna sonora è semplicemente adorabile. - 8/10"
+        },
+        "mario_galaxy": {
+          "title": "Super Mario Galaxy 1 & 2- 2007/2010",
+          "desc": " - WIP"
+        },
+        "ori": {
+          "title": "Ori and the Blind Forest, Ori and the Will of the Wisps - 2015/2020",
+          "desc": " - WIP"
+        },
+        "dead_space": {
+          "title": "Dead Space Remake - 2023",
+          "desc": " - WIP"
+        },
+        "minecraft": {
+          "title": "Minecraft - 2009",
+          "desc": " - WIP"
+        }
       },
       "multiplayer": {
-        "lol": { "title": "League of Legends - 2009", "desc": " - WIP" },
-        "overwatch": { "title": "Overwatch - 2016", "desc": " - WIP" },
-        "warframe": { "title": "Warframe - 2013", "desc": " - WIP" }
+        "lol": {
+          "title": "League of Legends - 2009",
+          "desc": " - WIP"
+        },
+        "overwatch": {
+          "title": "Overwatch - 2016",
+          "desc": " - WIP"
+        },
+        "warframe": {
+          "title": "Warframe - 2013",
+          "desc": " - WIP"
+        }
       }
     },
     "footer": {

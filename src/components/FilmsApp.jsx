@@ -53,6 +53,16 @@ const FilmsSeriesAnime = () => {
             <div className='pt-10 pb-5'>
               <div className='border-t-2 border-dotted border-blue-900'></div>
             </div>
+            <h2 className='text-lg sm:text-2xl font-bold text-blue-500 mb-4 cursor-default'>{t('films_page.docs_title')}</h2>
+            <ul className='flex flex-col gap-2 text-sm sm:text-base cursor-default leading-6 pb-8'>
+              <li className='cursor-default'><span className='font-bold text-black'>{t('films_page.docs.andriivka.title')}</span><span className='text-black'>{t('films_page.docs.andriivka.desc')}</span></li>
+              <li className='cursor-default'><span className='font-bold text-black'>{t('films_page.docs.sinikollane.title')}</span><span className='text-black'>{t('films_page.docs.sinikollane.desc')}</span></li>
+              <li className='cursor-default'><span className='font-bold text-black'>{t('films_page.docs.into_the_void.title')}</span><span className='text-black'>{t('films_page.docs.into_the_void.desc')}</span></li>
+            </ul>
+
+            <div className='pt-10 pb-5'>
+              <div className='border-t-2 border-dotted border-blue-900'></div>
+            </div>
             <h2 className='text-lg sm:text-2xl font-bold text-blue-500 mb-4 cursor-default'>{t('films_page.anime_title')}</h2>
             <ul className='flex flex-col gap-2 text-sm sm:text-base cursor-default leading-6 pb-5'>
               <li className='cursor-default'><span className='font-bold text-black'>{t('films_page.anime.initial_d.title')}</span><span className='text-black'>{t('films_page.anime.initial_d.desc')}</span></li>
