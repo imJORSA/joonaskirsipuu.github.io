@@ -30,7 +30,7 @@
         "desc": "Joonas Kirsipuu isiklik blogi ja uuendused."
       },
       "fractals": {
-        "title": "Fraktaalid | Joonas Kirsipuu",
+        "title": "Project Fractals | Joonas Kirsipuu",
         "desc": "Joonas Kirsipuu 3D fraktaalide maailmaloome projekt."
       },
       "about": {
@@ -115,19 +115,41 @@
       }
     },
     "worldbuilding_page": {
-      "fractals_thumb_alt": "Projekti Fraktaalid pisipilt",
-      "fractals": "PROJEKT FRAKTAALID",
-      "project3088": "PROJEKT 3088"
+      "fractals_thumb_alt": "Project Fractals thumbnail",
+      "fractals": "PROJECT FRACTALS",
+      "project3088": "PROJECT 3088"
     },
     "fractals_page": {
-      "title": "PROJEKT FRAKTAALID",
-      "alt": "Projekt Fraktaalid",
+      "title": "PROJECT FRACTALS",
+      "alt": "Project Fractals",
       "desc1": "See maailmaloome projekt sai alguse bakalaureusetöö projektina pealkirjaga [LINK1]. Tahtsin ette kujutada tuleviku kosmosestsenaariumi, kus inimkond on kliimamuutuste tõttu rännanud mesosfääri, elades hiiglaslikel hõljuvatel skulpturaalsetel objektidel. Nende objektide sees olevad kapslid toimivad individuaalsete eluruumidena, mis on inspireeritud loodusvormidest. Lisaks kapslitele on olemas ka ühisala, kus kõik saavad suhelda. Minu disainiprotsess hõlmas ulatuslikku uurimistööd, ammutades inspiratsiooni erinevatest allikatest, sealhulgas Aasia arhitektuurilistest imedest, ulmekirjandusest ja filmiklassikast alates 60ndatest kuni tänapäevaste suurte kassahittideni.",
       "desc2": "Täispika lõputöö leiate [LINK2] eesti keeles ja soovin tänada Merille Hommikut, kes oli selle bakalaureuseprojekti vältel suurepärane juhendaja.",
       "desc3": "Selle projekti uuendused on aeglased, kuna minu aega võtavad muud projektid ja elumuutused.",
       "animation": "Fraktaali animatsioon",
-      "link1_text": "\"Minu tuleviku ruum\"",
-      "link2_text": "siit"
+      "link1_text": "\"My Future Space\"",
+      "link2_text": "siit",
+      "images": {
+        "fractals001": { "title": "Fractals 001", "alt": "Fractals 001" },
+        "hallway": { "title": "Fractal Hallway", "alt": "Fractal Hallway" },
+        "capsuleView002": { "title": "Fractal Capsule 001", "alt": "Fractal Capsule 001" },
+        "capsuleView001": { "title": "Fractal Capsule 002", "alt": "Fractal Capsule 002" },
+        "capsuleNightview": { "title": "Fractal Capsule Nightview", "alt": "Fractal Capsule Nightview" },
+        "capsuleView003": { "title": "Fractal Capsule 003", "alt": "Fractal Capsule 003" },
+        "capsuleView004": { "title": "Fractal Capsule 004", "alt": "Fractal Capsule 004" },
+        "capsuleView005": { "title": "Fractal Capsule 005", "alt": "Fractal Capsule 005" },
+        "fractals002": { "title": "Fractals 002", "alt": "Fractals 002" },
+        "fractals003": { "title": "Fractals 003", "alt": "Fractals 003" },
+        "commonRoom": { "title": "Fractal Commonroom", "alt": "Fractal Commonroom" },
+        "bathroom002": { "title": "Fractal Bathroom 001", "alt": "Fractal Bathroom 001" },
+        "bathroom001": { "title": "Fractal Bathroom 002", "alt": "Fractal Bathroom 002" },
+        "wireframe001": { "title": "Fractal Wireframe 001", "alt": "Fractal Wireframe 001" },
+        "wireframe002": { "title": "Fractal Wireframe 002", "alt": "Fractal Wireframe 002" },
+        "animation": {
+          "title": "Fraktaali animatsioon",
+          "subtext": "YouTube",
+          "alt": "Fraktaali animatsioon"
+        }
+      }
     },
     "genai_page": {
       "title": "Miks GenAI kunst vananeb - WIP",
@@ -300,166 +322,186 @@
     },
     "images": {
       "cerebrum": {
-        "text": "Suuraju",
-        "subtext": "MRT skaneeringud, Blender, Octane Render, Affinity [2026]",
+        "text": "\"Cerebrum\"",
+        "subtext": "MRT Scans, Blender, Octane Render, Affinity [2026]",
         "alt": "3D renderdus pealkirjaga Suuraju, autor Joonas Kirsipuu"
       },
-      "fractals001": {
-        "text": "Fraktaalid 001",
+      "fractals": {
+        "text": "\"My Future Space\"",
         "subtext": "Mandelbulb 3D, Photoshop [2024]",
-        "alt": "3D fraktaalkunsti kompositsioon pealkirjaga Fraktaalid 001, autor Joonas Kirsipuu"
+        "alt": "3D fraktaalkunsti kompositsioon, autor Joonas Kirsipuu"
       },
       "capsuleNightview": {
-        "text": "Kapsli öövaade",
+        "text": "\"Capsule Nightview\"",
         "subtext": "Blender, Photoshop [2024]",
         "alt": "Öövaate renderdus futuristlikust kapsli sisemusest, autor Joonas Kirsipuu"
       },
       "wireframe001": {
-        "text": "Traatvõrestik 001",
+        "text": "\"Wireframe 001\"",
         "subtext": "Blender, Photoshop [2024]",
         "alt": "3D traatvõrestiku renderdus arhitektuursest struktuurist, autor Joonas Kirsipuu"
       },
-      "bathroom001": {
-        "text": "Vannituba 001",
-        "subtext": "Blender, Photoshop [2024]",
-        "alt": "3D visualiseering futuristlikust vannitoa sisemusest, autor Joonas Kirsipuu"
+      "maiko": {
+        "text": "\"Maiko\"",
+        "subtext": "Pronks ja Kips [2023]",
+        "alt": "Maiko skulptuur"
       },
-      "commonRoom": {
-        "text": "Ühisruum",
-        "subtext": "Blender, Photoshop [2024]",
-        "alt": "3D visualiseering ühisruumi alast, autor Joonas Kirsipuu"
+      "monophobia": {
+        "text": "\"Monophobia\"",
+        "subtext": "Segamaterjalid [2022]",
+        "alt": "Skulptuur pealkirjaga Monophobia"
       },
-      "capsuleView001": {
-        "text": "Kapsli vaade 001",
-        "subtext": "Blender, Photoshop [2024]",
-        "alt": "Lainurk 3D vaade kapsli sisemusest, autor Joonas Kirsipuu"
+      "gameworld": {
+        "text": "\"Gameworld\"",
+        "subtext": "3D-trükk ja Akrüül [2022]",
+        "alt": "Skulptuur pealkirjaga Gameworld"
+      },
+      "upsidedown": {
+        "text": "\"Upside Down\"",
+        "subtext": "Teras ja Puit [2021]",
+        "alt": "Skulptuur pealkirjaga Upside Down"
+      },
+      "weldybee": {
+        "text": "\"Weldybee\"",
+        "subtext": "Metallijäätmed [2021]",
+        "alt": "Skulptuur pealkirjaga Weldybee"
+      },
+      "heart": {
+        "text": "\"Süda\"",
+        "subtext": "Segatehnika [2024]",
+        "alt": "Südame skulptuur"
+      },
+      "girl_relief": {
+        "text": "\"Girl low relief\"",
+        "subtext": "Kips [2023]",
+        "alt": "Tütarlapse madalreljeefi skulptuur"
       },
       "yunoChan": {
-        "text": "Yuno-chan",
+        "text": "\"ゆのちゃん\"",
         "subtext": "Blender, Substance Painter/Designer, Character Creator 4, Marvelous Designer [2023]",
         "alt": "3D tegelaskuju mudel Yuno-chanist, autor Joonas Kirsipuu"
-      },
-      "porsche": {
-        "text": "Porsche 911 RWB",
-        "subtext": "Blender [2018]",
-        "alt": "3D renderdus Porsche 911 RWB-st, autor Joonas Kirsipuu"
       }
     },
     "traditional": {
       "thinkingOfYou": {
-        "text": "Mõeldes sinule",
+        "text": "\"Thinking of you\"",
         "subtext": "Pliiatsid paberil [2022]",
         "alt": "Pliiatsijoonistus portree pealkirjaga Mõeldes sinule, autor Joonas Kirsipuu"
       },
       "shy": {
-        "text": "Häbelik",
+        "text": "\"Shy\"",
         "subtext": "Pliiatsid paberil [2022]",
         "alt": "Pliiatsijoonistus portree pealkirjaga Häbelik, autor Joonas Kirsipuu"
       },
       "closeYourEyes": {
-        "text": "Sule silmad",
+        "text": "\"Close your eyes\"",
         "subtext": "Pliiatsid paberil [2022]",
         "alt": "Pliiatsijoonistus portree pealkirjaga Sule silmad, autor Joonas Kirsipuu"
       },
       "girl001": {
-        "text": "Tüdruk 001",
+        "text": "\"Girl 001\"",
         "subtext": "Pliiatsid paberil [2022]",
         "alt": "Pliiatsijoonistus tüdrukust, autor Joonas Kirsipuu"
       },
       "theOpposite": {
-        "text": "Vastand",
-        "subtext": "Akrüül Soome papil [2021]",
+        "text": "\"The opposite\"",
+        "subtext": "Akrüül Soome kartongil [2021]",
         "alt": "Akrüülmaal papil pealkirjaga Vastand, autor Joonas Kirsipuu"
       },
       "abstract001": {
-        "text": "Abstraktne 001",
-        "subtext": "Akrüül Soome papil [2021]",
+        "text": "\"Abstract 001\"",
+        "subtext": "Akrüül Soome kartongil [2021]",
         "alt": "Abstraktne akrüülmaal papil, autor Joonas Kirsipuu"
       },
       "act001": {
-        "text": "Akt 001",
-        "subtext": "Akrüül Soome papil [2021]",
+        "text": "\"Act 001\"",
+        "subtext": "Akrüül Soome kartongil [2021]",
         "alt": "Akrüülmaal figuurist pealkirjaga Akt 001, autor Joonas Kirsipuu"
       },
       "linework": {
-        "text": "Joonekunst",
+        "text": "\"Linework\"",
         "subtext": "Pliiatsid paberil [2017]",
         "alt": "Pliiatsi joonekunst joonistus, autor Joonas Kirsipuu"
       },
       "sittingWithColours": {
-        "text": "Istumas värvidega",
-        "subtext": "Guašš papil [2017]",
+        "text": "\"Sitting with colours\"",
+        "subtext": "Guašš kartongil [2017]",
         "alt": "Guaššmaal pealkirjaga Istumas värvidega, autor Joonas Kirsipuu"
       },
       "watercolourWithRainwater": {
-        "text": "Akvarell vihmaveega",
+        "text": "\"Watercolour with rainwater\"",
         "subtext": "Akvarell paberil [2017]",
         "alt": "Akvarellmaal loodud kasutades vihmavett, autor Joonas Kirsipuu"
       },
       "guitarGlove": {
-        "text": "Kitarrikinnas",
-        "subtext": "Guašš papil [2016]",
+        "text": "\"Guitar Glove\"",
+        "subtext": "Guašš kartongil [2016]",
         "alt": "Guaššmaal pealkirjaga Kitarrikinnas, autor Joonas Kirsipuu"
       },
       "straightenYourTie": {
-        "text": "Kohenda oma lipsu",
-        "subtext": "Guašš papil [2016]",
+        "text": "\"Straighten your tie\"",
+        "subtext": "Guašš kartongil [2016]",
         "alt": "Guaššmaal pealkirjaga Kohenda oma lipsu, autor Joonas Kirsipuu"
       }
     },
     "fractals": {
       "hallway": {
-        "text": "Esik",
+        "text": "\"Hallway\"",
         "subtext": "Blender, Photoshop [2024]",
         "alt": "3D renderdus esikust, autor Joonas Kirsipuu"
       },
+      "capsuleView001": {
+        "text": "\"Capsule view 001\"",
+        "subtext": "Blender, Photoshop [2024]",
+        "alt": "3D renderdus kapsli sisemusest, autor Joonas Kirsipuu"
+      },
       "capsuleView002": {
-        "text": "Kapsli vaade 002",
+        "text": "\"Capsule view 002\"",
         "subtext": "Blender, Photoshop [2024]",
         "alt": "3D renderdus kapsli sisemusest, autor Joonas Kirsipuu"
       },
       "capsuleView003": {
-        "text": "Kapsli vaade 003",
+        "text": "\"Capsule View 003\"",
         "subtext": "Blender, Photoshop [2024]",
         "alt": "Detailne vaade kapsli eluruumist, autor Joonas Kirsipuu"
       },
       "capsuleView004": {
-        "text": "Kapsli vaade 004",
+        "text": "\"Capsule View 004\"",
         "subtext": "Blender, Photoshop [2024]",
         "alt": "Perspektiivvaade kapsli sisemusest, autor Joonas Kirsipuu"
       },
       "capsuleView005": {
-        "text": "Kapsli vaade 005",
+        "text": "\"Capsule View 005\"",
         "subtext": "Blender, Photoshop [2024]",
         "alt": "Vaade kapsli sisemusest näidates istumisala, autor Joonas Kirsipuu"
       },
       "fractals002": {
-        "text": "Fraktaalid 002",
+        "text": "\"Fractals 002\"",
         "subtext": "Mandelbulb 3D, Photoshop [2024]",
         "alt": "3D fraktaalkunsti kompositsioon pealkirjaga Fraktaalid 002, autor Joonas Kirsipuu"
       },
       "fractals003": {
-        "text": "Fraktaalid 003",
+        "text": "\"Fractals 003\"",
         "subtext": "Mandelbulb 3D, Photoshop [2024]",
         "alt": "Välisvaade kapsli struktuurist, autor Joonas Kirsipuu"
       },
       "commonRoom": {
-        "text": "Ühisruum",
+        "text": "\"Common Room\"",
         "subtext": "Blender, Photoshop [2024]",
         "alt": "3D visualiseering ühisruumi alast, autor Joonas Kirsipuu"
       },
       "bathroom002": {
-        "text": "Vannituba 002",
+        "text": "\"Bathroom 002\"",
         "subtext": "Blender, Photoshop [2024]",
         "alt": "3D visualiseering futuristlikust vannitoa sisemusest, autor Joonas Kirsipuu"
       },
       "wireframe002": {
-        "text": "Traatvõrestik 002",
+        "text": "\"Wireframe 002\"",
         "subtext": "Blender, Photoshop [2024]",
         "alt": "3D traatvõrestiku renderdus arhitektuursest struktuurist, autor Joonas Kirsipuu"
       },
       "animation": {
-        "text": "Fraktaali animatsioon",
+        "text": "\"Fractals Animation\"",
         "subtext": "YouTube",
         "alt": "Fraktaali animatsioon, autor Joonas Kirsipuu"
       }
@@ -471,6 +513,47 @@
       "outlook": "Outlook",
       "yahoo": "Yahoo",
       "close": "Sulge"
+    },
+    "sculptures_page": {
+      "maiko": {
+        "title": "\"Maiko\"",
+        "desc": "Saanud ülesandeks luua rõivateemaline skulptuur, sain inspiratsiooni oma sügavast imetlusest Jaapani skulptuuri vastu ja otsustasin modelleerida maiko. Viisin läbi põhjaliku uurimistöö maiko ja geiša vahelistest erinevustest, šamiseni ajaloost ja keerukast Neo sõlme sidumise tehnikast."
+      },
+      "monophobia": {
+        "title": "\"Monophobia\"",
+        "desc": "See on sügavalt isiklik teos. Selle loomise ajal uskusin, et kogen monofoofiat (hirm üksinduse ees), kuigi hiljem sain teada, et see oli üldistunud ärevushäire (GAD) väljendusvorm. Skulptuur oli näitusel Saksamaal Potsdamis KunstWerki galeriis."
+      },
+      "gameworld": {
+        "title": "\"Gameworld\"",
+        "desc": "Virtuaalse ja füüsilise vaheline lõhe ületamine. Need skulptuurid on inspireeritud madala polügoni esteetikast ja digitaalsetest artefaktidest, 3D prinditud ja käsitsi viimistletud."
+      },
+      "upsidedown": {
+        "title": "\"Upside Down\"",
+        "desc": "Töötasin selle skulptuuri kallal, kui saabus esimene COVID-19 laine. Pärast kooli sulgemist jäi teos lõpetamata, kuid otsustasin seda lõpetamatust kasutada teose keskse kontseptsioonina. Viimase lihvina pöörasin skulptuuri tagurpidi – see on peegeldus sellest, kuidas meie maailm oli sel ajal pea peale pööratud."
+      },
+      "weldybee": {
+        "title": "\"Weldybee\"",
+        "desc": "Loodud keevituskursuse lõputööna, on see skulptuur valmistatud terasest. Vanarauahoovis materjali otsides leidsin vana auto vedru ja mõistsin, et sellest saaks suurepärane tagakeha mesilasele."
+      },
+      "heart": {
+        "title": "\"Süda\"",
+        "desc": "Osalesin Viljandi haigla skulptuurikonkursil. Konkursi tingimused nägid ette, et teos peab olema seotud tervise ja meditsiiniga. Valminud skulptuur on valatud pronksi ja on umbes 3 meetrit kõrge. Südant ümbritsevad veenid on lahendatud LED-valgustusega ning südame sees on LED-sein."
+      },
+      "girl_relief": {
+        "title": "\"Girl low relief\"",
+        "desc": "Naise pea anatoomia uuring, mis on teostatud madalreljeefse skulptuurina."
+      },
+      "fractals": {
+        "title": "\"My Future Space\"",
+        "desc": "Oma bakalaureusetöö raames visandasin tulevikustsenaariumi, kus inimkond on kliimamuutuste tõttu kolinud mesosfääri, elades hiiglaslikel hõljuvatel skulpturaalsetel objektidel. See, mis sai alguse lihtsast 3D-skulptuuri ja arhitektuurse visualiseerimise projektist, on kasvanud mahukaks maailmaloome (worldbuilding) ettevõtmiseks.",
+        "read_more": "Loe lähemalt"
+      }
+    },
+    "traditional_page": {
+      "drawings": "JOONISTUSED JA MAALID",
+      "sculpture": "SKULPTUUR",
+      "drawings_alt": "Joonistuste ja maalide kategooria pisipilt",
+      "sculpture_alt": "Skulptuuri kategooria pisipilt"
     }
   }
 }

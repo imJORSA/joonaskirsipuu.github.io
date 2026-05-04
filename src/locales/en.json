@@ -32,8 +32,8 @@
         "desc": "Personal blog and updates from Joonas Kirsipuu."
       },
       "fractals": {
-        "title": "Fractals | Joonas Kirsipuu",
-        "desc": "3D fractal worldbuilding project by Joonas Kirsipuu.",
+        "title": "Project Fractals | Joonas Kirsipuu",
+        "desc": "3D worldbuilding project by Joonas Kirsipuu.",
         "image": "/images/Fractalpicture.webp"
       },
       "about": {
@@ -54,6 +54,72 @@
         "desc": "Favourite films, series, documentaries, and anime by Joonas Kirsipuu."
       }
     },
+    "traditional_page": {
+      "drawings": "DRAWINGS & PAINTINGS",
+      "sculpture": "SCULPTURE",
+      "drawings_alt": "Drawings and Paintings category thumbnail",
+      "sculpture_alt": "Sculpture category thumbnail"
+    },
+    "sculpture_works": {
+      "maiko": {
+        "title": "\"Maiko\"",
+        "materials": "Clay & 3D Printing",
+        "year": "2022",
+        "description": "Tasked with creating a sculpture centered on clothing, I drew inspiration from my deep admiration for Japanese sculpture and decided to model a Maiko. I conducted extensive research into the distinctions between Maiko and Geisha, the history of the Shamisen, and the intricate technique of tying the Neo knot.",
+        "alt": "Sculpture of Maiko"
+      },
+      "monophobia": {
+        "title": "\"Monophobia\"",
+        "materials": "Polystyrene & Plastic",
+        "year": "2021",
+        "description": "This is a deeply personal work. At the time of its creation, I believed I was experiencing monophobia (the fear of being alone), though I later learned this was a manifestation of Generalized Anxiety Disorder (GAD). This sculpture was exhibited at KunstWerk in Potsdam, Germany.",
+        "alt": "Sculpture titled Monophobia"
+      },
+      "gameworld": {
+        "title": "\"Gameworld\"",
+        "materials": "Old Electronics",
+        "year": "2022",
+        "description": "This work is a love letter to my interest in computing and gaming. I gathered a vast collection of vintage electronic components—primarily from servers—and began experimenting with their forms. I eventually settled on this mech-inspired figure.",
+        "alt": "Sculpture titled Gameworld"
+      },
+      "upsidedown": {
+        "title": "\"Upside Down\"",
+        "materials": "Finnish Cardboard",
+        "year": "2020",
+        "description": "I was working on this sculpture when the first wave of COVID-19 arrived. After the school was shut down, leaving the piece unfinished, I decided to embrace this incompleteness as the central concept. The final touch was turning the sculpture upside down—a reflection of how our world had been upended during those times.",
+        "alt": "Sculpture titled Upside Down"
+      },
+      "weldybee": {
+        "title": "\"Weldybee\"",
+        "materials": "Metal Scrap",
+        "year": "2021",
+        "description": "Created as the culmination of a welding course, this sculpture is fabricated from steel. While scavenging in a scrapyard, I discovered a vintage car spring and realized it would serve as an excellent abdomen for a bee.",
+        "alt": "Sculpture titled Weldybee"
+      },
+      "heart": {
+        "title": "\"Süda\"",
+        "materials": "Mixed Media",
+        "year": "2021",
+        "description": "I participated in a sculpture contest for a hospital in Viljandi. The brief required the piece to be themed around health and medicine. The resulting sculpture is cast in bronze and stands approximately 3 meters tall. It features LED lights representing the veins surrounding the heart, with an integrated LED wall positioned inside the heart itself.",
+        "alt": "Sculpture of a Heart"
+      },
+      "girl_relief": {
+        "title": "\"Girl low relief\"",
+        "materials": "Clay",
+        "year": "2019",
+        "description": "An anatomical study of the female head, realized as a low-relief sculpture.",
+        "alt": "Low relief sculpture of a girl"
+      },
+      "fractals": {
+        "title": "\"My Future Space\"",
+        "materials": "Mixed Media",
+        "year": "2024",
+        "description": "For my Bachelor's thesis project, I envisioned a future scenario where humanity has migrated to the mesosphere due to climate change, living on gigantic, floating sculptural objects. What started as a simple 3D sculpture and architectural visualization project has evolved into a massive worldbuilding endeavor.",
+        "read_more": "Read More",
+        "alt": "My Future Space sculpture"
+      }
+    },
+
     "about_page": {
       "profile_alt": "Joonas Kirsipuu",
       "thats_me": "That's me",
@@ -131,7 +197,29 @@
       "desc3": "Updates on this project are slow due to my time being taken up by other projects and life changes.",
       "animation": "Fractal Animation",
       "link1_text": "\"My Future Space\"",
-      "link2_text": "here"
+      "link2_text": "here",
+      "images": {
+        "fractals001": { "title": "Fractals 001", "alt": "Fractals 001" },
+        "hallway": { "title": "Fractal Hallway", "alt": "Fractal Hallway" },
+        "capsuleView002": { "title": "Fractal Capsule 001", "alt": "Fractal Capsule 001" },
+        "capsuleView001": { "title": "Fractal Capsule 002", "alt": "Fractal Capsule 002" },
+        "capsuleNightview": { "title": "Fractal Capsule Nightview", "alt": "Fractal Capsule Nightview" },
+        "capsuleView003": { "title": "Fractal Capsule 003", "alt": "Fractal Capsule 003" },
+        "capsuleView004": { "title": "Fractal Capsule 004", "alt": "Fractal Capsule 004" },
+        "capsuleView005": { "title": "Fractal Capsule 005", "alt": "Fractal Capsule 005" },
+        "fractals002": { "title": "Fractals 002", "alt": "Fractals 002" },
+        "fractals003": { "title": "Fractals 003", "alt": "Fractals 003" },
+        "commonRoom": { "title": "Fractal Commonroom", "alt": "Fractal Commonroom" },
+        "bathroom002": { "title": "Fractal Bathroom 001", "alt": "Fractal Bathroom 001" },
+        "bathroom001": { "title": "Fractal Bathroom 002", "alt": "Fractal Bathroom 002" },
+        "wireframe001": { "title": "Fractal Wireframe 001", "alt": "Fractal Wireframe 001" },
+        "wireframe002": { "title": "Fractal Wireframe 002", "alt": "Fractal Wireframe 002" },
+        "animation": {
+          "title": "Fractals Animation",
+          "subtext": "YouTube",
+          "alt": "Fractals Animation"
+        }
+      }
     },
     "genai_page": {
       "title": "Why GenAI art will be obsolete - WIP",
@@ -145,38 +233,116 @@
       "anime_title": "ANIME",
       "imdb_link": "If you're interested, you can check out my ratings for films & series <1>here</1>. It's far from complete though, I'm updating it periodically.",
       "films": {
-        "br": { "title": "Blade Runner - 1982", "desc": " - The stunning world of Philip K. Dick’s Do Androids Dream of Electric Sheep? created on film in fantastic detail." },
-        "br2049": { "title": "Blade Runner 2049 - 2017", "desc": " - One of the best film sequels ever made. It’s distinctly Blade Runner, yet it’s different enough in its tonality and direction to stand on it's own two feet." },
-        "alien": { "title": "Alien - 1979", "desc": " - Holds up incredibly well in its horror elements. Spectacular set design and atmosphere." },
-        "space_odyssey": { "title": "2001: A Space Odyssey - 1968", "desc": " - It’s so good that it convinced a certain group of people that the Earth is flat. Enough said." },
-        "dune": { "title": "Dune part 1 & 2 - 2021/2024", "desc": " - The unfilmable book capsured on film by one of the best directors of our time. CINEMA!" },
-        "lotr": { "title": "LOTR Trilogy - 2001/2002/2003", "desc": " - The gold standard of worldbuilding, made into three films by an incredibly passionate group of people. It’s just magical." },
-        "arrival": { "title": "Arrival - 2016", "desc": " - A fantastic take on the sci-fi genre. Great acting and directing." },
-        "whiplash": { "title": "Whiplash - 2014", "desc": " - Proves that you don’t need a big budget to make an amazing film. The corrosive and convoluted relationship between a student who longs for his teacher’s praise is really chilling and hits home." },
-        "joker": { "title": "Joker - 2019", "desc": " - A very different take on a classic Batman villain. In a time of mental health crisis—either because people are increasingly lonely or because some think it’s ‘cool’—Joker’s relevance is only bound to increase." },
-        "y1917": { "title": "1917 - 2019", "desc": " - Spectacular cinematography disguised as a war film that is just brutal." },
-        "pirates": { "title": "Pirates of the Caribbean: The Curse of the Black Pearl - 2003", "desc": " - Pirates used to be cartoony and something you’d scare kids with, but not after this film. It’s an absolute gem that still holds up incredibly well visually, and Johnny Depp is just brilliant." },
-        "oppenheimer": { "title": "Oppenheimer - 2023", "desc": " - Written like an action flick, but it’s just some guys in a room talking and a big explosion at the halfway mark. And yet it managed to keep me on the edge of my seat for the full runtime. It’s also got some interesting back-and-forth between the black-and-white and color shots—one from Strauss’s POV and the other from Oppenheimer’s, respectively. I wish I’d had the chance to see it in IMAX." }
+        "br": {
+          "title": "Blade Runner - 1982",
+          "desc": " - The stunning world of Philip K. Dick’s Do Androids Dream of Electric Sheep? created on film in fantastic detail."
+        },
+        "br2049": {
+          "title": "Blade Runner 2049 - 2017",
+          "desc": " - One of the best film sequels ever made. It’s distinctly Blade Runner, yet it’s different enough in its tonality and direction to stand on it's own two feet."
+        },
+        "alien": {
+          "title": "Alien - 1979",
+          "desc": " - Holds up incredibly well in its horror elements. Spectacular set design and atmosphere."
+        },
+        "space_odyssey": {
+          "title": "2001: A Space Odyssey - 1968",
+          "desc": " - It’s so good that it convinced a certain group of people that the Earth is flat. Enough said."
+        },
+        "dune": {
+          "title": "Dune part 1 & 2 - 2021/2024",
+          "desc": " - The unfilmable book capsured on film by one of the best directors of our time. CINEMA!"
+        },
+        "lotr": {
+          "title": "LOTR Trilogy - 2001/2002/2003",
+          "desc": " - The gold standard of worldbuilding, made into three films by an incredibly passionate group of people. It’s just magical."
+        },
+        "arrival": {
+          "title": "Arrival - 2016",
+          "desc": " - A fantastic take on the sci-fi genre. Great acting and directing."
+        },
+        "whiplash": {
+          "title": "Whiplash - 2014",
+          "desc": " - Proves that you don’t need a big budget to make an amazing film. The corrosive and convoluted relationship between a student who longs for his teacher’s praise is really chilling and hits home."
+        },
+        "joker": {
+          "title": "Joker - 2019",
+          "desc": " - A very different take on a classic Batman villain. In a time of mental health crisis—either because people are increasingly lonely or because some think it’s ‘cool’—Joker’s relevance is only bound to increase."
+        },
+        "y1917": {
+          "title": "1917 - 2019",
+          "desc": " - Spectacular cinematography disguised as a war film that is just brutal."
+        },
+        "pirates": {
+          "title": "Pirates of the Caribbean: The Curse of the Black Pearl - 2003",
+          "desc": " - Pirates used to be cartoony and something you’d scare kids with, but not after this film. It’s an absolute gem that still holds up incredibly well visually, and Johnny Depp is just brilliant."
+        },
+        "oppenheimer": {
+          "title": "Oppenheimer - 2023",
+          "desc": " - Written like an action flick, but it’s just some guys in a room talking and a big explosion at the halfway mark. And yet it managed to keep me on the edge of my seat for the full runtime. It’s also got some interesting back-and-forth between the black-and-white and color shots—one from Strauss’s POV and the other from Oppenheimer’s, respectively. I wish I’d had the chance to see it in IMAX."
+        }
       },
       "series": {
-        "bb": { "title": "Breaking Bad - 2008 - 2013", "desc": " - A couple of filler episodes a side, it's ability to deliver 8+/10 so consistently over such a long runtime is impressive." },
-        "got": { "title": "Game of Thrones - 2011 - 2019", "desc": " - As long as you don't watch the last two seasons, it's solid television with complex characters and interesting plotlines." },
-        "andor": { "title": "Andor - 2022- 2025", "desc": " - Surprisingly deep narrative for Star Wars. It's also pretty relevant in today's world." },
-        "mr_robot": { "title": "Mr. Robot - 2015 - 2019", "desc": " - My personal favourite series. Every twist and turn is carefully thought out. It’s even better on a rewatch, especially Season 1." },
-        "chernobyl": { "title": "Chernobyl - 2019", "desc": " - One of the best miniseries ever made. Captures the human condition of living in the Soviet Union quite well." },
-        "house": { "title": "House M.D. - 2004 - 2012", "desc": " - A medical drama made fun by a flawed, hilarious, and witty doctor." },
-        "aib": { "title": "Alice in Borderland - 2020 - 2025", "desc": " - Stellar first two seasons; the third falls flat. Overall, very engaging, fun, and mindfucky." },
-        "clarkson": { "title": "Clarkson's Farm - 2021 - ?", "desc": " - A guy who drove cars for a living now drives tractors for a living. Clarkson’s Farm is hilarious, emotional, educational, and important." },
-        "shogun": { "title": "Shogun - 2024 - 2026", "desc": " - A classic tale, masterfully remade. Perfectly showcases the brutality and beauty of Edo-era Japan." }
+        "bb": {
+          "title": "Breaking Bad - 2008 - 2013",
+          "desc": " - A couple of filler episodes a side, it's ability to deliver 8+/10 so consistently over such a long runtime is impressive."
+        },
+        "got": {
+          "title": "Game of Thrones - 2011 - 2019",
+          "desc": " - As long as you don't watch the last two seasons, it's solid television with complex characters and interesting plotlines."
+        },
+        "andor": {
+          "title": "Andor - 2022- 2025",
+          "desc": " - Surprisingly deep narrative for Star Wars. It's also pretty relevant in today's world."
+        },
+        "mr_robot": {
+          "title": "Mr. Robot - 2015 - 2019",
+          "desc": " - My personal favourite series. Every twist and turn is carefully thought out. It’s even better on a rewatch, especially Season 1."
+        },
+        "chernobyl": {
+          "title": "Chernobyl - 2019",
+          "desc": " - One of the best miniseries ever made. Captures the human condition of living in the Soviet Union quite well."
+        },
+        "house": {
+          "title": "House M.D. - 2004 - 2012",
+          "desc": " - A medical drama made fun by a flawed, hilarious, and witty doctor."
+        },
+        "aib": {
+          "title": "Alice in Borderland - 2020 - 2025",
+          "desc": " - Stellar first two seasons; the third falls flat. Overall, very engaging, fun, and mindfucky."
+        },
+        "clarkson": {
+          "title": "Clarkson's Farm - 2021 - ?",
+          "desc": " - A guy who drove cars for a living now drives tractors for a living. Clarkson’s Farm is hilarious, emotional, educational, and important."
+        },
+        "shogun": {
+          "title": "Shogun - 2024 - 2026",
+          "desc": " - A classic tale, masterfully remade. Perfectly showcases the brutality and beauty of Edo-era Japan."
+        }
       },
       "docs": {
-        "andriivka": { "title": "2000 Meters to Andriivka - 2026", "desc": " - A very raw and gut-wrenching look at the incremental steps to retake the strategic village of Andriivka. It shows the reality of everyday life on the front lines and how modern war changes a man." },
-        "sinikollane": { "title": "Sinikollane - 2025", "desc": " - This story follows an Estonian volunteer medic Erko Laidinen and his family for many months, showing that the effects of war are just as damning for the ones staying at home as they are for the ones fighting." },
-        "into_the_void": { "title": "Into the Void: Putin's Foreign Fighters - 2026", "desc": " - How Russia recruits citizens from the Global South for it's illegal war in Ukraine." }
+        "andriivka": {
+          "title": "2000 Meters to Andriivka - 2026",
+          "desc": " - A very raw and gut-wrenching look at the incremental steps to retake the strategic village of Andriivka. It shows the reality of everyday life on the front lines and how modern war changes a man."
+        },
+        "sinikollane": {
+          "title": "Sinikollane - 2025",
+          "desc": " - This story follows an Estonian volunteer medic Erko Laidinen and his family for many months, showing that the effects of war are just as damning for the ones staying at home as they are for the ones fighting."
+        },
+        "into_the_void": {
+          "title": "Into the Void: Putin's Foreign Fighters - 2026",
+          "desc": " - How Russia recruits citizens from the Global South for it's illegal war in Ukraine."
+        }
       },
       "anime": {
-        "initial_d": { "title": "Initial D - 1998 - 2014", "desc": " - The anime that sparked my interest in cars. An absolute classic. I daydream about making my own animated car drift battle. Hopefully, someday I can realize that dream." },
-        "edgerunners": { "title": "Cyberpunk: Edgerunners - 2022 - ?", "desc": " - If you like Cyberpunk 2077, you will love this anime. This stayed with me for a long time." }
+        "initial_d": {
+          "title": "Initial D - 1998 - 2014",
+          "desc": " - The anime that sparked my interest in cars. An absolute classic. I daydream about making my own animated car drift battle. Hopefully, someday I can realize that dream."
+        },
+        "edgerunners": {
+          "title": "Cyberpunk: Edgerunners - 2022 - ?",
+          "desc": " - If you like Cyberpunk 2077, you will love this anime. This stayed with me for a long time."
+        }
       }
     },
     "games_page": {
@@ -184,187 +350,157 @@
       "singleplayer_title": "SINGLEPLAYER",
       "multiplayer_title": "MULTIPLAYER",
       "singleplayer": {
-        "cp2077": { "title": "Cyberpunk 2077 - 2020/2023", "desc": " - One of the coolest video game worlds ever. Everything is rooted in reality, and everything has a purpose. Combat is incredibly fun and varied. A kickass soundtrack. The narrative uses the worldbuilding exceptionally well, and it’s not just a story about punks fighting the system or a gun-for-hire climbing the criminal underworld ladder. Cyberpunk 2077’s main quest is far more philosophical, drawing heavily from existentialism and posthumanism. At its core, it’s a story about identity, weaving that theme through every part of the game. The length of the main quest is also pretty spot on. It’s sharp and to the point — all killer, no filler. The quests have some decision-making that ripples outward, though less so than The Witcher 3, but the production value is also higher. The characters are excellent. - 9/10" },
-        "witcher3": { "title": "The Witcher 3: Wild Hunt - 2015/2016", "desc": " - This game showed everyone (and Bethesda) that vast open-world games can have an abundance of complex stories and well-written characters. The combat is by far the weakest link, but it’s by no means bad, and eventually becomes fun. Both main and side quests offer a decent amount of decision-making, with consequences that appear later down the line. Gwent was so good that CDPR ended up making a separate game just for it. The soundtrack is just lovely. - 8/10" },
-        "mario_galaxy": { "title": "Super Mario Galaxy 1 & 2- 2007/2010", "desc": " - WIP" },
-        "ori": { "title": "Ori and the Blind Forest, Ori and the Will of the Wisps - 2015/2020", "desc": " - WIP" },
-        "dead_space": { "title": "Dead Space Remake - 2023", "desc": " - WIP" },
-        "minecraft": { "title": "Minecraft - 2009", "desc": " - WIP" }
+        "cp2077": {
+          "title": "Cyberpunk 2077 - 2020/2023",
+          "desc": " - One of the coolest video game worlds ever. Everything is rooted in reality, and everything has a purpose. Combat is incredibly fun and varied. A kickass soundtrack. The narrative uses the worldbuilding exceptionally well, and it’s not just a story about punks fighting the system or a gun-for-hire climbing the criminal underworld ladder. Cyberpunk 2077’s main quest is far more philosophical, drawing heavily from existentialism and posthumanism. At its core, it’s a story about identity, weaving that theme through every part of the game. The length of the main quest is also pretty spot on. It’s sharp and to the point — all killer, no filler. The quests have some decision-making that ripples outward, though less so than The Witcher 3, but the production value is also higher. The characters are excellent. - 9/10"
+        },
+        "witcher3": {
+          "title": "The Witcher 3: Wild Hunt - 2015/2016",
+          "desc": " - This game showed everyone (and Bethesda) that vast open-world games can have an abundance of complex stories and well-written characters. The combat is by far the weakest link, but it’s by no means bad, and eventually becomes fun. Both main and side quests offer a decent amount of decision-making, with consequences that appear later down the line. Gwent was so good that CDPR ended up making a separate game just for it. The soundtrack is just lovely. - 8/10"
+        },
+        "mario_galaxy": {
+          "title": "Super Mario Galaxy 1 & 2- 2007/2010",
+          "desc": " - WIP"
+        },
+        "ori": {
+          "title": "Ori and the Blind Forest, Ori and the Will of the Wisps - 2015/2020",
+          "desc": " - WIP"
+        },
+        "dead_space": {
+          "title": "Dead Space Remake - 2023",
+          "desc": " - WIP"
+        },
+        "minecraft": {
+          "title": "Minecraft - 2009",
+          "desc": " - WIP"
+        }
       },
       "multiplayer": {
-        "lol": { "title": "League of Legends - 2009", "desc": " - WIP" },
-        "overwatch": { "title": "Overwatch - 2016", "desc": " - WIP" },
-        "warframe": { "title": "Warframe - 2013", "desc": " - WIP" }
+        "lol": {
+          "title": "League of Legends - 2009",
+          "desc": " - WIP"
+        },
+        "overwatch": {
+          "title": "Overwatch - 2016",
+          "desc": " - WIP"
+        },
+        "warframe": {
+          "title": "Warframe - 2013",
+          "desc": " - WIP"
+        }
       }
     },
     "footer": {
       "title": "JOONAS KIRSIPUU ART GALLERY",
       "copyright": "© {{year}} All rights reserved."
     },
-    "images": {
+    "digital_works": {
       "cerebrum": {
-        "text": "Cerebrum",
+        "title": "\"Cerebrum\"",
         "subtext": "MRT Scans, Blender, Octane Render, Affinity [2026]",
         "alt": "3D render titled Cerebrum by Joonas Kirsipuu"
       },
+      "hallway": {
+        "title": "\"Fractals Bathroom\"",
+        "subtext": "Blender, Photoshop [2024]",
+        "alt": "3D render of a hallway by Joonas Kirsipuu"
+      },
       "fractals001": {
-        "text": "Fractals 001",
+        "title": "\"Fractals\"",
         "subtext": "Mandelbulb 3D, Photoshop [2024]",
-        "alt": "3D Fractal art composition titled Fractals 001 by Joonas Kirsipuu"
-      },
-      "capsuleNightview": {
-        "text": "Capsule Nightview",
-        "subtext": "Blender, Photoshop [2024]",
-        "alt": "Night view render of a futuristic capsule interior by Joonas Kirsipuu"
-      },
-      "wireframe001": {
-        "text": "Wireframe 001",
-        "subtext": "Blender, Photoshop [2024]",
-        "alt": "3D wireframe render of an architectural structure by Joonas Kirsipuu"
-      },
-      "bathroom001": {
-        "text": "Bathroom 001",
-        "subtext": "Blender, Photoshop [2024]",
-        "alt": "3D visualization of a futuristic bathroom interior by Joonas Kirsipuu"
+        "alt": "3D Fractal art composition by Joonas Kirsipuu"
       },
       "commonRoom": {
-        "text": "Common room",
+        "title": "\"Fractals Common Room\"",
         "subtext": "Blender, Photoshop [2024]",
         "alt": "3D visualization of a common room area by Joonas Kirsipuu"
       },
       "capsuleView001": {
-        "text": "Capsule view 001",
+        "title": "\"Fractals Capsule view\"",
         "subtext": "Blender, Photoshop [2024]",
-        "alt": "Wide angle 3D view of a capsule interior by Joonas Kirsipuu"
+        "alt": "3D render of a capsule interior by Joonas Kirsipuu"
       },
-      "yunoChan": {
-        "text": "ゆのちゃん",
-        "subtext": "Blender, Substance Painter/Designer, Character Creator 4, Marvelous Designer [2023]",
-        "alt": "3D character model of Yuno-chan by Joonas Kirsipuu"
+      "capsuleNightview": {
+        "title": "\"Fractals Capsule Nightview\"",
+        "subtext": "Blender, Photoshop [2024]",
+        "alt": "Night view render of a futuristic capsule interior by Joonas Kirsipuu"
+      },
+      "wireframe001": {
+        "title": "\"Fractals Wireframe\"",
+        "subtext": "Blender, Photoshop [2024]",
+        "alt": "3D wireframe render of an architectural structure by Joonas Kirsipuu"
       },
       "porsche": {
-        "text": "Porsche 911 RWB",
+        "title": "\"Porsche 911 RWB\"",
         "subtext": "Blender [2018]",
         "alt": "3D render of a Porsche 911 RWB by Joonas Kirsipuu"
+      },
+      "yunoChan": {
+        "title": "\"ゆのちゃん\"",
+        "subtext": "Blender, Substance Painter/Designer, Character Creator 4, Marvelous Designer [2023]",
+        "alt": "3D character model of Yuno-chan by Joonas Kirsipuu"
       }
     },
-    "traditional": {
+    "traditional_works": {
       "thinkingOfYou": {
-        "text": "Thinking of you",
+        "title": "\"Thinking of you\"",
         "subtext": "Pencils on paper [2022]",
         "alt": "Pencil drawing portrait titled Thinking of you by Joonas Kirsipuu"
       },
       "shy": {
-        "text": "Shy",
+        "title": "\"Shy\"",
         "subtext": "Pencils on paper [2022]",
         "alt": "Pencil drawing portrait titled Shy by Joonas Kirsipuu"
       },
       "closeYourEyes": {
-        "text": "Close your eyes",
+        "title": "\"Close your eyes\"",
         "subtext": "Pencils on paper [2022]",
         "alt": "Pencil drawing portrait titled Close your eyes by Joonas Kirsipuu"
       },
       "girl001": {
-        "text": "Girl 001",
+        "title": "\"Girl 001\"",
         "subtext": "Pencils on paper [2022]",
         "alt": "Pencil drawing of a girl by Joonas Kirsipuu"
       },
       "theOpposite": {
-        "text": "The opposite",
+        "title": "\"The opposite\"",
         "subtext": "Acrylic on Finnish cardboard [2021]",
         "alt": "Acrylic painting on cardboard titled The opposite by Joonas Kirsipuu"
       },
       "abstract001": {
-        "text": "Abstract 001",
+        "title": "\"Abstract 001\"",
         "subtext": "Acrylic on Finnish cardboard [2021]",
         "alt": "Abstract acrylic painting on cardboard by Joonas Kirsipuu"
       },
       "act001": {
-        "text": "Act 001",
+        "title": "\"Act 001\"",
         "subtext": "Acrylic on Finnish cardboard [2021]",
         "alt": "Acrylic painting of a figure titled Act 001 by Joonas Kirsipuu"
       },
       "linework": {
-        "text": "Linework",
+        "title": "\"Linework\"",
         "subtext": "Pencils on paper [2017]",
         "alt": "Pencil linework drawing by Joonas Kirsipuu"
       },
       "sittingWithColours": {
-        "text": "Sitting with colours",
+        "title": "\"Sitting with colours\"",
         "subtext": "Gouache on cardboard [2017]",
         "alt": "Gouache painting titled Sitting with colours by Joonas Kirsipuu"
       },
       "watercolourWithRainwater": {
-        "text": "Watercolour with rainwater",
+        "title": "\"Watercolour with rainwater\"",
         "subtext": "Watercolour on paper [2017]",
         "alt": "Watercolour painting created using rainwater by Joonas Kirsipuu"
       },
       "guitarGlove": {
-        "text": "Guitar Glove",
+        "title": "\"Guitar Glove\"",
         "subtext": "Gouache on cardboard [2016]",
         "alt": "Gouache painting titled Guitar Glove by Joonas Kirsipuu"
       },
       "straightenYourTie": {
-        "text": "Straighten your tie",
+        "title": "\"Straighten your tie\"",
         "subtext": "Gouache on cardboard [2016]",
         "alt": "Gouache painting titled Straighten your tie by Joonas Kirsipuu"
-      }
-    },
-    "fractals": {
-      "hallway": {
-        "text": "Hallway",
-        "subtext": "Blender, Photoshop [2024]",
-        "alt": "3D render of a hallway by Joonas Kirsipuu"
-      },
-      "capsuleView002": {
-        "text": "Capsule view 002",
-        "subtext": "Blender, Photoshop [2024]",
-        "alt": "3D render of a capsule interior by Joonas Kirsipuu"
-      },
-      "capsuleView003": {
-        "text": "Capsule View 003",
-        "subtext": "Blender, Photoshop [2024]",
-        "alt": "Detailed view of the capsule living space by Joonas Kirsipuu"
-      },
-      "capsuleView004": {
-        "text": "Capsule View 004",
-        "subtext": "Blender, Photoshop [2024]",
-        "alt": "Perspective view of the capsule interior by Joonas Kirsipuu"
-      },
-      "capsuleView005": {
-        "text": "Capsule View 005",
-        "subtext": "Blender, Photoshop [2024]",
-        "alt": "View of the capsule interior showing seating by Joonas Kirsipuu"
-      },
-      "fractals002": {
-        "text": "Fractals 002",
-        "subtext": "Mandelbulb 3D, Photoshop [2024]",
-        "alt": "3D Fractal art composition titled Fractals 002 by Joonas Kirsipuu"
-      },
-      "fractals003": {
-        "text": "Fractals 003",
-        "subtext": "Mandelbulb 3D, Photoshop [2024]",
-        "alt": "Exterior view of the capsule structure by Joonas Kirsipuu"
-      },
-      "commonRoom": {
-        "text": "Common Room",
-        "subtext": "Blender, Photoshop [2024]",
-        "alt": "3D visualization of a common room area by Joonas Kirsipuu"
-      },
-      "bathroom002": {
-        "text": "Bathroom 002",
-        "subtext": "Blender, Photoshop [2024]",
-        "alt": "3D visualization of a futuristic bathroom interior by Joonas Kirsipuu"
-      },
-      "wireframe002": {
-        "text": "Wireframe 002",
-        "subtext": "Blender, Photoshop [2024]",
-        "alt": "3D wireframe render of an architectural structure by Joonas Kirsipuu"
-      },
-      "animation": {
-        "text": "Fractals Animation",
-        "subtext": "YouTube",
-        "alt": "Fractals Animation by Joonas Kirsipuu"
       }
     },
     "contact_modal": {

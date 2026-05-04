@@ -1,0 +1,13 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SculpturePage from '../components/SculpturePage.jsx';
+---
+
+<BaseLayout
+  title="Sculpture | Joonas Kirsipuu"
+  description="Sculpture works by Joonas Kirsipuu."
+  ogImage="https://joonaskirsipuu.eu/images/skulpa/Maiko_001.jpg"
+  ogImageAlt="Maiko sculpture by Joonas Kirsipuu"
+>
+  <SculpturePage client:only="react" />
+</BaseLayout>

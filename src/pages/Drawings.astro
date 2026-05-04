@@ -1,0 +1,13 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import DrawingsApp from '../components/DrawingsApp.jsx';
+---
+
+<BaseLayout
+  title="Drawings & Paintings | Joonas Kirsipuu"
+  description="Traditional drawings and paintings by Joonas Kirsipuu."
+  ogImage="https://joonaskirsipuu.eu/images/traditional/Thinking of you_thumbnail.webp"
+  ogImageAlt="Thinking of you by Joonas Kirsipuu"
+>
+  <DrawingsApp client:only="react" />
+</BaseLayout>

@@ -15,7 +15,7 @@ export default function FractalsApp() {
       <GalleryPage
         name='Fractals'
         data={data}
-        showText={false}
+        showText={false} // Ensure text is shown in GalleryPage
         imageObjectFit="object-cover"
       >
         <div className='relative w-full flex flex-wrap lg:flex-nowrap bg-white py-10 px-4 xl:px-0'>

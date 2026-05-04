@@ -32,7 +32,7 @@
         "desc": "Blog personale e aggiornamenti di Joonas Kirsipuu."
       },
       "fractals": {
-        "title": "Frattali | Joonas Kirsipuu",
+        "title": "Project Fractals | Joonas Kirsipuu",
         "desc": "Progetto di worldbuilding con frattali 3D di Joonas Kirsipuu.",
         "image": "/images/Fractalpicture.webp"
       },
@@ -52,6 +52,71 @@
       "films": {
         "title": "Film, Serie TV e Anime | Joonas Kirsipuu",
         "desc": "Film, serie TV e anime preferiti di Joonas Kirsipuu."
+      }
+    },
+    "traditional_page": {
+      "drawings": "DISEGNI E PITTURE",
+      "sculpture": "SCULTURA",
+      "drawings_alt": "Miniatura Disegni e Pitture",
+      "sculpture_alt": "Miniatura Scultura"
+    },
+    "sculpture_works": {
+      "maiko": {
+        "title": "\"Maiko\"",
+        "materials": "Argilla e stampa 3D",
+        "year": "2022",
+        "description": "Incaricato di creare una scultura incentrata sull'abbigliamento, ho tratto ispirazione dalla mia profonda ammirazione per la scultura giapponese e ho deciso di modellare una Maiko. Ho condotto ricerche approfondite sulle distinzioni tra Maiko e Geisha, sulla storia dello Shamisen e sull'intricata tecnica di legatura del nodo Neo.",
+        "alt": "Scultura di Maiko"
+      },
+      "monophobia": {
+        "title": "\"Monophobia\"",
+        "materials": "Polistirolo e plastica",
+        "year": "2021",
+        "description": "Questa è un'opera profondamente personale. Al momento della sua creazione, credevo di soffrire di monofobia (la paura di restare soli), sebbene in seguito abbia appreso che si trattava di una manifestazione del Disturbo d'Ansia Generalizzato (GAD). Questa scultura è stata esposta al KunstWerk di Potsdam, in Germania.",
+        "alt": "Scultura intitolata Monophobia"
+      },
+      "gameworld": {
+        "title": "\"Gameworld\"",
+        "materials": "Vecchi apparecchi elettronici",
+        "year": "2022",
+        "description": "Quest'opera è una lettera d'amore al mio interesse per l'informatica e il gaming. Ho raccolto una vasta collezione di componenti elettronici vintage—principalmente provenienti da server—e ho iniziato a sperimentarne le forme. Alla fine, ho optato per questa figura ispirata ai mech.",
+        "alt": "Scultura intitolata Gameworld"
+      },
+      "upsidedown": {
+        "title": "\"Upside Down\"",
+        "materials": "Cartone finlandese",
+        "year": "2020",
+        "description": "Stavo lavorando a questa scultura quando arrivò la prima ondata di COVID-19. Dopo la chiusura della scuola, che lasciò l'opera incompiuta, decisi di eleggere questa incompletezza a concetto centrale. Il tocco finale è stato capovolgere la scultura: un riflesso di come il nostro mondo fosse stato stravolto in quel periodo.",
+        "alt": "Scultura intitolata Upside Down"
+      },
+      "weldybee": {
+        "title": "\"Weldybee\"",
+        "materials": "Rottami Metallici",
+        "year": "2021",
+        "description": "Creata come culmine di un corso di saldatura, questa scultura è realizzata in acciaio. Mentre cercavo in un deposito di rottami, ho scoperto una vecchia molla d'auto e ho capito che sarebbe stata un eccellente addome per un'ape.",
+        "alt": "Scultura intitolata Weldybee"
+      },
+      "heart": {
+        "title": "\"Süda\"",
+        "materials": "Media Mista",
+        "year": "2021",
+        "description": "Ho partecipato a un concorso di scultura per un ospedale di Viljandi. Il bando richiedeva che l'opera fosse legata ai temi della salute e della medicina. La scultura risultante è fusa in bronzo ed è alta circa 3 metri. Presenta luci a LED che rappresentano le vene che circondano il cuore, con una parete a LED integrata posizionata all'interno del cuore stesso.",
+        "alt": "Scultura di un cuore"
+      },
+      "girl_relief": {
+        "title": "\"Girl low relief\"",
+        "materials": "argilla",
+        "year": "2019",
+        "description": "Uno studio anatomico della testa femminile, realizzato come scultura in bassorilievo.",
+        "alt": "Scultura in bassorilievo di una ragazza"
+      },
+      "fractals": {
+        "title": "\"My Future Space\"",
+        "materials": "Media Mista",
+        "year": "2024",
+        "description": "Per il mio progetto di tesi triennale, ho immaginato uno scenario futuro in cui l'umanità, a causa del cambiamento climatico, è migrata nella mesosfera, vivendo su giganteschi oggetti scultorei fluttuanti. Quello che era iniziato come un semplice progetto di scultura 3D e visualizzazione architettonica si è evoluto in un imponente lavoro di worldbuilding.",
+        "read_more": "Leggi di più",
+        "alt": "Scultura My Future Space"
       }
     },
     "about_page": {
@@ -119,19 +184,41 @@
       }
     },
     "worldbuilding_page": {
-      "fractals_thumb_alt": "Miniatura Progetto Frattali",
-      "fractals": "PROGETTO FRATTALI",
-      "project3088": "PROGETTO 3088"
+      "fractals_thumb_alt": "Project Fractals thumbnail",
+      "fractals": "PROJECT FRACTALS",
+      "project3088": "PROJECT 3088"
     },
     "fractals_page": {
-      "title": "PROGETTO FRATTALI",
-      "alt": "Progetto Frattali",
+      "title": "PROJECT FRACTALS",
+      "alt": "Project Fractals",
       "desc1": "Questo progetto di worldbuilding è iniziato come tesi di laurea intitolata <1>{{link1_text}}</1>. Ho voluto immaginare uno scenario spaziale futuro in cui l'umanità, a causa del cambiamento climatico, è migrata nella mesosfera, vivendo su giganteschi oggetti scultorei fluttuanti. Le capsule all'interno di questi oggetti fungono da alloggi individuali, ispirati alle forme della natura. Oltre alle capsule, c'è anche un'area comune dove tutti possono socializzare. Il mio processo di progettazione ha comportato un'ampia ricerca, traendo ispirazione da varie fonti tra cui meraviglie architettoniche in Asia, letteratura di fantascienza e classici del cinema dagli anni '60 ai grandi blockbuster dell'era moderna.",
       "desc2": "Puoi trovare la tesi completa <1>{{link2_text}}</1> in estone, e voglio ringraziare Merille Hommik per essere stata una mentore straordinaria durante questo progetto di laurea.",
       "desc3": "Gli aggiornamenti su questo progetto sono lenti a causa del mio tempo occupato da altri progetti e cambiamenti di vita.",
       "animation": "Animazione Frattale",
-      "link1_text": "\"Il Mio Spazio Futuro\"",
-      "link2_text": "qui"
+      "link1_text": "\"My Future Space\"",
+      "link2_text": "qui",
+      "images": {
+        "fractals001": { "title": "Fractals 001", "alt": "Fractals 001" },
+        "hallway": { "title": "Fractal Hallway", "alt": "Fractal Hallway" },
+        "capsuleView002": { "title": "Fractal Capsule 001", "alt": "Fractal Capsule 001" },
+        "capsuleView001": { "title": "Fractal Capsule 002", "alt": "Fractal Capsule 002" },
+        "capsuleNightview": { "title": "Fractal Capsule Nightview", "alt": "Fractal Capsule Nightview" },
+        "capsuleView003": { "title": "Fractal Capsule 003", "alt": "Fractal Capsule 003" },
+        "capsuleView004": { "title": "Fractal Capsule 004", "alt": "Fractal Capsule 004" },
+        "capsuleView005": { "title": "Fractal Capsule 005", "alt": "Fractal Capsule 005" },
+        "fractals002": { "title": "Fractals 002", "alt": "Fractals 002" },
+        "fractals003": { "title": "Fractals 003", "alt": "Fractals 003" },
+        "commonRoom": { "title": "Fractal Commonroom", "alt": "Fractal Commonroom" },
+        "bathroom002": { "title": "Fractal Bathroom 001", "alt": "Fractal Bathroom 001" },
+        "bathroom001": { "title": "Fractal Bathroom 002", "alt": "Fractal Bathroom 002" },
+        "wireframe001": { "title": "Fractal Wireframe 001", "alt": "Fractal Wireframe 001" },
+        "wireframe002": { "title": "Fractal Wireframe 002", "alt": "Fractal Wireframe 002" },
+        "animation": {
+          "title": "Animazione Frattale",
+          "subtext": "YouTube",
+          "alt": "Animazione Frattale"
+        }
+      }
     },
     "genai_page": {
       "title": "Perché l'arte GenAI diventerà obsoleta - WIP",
@@ -306,168 +393,173 @@
       "title": "GALLERIA D'ARTE DI JOONAS KIRSIPUU",
       "copyright": "© {{year}} Tutti i diritti riservati."
     },
-    "images": {
+    "digital_works": {
       "cerebrum": {
-        "text": "Cerebrum",
-        "subtext": "Scansioni MRT, Blender, Octane Render, Affinity [2026]",
+        "title": "\"Cerebrum\"",
+        "subtext": "MRT Scans, Blender, Octane Render, Affinity [2026]",
         "alt": "Render 3D intitolato Cerebrum di Joonas Kirsipuu"
       },
+      "hallway": {
+        "title": "\"Fractals Bathroom\"",
+        "subtext": "Blender, Photoshop [2024]",
+        "alt": "Render 3D di un corridoio di Joonas Kirsipuu"
+      },
       "fractals001": {
-        "text": "Frattali 001",
+        "title": "\"Fractals\"",
         "subtext": "Mandelbulb 3D, Photoshop [2024]",
-        "alt": "Composizione artistica frattale 3D intitolata Frattali 001 di Joonas Kirsipuu"
-      },
-      "capsuleNightview": {
-        "text": "Vista Notturna Capsula",
-        "subtext": "Blender, Photoshop [2024]",
-        "alt": "Rendering della vista notturna di un interno di capsula futuristica di Joonas Kirsipuu"
-      },
-      "wireframe001": {
-        "text": "Modello Wireframe 001",
-        "subtext": "Blender, Photoshop [2024]",
-        "alt": "Rendering wireframe 3D di una struttura architettonica di Joonas Kirsipuu"
-      },
-      "bathroom001": {
-        "text": "Bagno 001",
-        "subtext": "Blender, Photoshop [2024]",
-        "alt": "Visualizzazione 3D di un interno di bagno futuristico di Joonas Kirsipuu"
+        "alt": "Composizione artistica frattale 3D di Joonas Kirsipuu"
       },
       "commonRoom": {
-        "text": "Sala comune",
+        "title": "\"Fractals Common Room\"",
         "subtext": "Blender, Photoshop [2024]",
         "alt": "Visualizzazione 3D di un'area comune di Joonas Kirsipuu"
       },
       "capsuleView001": {
-        "text": "Vista capsula 001",
+        "title": "\"Fractals Capsule view\"",
         "subtext": "Blender, Photoshop [2024]",
-        "alt": "Vista grandangolare 3D dell'interno di una capsula di Joonas Kirsipuu"
+        "alt": "Render 3D di un interno di capsula di Joonas Kirsipuu"
       },
-      "yunoChan": {
-        "text": "ゆのちゃん",
-        "subtext": "Blender, Substance Painter/Designer, Character Creator 4, Marvelous Designer [2023]",
-        "alt": "Modello di personaggio 3D di Yuno-chan di Joonas Kirsipuu"
+      "capsuleNightview": {
+        "title": "\"Fractals Capsule Nightview\"",
+        "subtext": "Blender, Photoshop [2024]",
+        "alt": "Rendering della vista notturna di un interno di capsula futuristica di Joonas Kirsipuu"
+      },
+      "wireframe001": {
+        "title": "\"Fractals Wireframe\"",
+        "subtext": "Blender, Photoshop [2024]",
+        "alt": "Rendering wireframe 3D di una struttura architettonica di Joonas Kirsipuu"
       },
       "porsche": {
-        "text": "Porsche 911 RWB",
+        "title": "\"Porsche 911 RWB\"",
         "subtext": "Blender [2018]",
-        "alt": "Rendering 3D di una Porsche 911 RWB di Joonas Kirsipuu"
+        "alt": "Render 3D di una Porsche 911 RWB di Joonas Kirsipuu"
+      },
+      "yunoChan": {
+        "title": "\"ゆのちゃん\"",
+        "subtext": "Blender, Substance Painter/Designer, Character Creator 4, Marvelous Designer [2023]",
+        "alt": "Modello di personaggio 3D di Yuno-chan di Joonas Kirsipuu"
       }
     },
-    "traditional": {
+    "traditional_works": {
       "thinkingOfYou": {
-        "text": "Pensando a te",
+        "title": "\"Thinking of you\"",
         "subtext": "Matite su carta [2022]",
         "alt": "Ritratto a matita intitolato Pensando a te di Joonas Kirsipuu"
       },
       "shy": {
-        "text": "Timida",
+        "title": "\"Shy\"",
         "subtext": "Matite su carta [2022]",
         "alt": "Ritratto a matita intitolato Timida di Joonas Kirsipuu"
       },
       "closeYourEyes": {
-        "text": "Chiudi gli occhi",
+        "title": "\"Close your eyes\"",
         "subtext": "Matite su carta [2022]",
         "alt": "Ritratto a matita intitolato Chiudi gli occhi di Joonas Kirsipuu"
       },
       "girl001": {
-        "text": "Ragazza 001",
+        "title": "\"Girl 001\"",
         "subtext": "Matite su carta [2022]",
         "alt": "Disegno a matita di una ragazza di Joonas Kirsipuu"
       },
       "theOpposite": {
-        "text": "L'opposto",
+        "title": "\"The opposite\"",
         "subtext": "Acrilico su cartone finlandese [2021]",
         "alt": "Dipinto acrilico su cartone intitolato L'opposto di Joonas Kirsipuu"
       },
       "abstract001": {
-        "text": "Astratto 001",
+        "title": "\"Abstract 001\"",
         "subtext": "Acrilico su cartone finlandese [2021]",
         "alt": "Dipinto acrilico astratto su cartone di Joonas Kirsipuu"
       },
       "act001": {
-        "text": "Atto 001",
+        "title": "\"Act 001\"",
         "subtext": "Acrilico su cartone finlandese [2021]",
         "alt": "Dipinto acrilico di una figura intitolato Atto 001 di Joonas Kirsipuu"
       },
       "linework": {
-        "text": "Disegno al tratto",
+        "title": "\"Linework\"",
         "subtext": "Matite su carta [2017]",
         "alt": "Disegno linework a matita di Joonas Kirsipuu"
       },
       "sittingWithColours": {
-        "text": "Seduto con i colori",
-        "subtext": "Guazzo su cartone [2017]",
+        "title": "\"Sitting with colours\"",
+        "subtext": "Gouache su cartone [2017]",
         "alt": "Dipinto a guazzo intitolato Seduto con i colori di Joonas Kirsipuu"
       },
       "watercolourWithRainwater": {
-        "text": "Acquerello con acqua piovana",
-        "subtext": "Acquerello su carta [2017]",
+        "title": "\"Watercolour with rainwater\"",
+        "subtext": "Acquarello su carta [2017]",
         "alt": "Dipinto ad acquerello creato usando acqua piovana di Joonas Kirsipuu"
       },
       "guitarGlove": {
-        "text": "Guanto Chitarra",
-        "subtext": "Guazzo su cartone [2016]",
+        "title": "\"Guitar Glove\"",
+        "subtext": "Gouache su cartone [2016]",
         "alt": "Dipinto a guazzo intitolato Guanto Chitarra di Joonas Kirsipuu"
       },
       "straightenYourTie": {
-        "text": "Raddrizza la cravatta",
-        "subtext": "Guazzo su cartone [2016]",
+        "title": "\"Straighten your tie\"",
+        "subtext": "Gouache su cartone [2016]",
         "alt": "Dipinto a guazzo intitolato Raddrizza la cravatta di Joonas Kirsipuu"
       }
     },
     "fractals": {
       "hallway": {
-        "text": "Corridoio",
+        "text": "\"Hallway\"",
         "subtext": "Blender, Photoshop [2024]",
         "alt": "Render 3D di un corridoio di Joonas Kirsipuu"
       },
+      "capsuleView001": {
+        "text": "\"Capsule view 001\"",
+        "subtext": "Blender, Photoshop [2024]",
+        "alt": "Render 3D di un interno di capsula di Joonas Kirsipuu"
+      },
       "capsuleView002": {
-        "text": "Vista capsula 002",
+        "text": "\"Capsule view 002\"",
         "subtext": "Blender, Photoshop [2024]",
         "alt": "Render 3D di un interno di capsula di Joonas Kirsipuu"
       },
       "capsuleView003": {
-        "text": "Vista capsula 003",
+        "text": "\"Capsule View 003\"",
         "subtext": "Blender, Photoshop [2024]",
         "alt": "Vista dettagliata dello spazio abitativo della capsula di Joonas Kirsipuu"
       },
       "capsuleView004": {
-        "text": "Vista capsula 004",
+        "text": "\"Capsule View 004\"",
         "subtext": "Blender, Photoshop [2024]",
         "alt": "Vista prospettica dell'interno della capsula di Joonas Kirsipuu"
       },
       "capsuleView005": {
-        "text": "Vista capsula 005",
+        "text": "\"Capsule View 005\"",
         "subtext": "Blender, Photoshop [2024]",
         "alt": "Vista dell'interno della capsula che mostra i posti a sedere di Joonas Kirsipuu"
       },
       "fractals002": {
-        "text": "Frattali 002",
+        "text": "\"Fractals 002\"",
         "subtext": "Mandelbulb 3D, Photoshop [2024]",
         "alt": "Composizione artistica frattale 3D intitolata Frattali 002 di Joonas Kirsipuu"
       },
       "fractals003": {
-        "text": "Frattali 003",
+        "text": "\"Fractals 003\"",
         "subtext": "Mandelbulb 3D, Photoshop [2024]",
         "alt": "Vista esterna della struttura della capsula di Joonas Kirsipuu"
       },
       "commonRoom": {
-        "text": "Sala comune",
+        "text": "\"Common Room\"",
         "subtext": "Blender, Photoshop [2024]",
         "alt": "Visualizzazione 3D di un'area comune di Joonas Kirsipuu"
       },
       "bathroom002": {
-        "text": "Bagno 002",
+        "text": "\"Bathroom 002\"",
         "subtext": "Blender, Photoshop [2024]",
         "alt": "Visualizzazione 3D di un interno di bagno futuristico di Joonas Kirsipuu"
       },
       "wireframe002": {
-        "text": "Wireframe 002",
+        "text": "\"Wireframe 002\"",
         "subtext": "Blender, Photoshop [2024]",
         "alt": "Rendering wireframe 3D di una struttura architettonica di Joonas Kirsipuu"
       },
       "animation": {
-        "text": "Animazione Frattali",
+        "text": "\"Fractals Animation\"",
         "subtext": "YouTube",
         "alt": "Animazione Frattali di Joonas Kirsipuu"
       }

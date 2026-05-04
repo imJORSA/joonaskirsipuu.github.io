@@ -32,7 +32,7 @@
         "desc": "ヨーナス・キルシプーの個人ブログと最新情報。"
       },
       "fractals": {
-        "title": "フラクタル | ヨーナス・キルシプー",
+        "title": "Project Fractals | Joonas Kirsipuu",
         "desc": "ヨーナス・キルシプーによる3Dフラクタル世界構築プロジェクト。",
         "image": "/images/Fractalpicture.webp"
       },
@@ -119,19 +119,41 @@
       }
     },
     "worldbuilding_page": {
-      "fractals_thumb_alt": "プロジェクト・フラクタルのサムネイル",
-      "fractals": "プロジェクト・フラクタル",
-      "project3088": "プロジェクト 3088"
+      "fractals_thumb_alt": "Project Fractals thumbnail",
+      "fractals": "PROJECT FRACTALS",
+      "project3088": "PROJECT 3088"
     },
     "fractals_page": {
-      "title": "プロジェクト・フラクタル",
-      "alt": "プロジェクト・フラクタル",
+      "title": "PROJECT FRACTALS",
+      "alt": "Project Fractals",
       "desc1": "この世界構築プロジェクトは、<1>{{link1_text}}</1>というタイトルの学士論文プロジェクトとして始まりました。気候変動のために人類が中間圏に移住し、巨大な浮遊彫刻オブジェクトに住むという未来の宇宙シナリオを想像したかったのです。これらのオブジェクト内のカプセルは、自然の形に触発された個々の居住空間として機能します。カプセルに加えて、誰もが交流できる共有エリアもあります。私の設計プロセスには、アジアの建築の驚異、SF文学、60年代から現代の大ヒット映画まで、さまざまなソースからインスピレーションを得た広範なリサーチが含まれていました。",
       "desc2": "エストニア語の論文全文は<1>{{link2_text}}</1>にあります。この学士プロジェクトを通じて素晴らしい指導者であったマーリル・ホミックに感謝します。",
       "desc3": "他のプロジェクトや生活の変化に時間を取られているため、このプロジェクトの更新は遅れています。",
       "animation": "フラクタルアニメーション",
-      "link1_text": "「私の未来の宇宙」",
-      "link2_text": "こちら"
+      "link1_text": "\"My Future Space\"",
+      "link2_text": "こちら",
+      "images": {
+        "fractals001": { "title": "Fractals 001", "alt": "Fractals 001" },
+        "hallway": { "title": "Fractal Hallway", "alt": "Fractal Hallway" },
+        "capsuleView002": { "title": "Fractal Capsule 001", "alt": "Fractal Capsule 001" },
+        "capsuleView001": { "title": "Fractal Capsule 002", "alt": "Fractal Capsule 002" },
+        "capsuleNightview": { "title": "Fractal Capsule Nightview", "alt": "Fractal Capsule Nightview" },
+        "capsuleView003": { "title": "Fractal Capsule 003", "alt": "Fractal Capsule 003" },
+        "capsuleView004": { "title": "Fractal Capsule 004", "alt": "Fractal Capsule 004" },
+        "capsuleView005": { "title": "Fractal Capsule 005", "alt": "Fractal Capsule 005" },
+        "fractals002": { "title": "Fractals 002", "alt": "Fractals 002" },
+        "fractals003": { "title": "Fractals 003", "alt": "Fractals 003" },
+        "commonRoom": { "title": "Fractal Commonroom", "alt": "Fractal Commonroom" },
+        "bathroom002": { "title": "Fractal Bathroom 001", "alt": "Fractal Bathroom 001" },
+        "bathroom001": { "title": "Fractal Bathroom 002", "alt": "Fractal Bathroom 002" },
+        "wireframe001": { "title": "Fractal Wireframe 001", "alt": "Fractal Wireframe 001" },
+        "wireframe002": { "title": "Fractal Wireframe 002", "alt": "Fractal Wireframe 002" },
+        "animation": {
+          "title": "フラクタルアニメーション",
+          "subtext": "YouTube",
+          "alt": "フラクタルアニメーション"
+        }
+      }
     },
     "genai_page": {
       "title": "なぜ生成AIアートは廃れるのか - WIP",
@@ -306,170 +328,172 @@
       "title": "ヨーナス・キルシプー アートギャラリー",
       "copyright": "© {{year}} 全著作権所有。"
     },
-    "images": {
+    "digital_works": {
       "cerebrum": {
-        "text": "大脳",
-        "subtext": "MRTスキャン, Blender, Octane Render, Affinity [2026]",
+        "title": "\"Cerebrum\"",
+        "subtext": "MRT Scans, Blender, Octane Render, Affinity [2026]",
         "alt": "ヨーナス・キルシプーによる「大脳」と題された3Dレンダリング"
       },
-      "fractals001": {
-        "text": "フラクタル 001",
-        "subtext": "Mandelbulb 3D, Photoshop [2024]",
-        "alt": "ヨーナス・キルシプーによる3Dフラクタルアート作品「フラクタル 001」"
-      },
       "capsuleNightview": {
-        "text": "カプセルの夜景",
+        "title": "\"Fractals Capsule Nightview\"",
         "subtext": "Blender, Photoshop [2024]",
         "alt": "ヨーナス・キルシプーによる近未来的なカプセル内部の夜景レンダリング"
       },
       "wireframe001": {
-        "text": "ワイヤーフレーム 001",
+        "title": "\"Fractals Wireframe\"",
         "subtext": "Blender, Photoshop [2024]",
         "alt": "ヨーナス・キルシプーによる建築構造の3Dワイヤーフレームレンダリング"
       },
-      "bathroom001": {
-        "text": "バスルーム 001",
+      "hallway": {
+        "title": "\"Fractals Bathroom\"",
         "subtext": "Blender, Photoshop [2024]",
-        "alt": "ヨーナス・キルシプーによる近未来的なバスルーム内部の3Dビジュアライゼーション"
+        "alt": "ヨーナス・キルシプーによる廊下の3Dレンダリング"
+      },
+      "fractals001": {
+        "title": "\"Fractals\"",
+        "subtext": "Mandelbulb 3D, Photoshop [2024]",
+        "alt": "3Dフラクタルアート作品"
       },
       "commonRoom": {
-        "text": "談話室",
+        "title": "\"Fractals Common Room\"",
         "subtext": "Blender, Photoshop [2024]",
         "alt": "ヨーナス・キルシプーによる談話室エリアの3Dビジュアライゼーション"
       },
       "capsuleView001": {
-        "text": "カプセルビュー 001",
+        "title": "\"Fractals Capsule view\"",
         "subtext": "Blender, Photoshop [2024]",
         "alt": "ヨーナス・キルシプーによるカプセル内部の広角3Dビュー"
       },
-      "yunoChan": {
-        "text": "ゆのちゃん",
-        "subtext": "Blender, Substance Painter/Designer, Character Creator 4, Marvelous Designer [2023]",
-        "alt": "ヨーナス・キルシプーによるゆのちゃんの3Dキャラクターモデル"
-      },
       "porsche": {
-        "text": "ポルシェ 911 RWB",
+        "title": "\"Porsche 911 RWB\"",
         "subtext": "Blender [2018]",
         "alt": "ヨーナス・キルシプーによるポルシェ 911 RWBの3Dレンダリング"
+      },
+      "yunoChan": {
+        "title": "\"ゆのちゃん\"",
+        "subtext": "Blender, Substance Painter/Designer, Character Creator 4, Marvelous Designer [2023]",
+        "alt": "ヨーナス・キルシプーによるゆのちゃんの3Dキャラクターモデル"
       }
     },
-    "traditional": {
+    "sculpture_works": {
+      "maiko": {
+        "title": "\"Maiko\"",
+        "materials": "クレイ＆3Dプリント",
+        "year": "2022",
+        "description": "衣服をテーマにした彫刻制作を任され、日本彫刻への深い傾倒から、舞妓をモデルにすることに決めました。舞妓と芸妓の違いや三味線の歴史、そして音緒（ねお）の複雑な結び方に至るまで、広範なリサーチを行いました。",
+        "alt": "舞妓の彫刻"
+      },
+      "monophobia": {
+        "title": "\"Monophobia\"",
+        "materials": "ポリスチレン・プラスチック",
+        "year": "2021",
+        "description": "これは非常に個人的な思いが込められた作品です。制作当時はモノフォビア（孤独恐怖症）を抱えていると考えていましたが、後にそれが全般性不安障害（GAD）の一症状であることを知りました。この彫刻は、ドイツのクンストヴェルク・ポツダムにて展示されました。",
+        "alt": "モノフォビアと題された彫刻"
+      },
+      "gameworld": {
+        "title": "\"Gameworld\"",
+        "materials": "古い電子機器",
+        "year": "2022",
+        "description": "この作品は、コンピューターとゲームへの情熱を込めたラブレターです。サーバーを中心に膨大な数の古い電子部品を集め、その形を組み合わせながら試行錯誤を繰り返しました。最終的に、このメック（メカ）のような造形にたどり着きました。",
+        "alt": "Gameworldと題された彫刻"
+      },
+      "upsidedown": {
+        "title": "\"Upside Down\"",
+        "materials": "フィンランドの段ボール",
+        "year": "2020",
+        "description": "新型コロナウイルスの第一波が到来したとき、私はこの彫刻の制作中でした。学校が閉鎖され、作品は未完成のままとなりましたが、私はあえてその『未完』の状態を作品の中心概念に据えることにしました。仕上げとして彫刻を上下逆さまにしました。それは、当時の混乱した世界を映し出しています。",
+        "alt": "Upside Downと題された彫刻"
+      },
+      "weldybee": {
+        "title": "\"Weldybee\"",
+        "materials": "金属スクラップ",
+        "year": "2021",
+        "description": "溶接クラスの集大成として制作した、スチール製の彫刻です。スクラップ置き場で素材を探していた際、古い車のスプリングを見つけ、それが蜂の腹部に最適であると確信しました。",
+        "alt": "Weldybeeと題された彫刻"
+      },
+      "heart": {
+        "title": "\"Süda\"",
+        "materials": "混合素材",
+        "year": "2021",
+        "description": "ヴィリャンディの病院で開催された彫刻コンテストに参加しました。作品には健康や医療に関連するテーマが求められました。完成した彫刻はブロンズ製で、高さは約3メートルです。心臓の周囲の血管をLEDライトで表現しており、心臓の内部にはLEDウォールが組み込まれています。",
+        "alt": "心臓の彫刻"
+      },
+      "girl_relief": {
+        "title": "\"Girl low relief\"",
+        "materials": "粘土",
+        "year": "2019",
+        "description": "女性の頭部解剖学の研究を、浅浮彫り（ローレリーフ）の彫刻として形にした作品です。",
+        "alt": "少女の低レリーフ彫刻"
+      },
+      "fractals": {
+        "title": "\"My Future Space\"",
+        "materials": "混合素材",
+        "year": "2024",
+        "description": "私の学士卒業制作では、気候変動により人類が中間圏（メソスフィア）へと移住し、巨大な浮遊彫刻の上で生活する未来のシナリオを構想しました。当初はシンプルな3D彫刻と建築ビジュアライゼーションのプロジェクトとして始まりましたが、最終的には壮大なワールドビルディング（世界構築）の試みへと発展しました。",
+        "read_more": "詳しく見る",
+        "alt": "3Dフラクタルアート作品"
+      }
+    },
+    "traditional_works": {
       "thinkingOfYou": {
-        "text": "あなたを想う",
+        "title": "\"Thinking of you\"",
         "subtext": "紙に鉛筆 [2022]",
         "alt": "ヨーナス・キルシプーによる鉛筆画の肖像「あなたを想う」"
       },
       "shy": {
-        "text": "シャイ",
+        "title": "\"Shy\"",
         "subtext": "紙に鉛筆 [2022]",
         "alt": "ヨーナス・キルシプーによる鉛筆画の肖像「シャイ」"
       },
       "closeYourEyes": {
-        "text": "目を閉じて",
+        "title": "\"Close your eyes\"",
         "subtext": "紙に鉛筆 [2022]",
         "alt": "ヨーナス・キルシプーによる鉛筆画の肖像「目を閉じて」"
       },
       "girl001": {
-        "text": "少女 001",
+        "title": "\"Girl 001\"",
         "subtext": "紙に鉛筆 [2022]",
         "alt": "ヨーナス・キルシプーによる少女の鉛筆画"
       },
       "theOpposite": {
-        "text": "反対",
-        "subtext": "フィンランド製段ボールにアクリル [2021]",
+        "title": "\"The opposite\"",
+        "subtext": "フィンランドボードにアクリル [2021]",
         "alt": "ヨーナス・キルシプーによる段ボール上のアクリル画「反対」"
       },
       "abstract001": {
-        "text": "抽象 001",
-        "subtext": "フィンランド製段ボールにアクリル [2021]",
+        "title": "\"Abstract 001\"",
+        "subtext": "フィンランドボードにアクリル [2021]",
         "alt": "ヨーナス・キルシプーによる段ボール上の抽象アクリル画"
       },
       "act001": {
-        "text": "アクト 001",
-        "subtext": "フィンランド製段ボールにアクリル [2021]",
+        "title": "\"Act 001\"",
+        "subtext": "フィンランドボードにアクリル [2021]",
         "alt": "ヨーナス・キルシプーによる人物のアクリル画「アクト 001」"
       },
       "linework": {
-        "text": "ラインワーク",
+        "title": "\"Linework\"",
         "subtext": "紙に鉛筆 [2017]",
         "alt": "ヨーナス・キルシプーによる鉛筆のラインワーク画"
       },
       "sittingWithColours": {
-        "text": "色と共に座る",
-        "subtext": "段ボールにガッシュ [2017]",
+        "title": "\"Sitting with colours\"",
+        "subtext": "ボードにガッシュ [2017]",
         "alt": "ヨーナス・キルシプーによるガッシュ画「色と共に座る」"
       },
       "watercolourWithRainwater": {
-        "text": "雨水と水彩",
+        "title": "\"Watercolour with rainwater\"",
         "subtext": "紙に水彩 [2017]",
         "alt": "ヨーナス・キルシプーによる雨水を使用して作成された水彩画"
       },
       "guitarGlove": {
-        "text": "ギターグローブ",
-        "subtext": "段ボールにガッシュ [2016]",
+        "title": "\"Guitar Glove\"",
+        "subtext": "ボードにガッシュ [2016]",
         "alt": "ヨーナス・キルシプーによるガッシュ画「ギターグローブ」"
       },
       "straightenYourTie": {
-        "text": "ネクタイを直して",
-        "subtext": "段ボールにガッシュ [2016]",
+        "title": "\"Straighten your tie\"",
+        "subtext": "ボードにガッシュ [2016]",
         "alt": "ヨーナス・キルシプーによるガッシュ画「ネクタイを直して」"
-      }
-    },
-    "fractals": {
-      "hallway": {
-        "text": "廊下",
-        "subtext": "Blender, Photoshop [2024]",
-        "alt": "ヨーナス・キルシプーによる廊下の3Dレンダリング"
-      },
-      "capsuleView002": {
-        "text": "カプセルビュー 002",
-        "subtext": "Blender, Photoshop [2024]",
-        "alt": "ヨーナス・キルシプーによるカプセル内部の3Dレンダリング"
-      },
-      "capsuleView003": {
-        "text": "カプセルビュー 003",
-        "subtext": "Blender, Photoshop [2024]",
-        "alt": "ヨーナス・キルシプーによるカプセル居住空間の詳細ビュー"
-      },
-      "capsuleView004": {
-        "text": "カプセルビュー 004",
-        "subtext": "Blender, Photoshop [2024]",
-        "alt": "ヨーナス・キルシプーによるカプセル内部のパースペクティブビュー"
-      },
-      "capsuleView005": {
-        "text": "カプセルビュー 005",
-        "subtext": "Blender, Photoshop [2024]",
-        "alt": "ヨーナス・キルシプーによる座席を示すカプセル内部のビュー"
-      },
-      "fractals002": {
-        "text": "フラクタル 002",
-        "subtext": "Mandelbulb 3D, Photoshop [2024]",
-        "alt": "ヨーナス・キルシプーによる3Dフラクタルアート作品「フラクタル 002」"
-      },
-      "fractals003": {
-        "text": "フラクタル 003",
-        "subtext": "Mandelbulb 3D, Photoshop [2024]",
-        "alt": "ヨーナス・キルシプーによるカプセル構造の外観"
-      },
-      "commonRoom": {
-        "text": "共用ルーム",
-        "subtext": "Blender, Photoshop [2024]",
-        "alt": "ヨーナス・キルシプーによる共用ルームエリアの3Dビジュアライゼーション"
-      },
-      "bathroom002": {
-        "text": "バスルーム 002",
-        "subtext": "Blender, Photoshop [2024]",
-        "alt": "ヨーナス・キルシプーによる近未来的なバスルーム内部の3Dビジュアライゼーション"
-      },
-      "wireframe002": {
-        "text": "ワイヤーフレーム 002",
-        "subtext": "Blender, Photoshop [2024]",
-        "alt": "ヨーナス・キルシプーによる建築構造の3Dワイヤーフレームレンダリング"
-      },
-      "animation": {
-        "text": "フラクタルアニメーション",
-        "subtext": "YouTube",
-        "alt": "ヨーナス・キルシプーによるフラクタルアニメーション"
       }
     },
     "contact_modal": {
@@ -479,6 +503,47 @@
       "outlook": "Outlook",
       "yahoo": "Yahoo",
       "close": "閉じる"
+    },
+    "sculptures_page": {
+      "maiko": {
+        "title": "\"Maiko\"",
+        "desc": "衣服をテーマにした彫刻制作を任され、日本彫刻への深い傾倒から、舞妓をモデルにすることに決めました。舞妓と芸妓の違いや三味線の歴史、そして音緒（ねお）の複雑な結び方に至るまで、広範なリサーチを行いました。"
+      },
+      "monophobia": {
+        "title": "\"Monophobia\"",
+        "desc": "これは非常に個人的な思いが込められた作品です。制作当時はモノフォビア（孤独恐怖症）を抱えていると考えていましたが、後にそれが全般性不安障害（GAD）の一症状であることを知りました。この彫刻は、ドイツのクンストヴェルク・ポツダムにて展示されました。"
+      },
+      "gameworld": {
+        "title": "\"Gameworld\"",
+        "desc": "この作品は、コンピューターとゲームへの情熱を込めたラブレターです。サーバーを中心に膨大な数の古い電子部品を集め、その形を組み合わせながら試行錯誤を繰り返しました。最終的に、このメック（メカ）のような造形にたどり着きました。"
+      },
+      "upsidedown": {
+        "title": "\"Upside Down\"",
+        "desc": "新型コロナウイルスの第一波が到来したとき、私はこの彫刻の制作中でした。学校が閉鎖され、作品は未完成のままとなりましたが、私はあえてその『未完』の状態を作品の中心概念に据えることにしました。仕上げとして彫刻を上下逆さまにしました。それは、当時の混乱した世界を映し出しています。"
+      },
+      "weldybee": {
+        "title": "\"Weldybee\"",
+        "desc": "溶接クラスの集大成として制作した、スチール製の彫刻です。スクラップ置き場で素材を探していた際、古い車のスプリングを見つけ、それが蜂の腹部に最適であると確信しました。"
+      },
+      "heart": {
+        "title": "\"Süda\"",
+        "desc": "ヴィリャンディの病院で開催された彫刻コンテストに参加しました。作品には健康や医療に関連するテーマが求められました。完成した彫刻はブロンズ製で、高さは約3メートルです。心臓の周囲の血管をLEDライトで表現しており、心臓の内部にはLEDウォールが組み込まれています。"
+      },
+      "girl_relief": {
+        "title": "\"Girl low relief\"",
+        "desc": "レリーフ彫刻による人間形態の研究。図像と背景の微妙な移り変わりを探求し、浅い表面の光と影の相互作用に焦点を当てています。"
+      },
+      "fractals": {
+        "title": "\"My Future Space\"",
+        "desc": "私の学士卒業制作では、気候変動により人類が中間圏（メソスフィア）へと移住し、巨大な浮遊彫刻の上で生活する未来のシナリオを構想しました。当初はシンプルな3D彫刻と建築ビジュアライゼーションのプロジェクトとして始まりましたが、最終的には壮大なワールドビルディング（世界構築）の試みへと発展しました。",
+        "read_more": "詳しく見る"
+      }
+    },
+    "traditional_page": {
+      "drawings": "ドローイング・絵画",
+      "sculpture": "彫刻",
+      "drawings_alt": "ドローイングと絵画カテゴリのサムネイル",
+      "sculpture_alt": "彫刻カテゴリのサムネイル"
     }
   }
 }
