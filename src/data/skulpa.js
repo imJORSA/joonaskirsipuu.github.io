@@ -236,8 +236,8 @@ const data = [
 {
     text: 'sculpture_works.weldybee.title',
     subtext: 'sculpture_works.weldybee.materials',
-    thumbnail: '/images/skulpa/WeldyBee_001.jpg',
-    full: '/images/skulpa/WeldyBee_001.jpg',
+    thumbnail: '/images/skulpa/WeldyBee_001_thumbnail.webp',
+    full: '/images/skulpa/WeldyBee_001.webp',
     width: 600,
     height: 900,
     alt: 'sculpture_works.weldybee.alt',
@@ -245,8 +245,8 @@ const data = [
 {
     text: 'sculpture_works.weldybee.title',
     subtext: 'sculpture_works.weldybee.materials',
-    thumbnail: '/images/skulpa/WeldyBee_002.jpg',
-    full: '/images/skulpa/WeldyBee_002.jpg',
+    thumbnail: '/images/skulpa/WeldyBee_002_thumbnail.webp',
+    full: '/images/skulpa/WeldyBee_002.webp',
     width: 600,
     height: 900,
     alt: 'sculpture_works.weldybee.alt',
