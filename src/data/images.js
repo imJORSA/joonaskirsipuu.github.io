@@ -1,5 +1,14 @@
 const data = [
     {
+        text: 'digital_works.volframos.title',
+        subtext: 'digital_works.volframos.subtext',
+        thumbnail: '/images/gallery/The Volframos Gate_Project Fractals_Joonas Kirsipuu_thumbnail.webp',
+        full: '/images/gallery/The Volframos Gate_Project Fractals_Joonas Kirsipuu.webp',
+        width: 800,
+        height: 450,
+        alt: 'digital_works.volframos.alt',
+    },
+    {
         text: 'digital_works.cerebrum.title',
         subtext: 'digital_works.cerebrum.subtext',
         thumbnail: '/images/gallery/Cerebrum_Joonas Kirsipuu_thumbnail.webp',

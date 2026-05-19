@@ -329,6 +329,11 @@
       "copyright": "© {{year}} 全著作権所有。"
     },
     "digital_works": {
+        "volframos": {
+        "title": "\"The Volframos Gate\"",
+        "subtext": "Mandelbulb 3D, Affinity [2026]",
+        "alt": "Joonas Kirsipuuによる3Dレンダリング作品『The Volframos Gate』"
+      },
       "cerebrum": {
         "title": "\"Cerebrum\"",
         "subtext": "MRT Scans, Blender, Octane Render, Affinity [2026]",
