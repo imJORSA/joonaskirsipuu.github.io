@@ -1,7 +1,7 @@
 import '../i18n.js'
-import { useState, useEffect, useCallback, useMemo } from 'react'
+import { useState, useEffect, useCallback, useMemo, useRef } from 'react'
 import { useTranslation } from 'react-i18next'
-import { FaTimes, FaChevronLeft, FaChevronRight } from 'react-icons/fa'
+import { FaTimes, FaChevronLeft, FaChevronRight, FaCamera } from 'react-icons/fa'
 import OptimizedImage from './OptimizedImage'
 import data from '../data/skulpa'
 
@@ -10,6 +10,18 @@ const SculpturePage = () => {
   const [clickedImg, setClickedImg] = useState(null);
   const [currentIndex, setCurrentIndex] = useState(null);
   const [loading, setLoading] = useState(false);
+
+  // Zoom functionality states
+  const [zoomLevel, setZoomLevel] = useState(1);
+  const [panX, setPanX] = useState(0);
+  const [panY, setPanY] = useState(0);
+  const [isDragging, setIsDragging] = useState(false);
+  const startDragX = useRef(0);
+  const startDragY = useRef(0);
+  const imgRef = useRef(null);
+
+  // Grayscale toggle state
+  const [isGrayscale, setIsGrayscale] = useState(false);
 
   // Dynamically group sculptures based on their translation key prefix
   const sculptureGroups = useMemo(() => {
@@ -28,11 +40,18 @@ const SculpturePage = () => {
     return Array.from(groupsMap.values());
   }, [data]); // `data` is a static import, so this will only run once
 
+  // Reset zoom, pan, and grayscale when the modal is closed or a new image is opened
+  useEffect(() => {
+    if (!clickedImg) {
+      setZoomLevel(1); setPanX(0); setPanY(0); setIsGrayscale(false);
+    }
+  }, [clickedImg]);
 
   const handleClick = (item, index) => {
     setCurrentIndex(index)
     setClickedImg(item.full)
     setLoading(true)
+    setZoomLevel(1); setPanX(0); setPanY(0); setIsGrayscale(false);
   }
 
   const handleRotationRight = useCallback(() => {
@@ -40,6 +59,7 @@ const SculpturePage = () => {
     setCurrentIndex(nextIndex)
     setClickedImg(data[nextIndex].full)
     setLoading(true);
+    setZoomLevel(1); setPanX(0); setPanY(0); setIsGrayscale(false);
   }, [currentIndex, data]); // Added data to dependencies
 
   const handleRotationLeft = useCallback(() => {
@@ -47,7 +67,51 @@ const SculpturePage = () => {
     setCurrentIndex(prevIndex)
     setClickedImg(data[prevIndex].full)
     setLoading(true);
+    setZoomLevel(1); setPanX(0); setPanY(0); setIsGrayscale(false);
   }, [currentIndex, data]); // Added data to dependencies
+
+  // Fixed Toggle Zoom Handler
+  const handleImageClick = useCallback((e) => {
+    e.stopPropagation();
+    if (zoomLevel === 1) {
+      setZoomLevel(2); // 100% zoom increase
+    } else {
+      setZoomLevel(1);
+      setPanX(0); // Reset pan when zooming out
+      setPanY(0);
+    }
+  }, [zoomLevel]);
+
+  const handleMouseDown = useCallback((e) => {
+    // Only allow dragging if zoomed in and left mouse button is pressed
+    if (zoomLevel > 1 && e.button === 0) { 
+      setIsDragging(true);
+      startDragX.current = e.clientX - panX;
+      startDragY.current = e.clientY - panY;
+      e.preventDefault(); // Prevent default browser drag behavior for images
+    }
+  }, [zoomLevel, panX, panY]);
+
+  const handleMouseMove = useCallback((e) => {
+    if (isDragging) {
+      setPanX(e.clientX - startDragX.current);
+      setPanY(e.clientY - startDragY.current);
+      e.preventDefault();
+    }
+  }, [isDragging]);
+
+  const handleMouseUp = useCallback(() => {
+    setIsDragging(false);
+  }, []);
+
+  const handleMouseLeave = useCallback(() => {
+    setIsDragging(false); // Stop dragging if mouse leaves the modal area
+  }, []);
+
+  // Grayscale toggle handler
+  const toggleGrayscale = useCallback(() => {
+    setIsGrayscale(prev => !prev);
+  }, []);
 
   useEffect(() => {
     const handleKeyDown = (e) => {
@@ -128,22 +192,58 @@ const SculpturePage = () => {
 
       {/* Lightbox Modal */}
       {clickedImg && (
-        <div className="overlay" onClick={(e) => e.target.classList.contains('overlay') && setClickedImg(null)}>
+        <div className="overlay" 
+          onClick={(e) => e.target.classList.contains('overlay') && setClickedImg(null)}
+          onMouseUp={handleMouseUp}
+          onMouseLeave={handleMouseLeave}
+        >
           <div className="modal-wrapper">
-            {!loading && (
-              <span onClick={() => setClickedImg(null)}><FaTimes /></span>
-            )}
             {loading && <div className="scifi-loader"></div>}
-            <img
-              src={clickedImg}
-              alt={currentIndex !== null ? t(data[currentIndex].alt) : ''}
-              onLoad={() => setLoading(false)}
-              style={{ display: loading ? 'none' : 'block' }}
-            />
+            {!loading && (
+              <>
+                {/* Grayscale Toggle Button */}
+                <button
+                  onClick={(e) => { e.stopPropagation(); toggleGrayscale(); }}
+                  className="modal-button grayscale-toggle-button"
+                  aria-label={t(isGrayscale ? 'contact_modal.disable_grayscale' : 'contact_modal.enable_grayscale')}
+                  title={t(isGrayscale ? 'contact_modal.disable_grayscale' : 'contact_modal.enable_grayscale')}
+                >
+                  <FaCamera />
+                </button>
+                {/* Exit Button */}
+                <button
+                  onClick={() => setClickedImg(null)}
+                  className="modal-button exit-button"
+                  aria-label={t('contact_modal.close')}
+                  title={t('contact_modal.close')}
+                >
+                  <FaTimes />
+                </button>
+              </>
+            )}
+            <div className="image-container">
+              <img
+                ref={imgRef}
+                src={clickedImg}
+                alt={currentIndex !== null ? t(data[currentIndex].alt) : ''}
+                onLoad={() => setLoading(false)}
+                style={{
+                  display: loading ? 'none' : 'block',
+                  transform: `scale(${zoomLevel}) translate(${panX}px, ${panY}px)`,
+                  filter: isGrayscale ? 'grayscale(100%)' : 'grayscale(0%)',
+                  cursor: zoomLevel === 1 ? 'zoom-in' : (isDragging ? 'grabbing' : 'zoom-out'),
+                  transition: isDragging ? 'none' : 'transform 0.1s ease-out, filter 0.3s ease',
+                  touchAction: 'none'
+                }}
+                onClick={handleImageClick}
+                onMouseDown={handleMouseDown}
+                onMouseMove={handleMouseMove}
+              />
+            </div>
             {!loading && (
               <div className="overlay-nav">
-                <div className="overlay-arrows_left" onClick={handleRotationLeft}><FaChevronLeft /></div>
-                <div className="overlay-arrows_right" onClick={handleRotationRight}><FaChevronRight /></div>
+                <div className="overlay-arrows_left modal-button" onClick={handleRotationLeft}><FaChevronLeft /></div>
+                <div className="overlay-arrows_right modal-button" onClick={handleRotationRight}><FaChevronRight /></div>
               </div>
             )}
           </div>
