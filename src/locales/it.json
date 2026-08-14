@@ -271,9 +271,9 @@
           "title": "1917 - 2019",
           "desc": " - Cinematografia spettacolare mascherata da film di guerra che è semplicemente brutale."
         },
-        "pirates": {
-          "title": "Pirati dei Caraibi: La maledizione della prima luna - 2003",
-          "desc": " - I pirati erano soliti essere personaggi da cartone animato e qualcosa con cui spaventare i bambini, ma non dopo questo film. È un gioiello assoluto che regge ancora incredibilmente bene visivamente, e Johnny Depp è semplicemente brillante."
+        "speed": {
+          "title": "Speed Racer - 2008",
+          "desc": " - Una gemma sottovalutata. Un'esplosione di colori tale che dopo devi fissare uno schermo grigio per ore per far riposare gli occhi, ma mio Dio se ne vale la pena! Ha la giusta dose di 'kitsch' anni 2000 che la rende memorabile senza essere esagerata, al contrario della maggior parte dei film di quell'epoca. Le Wachowski al loro meglio."
         },
         "oppenheimer": {
           "title": "Oppenheimer - 2023",
@@ -316,9 +316,18 @@
         "shogun": {
           "title": "Shogun - 2024 - 2026",
           "desc": " - Un racconto classico, magistralmente rifatto. Mostra perfettamente la brutalità e la bellezza del Giappone dell'era Edo."
+        },
+        "silo": {
+          "title": "Silo - 2023 - ?",
+          "desc": " - Dinamiche di gruppo, mistero e psicologia umana in un'ambientazione post-apocalittica. Spero di aver stuzzicato il tuo interesse: corri a guardarlo!"
         }
+        
       },
       "docs": {
+        "mariupol": {
+          "title": "20 days in Mariupol - 2023",
+          "desc": " - Alcune delle immagini più terrificanti che io abbia mai visto. Ho dovuto mettere in pausa più volte per fare una pausa. Dire che è 'ficile da guardare' sarebbe un eufemismo. Ma sono immagini che devono essere viste per comprendere le reali conseguenze della crudeltà umana e i sacrifici che si devono compiere per sopravvivere."
+        },
         "andriivka": {
           "title": "2000 Meters to Andriivka - 2026",
           "desc": " - Uno sguardo crudo e straziante ai passi incrementali per riconquistare il villaggio strategico di Andriivka. Mostra la realtà della vita quotidiana in prima linea e come la guerra moderna cambia un uomo."
@@ -394,6 +403,11 @@
       "copyright": "© {{year}} Tutti i diritti riservati."
     },
     "digital_works": {
+        "luna": {
+        "title": "\"Watchtower Luna\"",
+        "subtext": "Blender Octane, Affinity [2026]",
+        "alt": "Render 3D intitolato “Watchtower Luna” di Joonas Kirsipuu"
+      },
         "volframos": {
         "title": "\"The Volframos Gate\"",
         "subtext": "Mandelbulb 3D, Affinity [2026]",

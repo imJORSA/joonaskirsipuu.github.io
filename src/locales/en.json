@@ -273,9 +273,9 @@
           "title": "1917 - 2019",
           "desc": " - Spectacular cinematography disguised as a war film that is just brutal."
         },
-        "pirates": {
-          "title": "Pirates of the Caribbean: The Curse of the Black Pearl - 2003",
-          "desc": " - Pirates used to be cartoony and something you’d scare kids with, but not after this film. It’s an absolute gem that still holds up incredibly well visually, and Johnny Depp is just brilliant."
+        "speed": {
+          "title": "Speed Racer - 2008",
+          "desc": " - An underrated gem. So much colour that you have to look at a gray screen for hours afterwards to reset your eyes, but my god is it worth it. It has the right amount of 2000s cheese to make it memorable but not overly so, like most of the films from that time. The Wachowskis at their best."
         },
         "oppenheimer": {
           "title": "Oppenheimer - 2023",
@@ -318,9 +318,17 @@
         "shogun": {
           "title": "Shogun - 2024 - 2026",
           "desc": " - A classic tale, masterfully remade. Perfectly showcases the brutality and beauty of Edo-era Japan."
+        },
+        "silo": {
+          "title": "Silo - 2023 - ?",
+          "desc": " - Group dynamics, mystery and human psychology in a post-apocalyptic setting. Hopefully, this captured your interest. Go watch it."
         }
       },
       "docs": {
+          "mariupol": {
+          "title": "20 days in Mariupol - 2023",
+          "desc": " - Some of the most horrific images I've seen, ever. I had to pause multiple times to take a break. Hard to watch would be putting it lightly. But these images must be seen to understand the very real consequences of human cruelty and the sacrifices one must make to survive."
+        },
         "andriivka": {
           "title": "2000 Meters to Andriivka - 2026",
           "desc": " - A very raw and gut-wrenching look at the incremental steps to retake the strategic village of Andriivka. It shows the reality of everyday life on the front lines and how modern war changes a man."
@@ -395,6 +403,11 @@
       "copyright": "© {{year}} All rights reserved."
     },
     "digital_works": {
+        "luna": {
+        "title": "\"Watchtower Luna\"",
+        "subtext": "Blender Octane, Affinity [2026]",
+        "alt": "3D render titled Watchtower Luna by Joonas Kirsipuu"
+      },
         "volframos": {
         "title": "\"The Volframos Gate\"",
         "subtext": "Mandelbulb 3D, Affinity [2026]",

@@ -28,7 +28,7 @@ const FilmsSeriesAnime = () => {
               <li className='cursor-default'><span className='font-bold text-black'>{t('films_page.films.whiplash.title')}</span><span className='text-black'>{t('films_page.films.whiplash.desc')}</span></li>
               <li className='cursor-default'><span className='font-bold text-black'>{t('films_page.films.joker.title')}</span><span className='text-black'>{t('films_page.films.joker.desc')}</span></li>
               <li className='cursor-default'><span className='font-bold text-black'>{t('films_page.films.y1917.title')}</span><span className='text-black'>{t('films_page.films.y1917.desc')}</span></li>
-              <li className='cursor-default'><span className='font-bold text-black'>{t('films_page.films.pirates.title')}</span><span className='text-black'>{t('films_page.films.pirates.desc')}</span></li>
+              <li className='cursor-default'><span className='font-bold text-black'>{t('films_page.films.speed.title')}</span><span className='text-black'>{t('films_page.films.speed.desc')}</span></li>
               <li className='cursor-default'><span className='font-bold text-black'>{t('films_page.films.oppenheimer.title')}</span><span className='text-black'>{t('films_page.films.oppenheimer.desc')}</span></li>
 
             </ul>
@@ -47,6 +47,7 @@ const FilmsSeriesAnime = () => {
               <li className='cursor-default'><span className='font-bold text-black'>{t('films_page.series.aib.title')}</span><span className='text-black'>{t('films_page.series.aib.desc')}</span></li>
               <li className='cursor-default'><span className='font-bold text-black'>{t('films_page.series.clarkson.title')}</span><span className='text-black'>{t('films_page.series.clarkson.desc')}</span></li>
               <li className='cursor-default'><span className='font-bold text-black'>{t('films_page.series.shogun.title')}</span><span className='text-black'>{t('films_page.series.shogun.desc')}</span></li>
+              <li className='cursor-default'><span className='font-bold text-black'>{t('films_page.series.silo.title')}</span><span className='text-black'>{t('films_page.series.silo.desc')}</span></li>
 
             </ul>
 
@@ -55,6 +56,7 @@ const FilmsSeriesAnime = () => {
             </div>
             <h2 className='text-lg sm:text-2xl font-bold text-blue-500 mb-4 cursor-default'>{t('films_page.docs_title')}</h2>
             <ul className='flex flex-col gap-2 text-sm sm:text-base cursor-default leading-6 pb-8'>
+              <li className='cursor-default'><span className='font-bold text-black'>{t('films_page.docs.mariupol.title')}</span><span className='text-black'>{t('films_page.docs.mariupol.desc')}</span></li>
               <li className='cursor-default'><span className='font-bold text-black'>{t('films_page.docs.andriivka.title')}</span><span className='text-black'>{t('films_page.docs.andriivka.desc')}</span></li>
               <li className='cursor-default'><span className='font-bold text-black'>{t('films_page.docs.sinikollane.title')}</span><span className='text-black'>{t('films_page.docs.sinikollane.desc')}</span></li>
               <li className='cursor-default'><span className='font-bold text-black'>{t('films_page.docs.into_the_void.title')}</span><span className='text-black'>{t('films_page.docs.into_the_void.desc')}</span></li>

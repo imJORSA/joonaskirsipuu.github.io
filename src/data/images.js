@@ -1,5 +1,14 @@
 const data = [
     {
+        text: 'digital_works.luna.title',
+        subtext: 'digital_works.luna.subtext',
+        thumbnail: '/images/gallery/Watchtower Luna_Project Fractals_Joonas Kirsipuu_thumbnail.webp',
+        full: '/images/gallery/Watchtower Luna_Project Fractals_Joonas Kirsipuu.webp',
+        width: 800,
+        height: 393,
+        alt: 'digital_works.luna.alt',
+    },
+    {
         text: 'digital_works.volframos.title',
         subtext: 'digital_works.volframos.subtext',
         thumbnail: '/images/gallery/The Volframos Gate_Project Fractals_Joonas Kirsipuu_thumbnail.webp',
